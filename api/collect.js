@@ -8,10 +8,10 @@ module.exports = async function handler(req,res){
   }
   try{
     const payload=await collectAll();
-    await enrichFeedImages(payload,{limit:8,concurrency:4,timeoutMs:1800});
+    await enrichFeedImages(payload,{limit:16,concurrency:4,timeoutMs:1800});
     let persisted=false;
-    try{ if(process.env.KV_REST_API_URL&&process.env.KV_REST_API_TOKEN){ await saveLatest(payload); persisted=true; } }catch(e){ payload.persistenceError=String(e.message||e); }
+    try{if(process.env.KV_REST_API_URL&&process.env.KV_REST_API_TOKEN){await saveLatest(payload);persisted=true}}catch(e){payload.persistenceError=String(e.message||e)}
     res.setHeader('Cache-Control','no-store');
     return res.status(200).json({ok:true,persisted,...payload});
-  }catch(e){ return res.status(500).json({ok:false,error:String(e.message||e)}); }
-}
+  }catch(e){return res.status(500).json({ok:false,error:String(e.message||e)})}
+};
