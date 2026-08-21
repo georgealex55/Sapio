@@ -1,4 +1,5 @@
 const { collectAll, saveLatest } = require('../lib/collector');
+const { enrichFeedImages } = require('../lib/image-enrichment');
 
 module.exports = async function handler(req,res){
   const secret=process.env.CRON_SECRET;
@@ -7,6 +8,7 @@ module.exports = async function handler(req,res){
   }
   try{
     const payload=await collectAll();
+    await enrichFeedImages(payload,{limit:8,concurrency:4,timeoutMs:1800});
     let persisted=false;
     try{ if(process.env.KV_REST_API_URL&&process.env.KV_REST_API_TOKEN){ await saveLatest(payload); persisted=true; } }catch(e){ payload.persistenceError=String(e.message||e); }
     res.setHeader('Cache-Control','no-store');
