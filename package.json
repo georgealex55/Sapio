@@ -1,0 +1,10 @@
+{
+  "name": "sapio-cultural-intelligence",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "npx serve ."
+  },
+  "engines": {"node": ">=20"}
+}

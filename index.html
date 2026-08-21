@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b0b0d" />
+  <title>SAPIO — Cultural Intelligence</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="ageGate" class="gate" hidden>
+    <div class="gate-card">
+      <div class="eyebrow">SAPIO / 21+</div>
+      <h1>Curiosity, curated.</h1>
+      <p>SAPIO is an adult cultural-intelligence feed. It can include mature discussions of sexuality, relationships, kink culture, lingerie and adult products, but does not host explicit sexual media.</p>
+      <button id="enterBtn" class="primary">I am 21 or older</button>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <div class="brand-wrap">
+      <div class="brand">SAPIO</div>
+      <div class="tagline">KNOW WHAT'S NEXT.</div>
+    </div>
+    <div class="top-actions">
+      <button id="erosToggle" class="pill" aria-pressed="false">EROS OFF</button>
+      <button id="modeToggle" class="pill mode" aria-pressed="false">NOCTURNE AUTO</button>
+      <button id="memoryBtn" class="pill">MEMORY <span id="memoryCount">0</span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-line">
+      <div>
+        <div class="eyebrow" id="modeLabel">DAY / CULTURAL INTELLIGENCE</div>
+        <h1 id="heroTitle">Your signal, before consensus.</h1>
+      </div>
+      <div class="run-state">
+        <span id="liveDot" class="dot"></span>
+        <span id="runText">Loading feed…</span>
+      </div>
+    </section>
+
+    <nav id="categoryRail" class="category-rail" aria-label="SAPIO channels"></nav>
+
+    <section class="feed-tools">
+      <div class="feed-title">TIMELINE</div>
+      <div class="sort-note">75% cultural importance · 25% affinity</div>
+    </section>
+
+    <section id="feed" class="feed" aria-live="polite"></section>
+    <div id="feedEnd" class="feed-end">END OF CURRENT SIGNAL</div>
+  </main>
+
+  <aside id="memoryDrawer" class="drawer" aria-hidden="true">
+    <div class="drawer-head">
+      <div>
+        <div class="eyebrow">PRIVATE</div>
+        <h2>MEMORY</h2>
+      </div>
+      <button id="closeMemory" class="icon-btn" aria-label="Close">×</button>
+    </div>
+    <p class="drawer-copy">Saved items stay lightweight: title, source link, category and timestamp. No duplicated article body.</p>
+    <div id="memoryList" class="memory-list"></div>
+  </aside>
+  <div id="drawerScrim" class="scrim" hidden></div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
