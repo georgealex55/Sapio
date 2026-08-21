@@ -1,4 +1,5 @@
 const CHANNELS=['ALL','SOMA','ARCANA','APPETITE','SIGNAL LAB','VISUAL CORTEX','THE PULSE','TERRA','VERDANT','IGNITION','OBJECTS OF DESIRE','EROS INDEX'];
+const ASSET_NAMES={'OBJECTS OF DESIRE':'objects','SIGNAL LAB':'signal-lab','VISUAL CORTEX':'visual-cortex','THE PULSE':'the-pulse','EROS INDEX':'eros-index'};
 const state={items:[],active:'ALL',eros:false,modeOverride:null,memories:JSON.parse(localStorage.getItem('sapio:memory')||'[]'),hidden:new Set(JSON.parse(localStorage.getItem('sapio:hidden')||'[]'))};
 const $=s=>document.querySelector(s);
 
@@ -25,6 +26,10 @@ function rank(item){return (item.score||50)*.75+affinity(item.primaryCategory)*.
 function esc(s=''){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function channelVisible(item){if(!state.eros&&(item.eros||item.primaryCategory==='EROS INDEX'||item.categories?.includes('EROS INDEX')))return false;return state.active==='ALL'||item.categories?.includes(state.active)||item.primaryCategory===state.active}
 function isSaved(id){return state.memories.some(m=>m.id===id)}
+function assetFor(category='IGNITION'){
+  const slug=ASSET_NAMES[category]||category.toLowerCase().replace(/\s+/g,'-');
+  return `assets/${slug}.svg`;
+}
 
 function renderChannels(){
   $('#categoryRail').innerHTML=CHANNELS.filter(c=>state.eros||c!=='EROS INDEX').map(c=>`<button class="chip ${state.active===c?'active':''}" data-cat="${esc(c)}">${esc(c)}</button>`).join('');
@@ -33,7 +38,7 @@ function renderChannels(){
 function renderFeed(){
   const items=state.items.filter(x=>!state.hidden.has(x.id)&&channelVisible(x)).sort((a,b)=>rank(b)-rank(a));
   $('#feed').innerHTML=items.map(item=>{
-    const d=density(item), saved=isSaved(item.id), img=item.image||`assets/${(item.primaryCategory||'IGNITION').toLowerCase().replace(/\s+/g,'-')}.svg`;
+    const d=density(item), saved=isSaved(item.id), img=item.image||assetFor(item.primaryCategory||'IGNITION');
     return `<article class="card ${d}" data-id="${esc(item.id)}">
       <div class="media"><img loading="lazy" decoding="async" src="${esc(img)}" alt=""/><div class="score-badge">SAPIO ${Math.round(item.score||0)}</div></div>
       <div class="body">
