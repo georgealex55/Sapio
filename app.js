@@ -1,5 +1,5 @@
 const CHANNELS=['ALL','SOMA','ARCANA','APPETITE','SIGNAL LAB','VISUAL CORTEX','THE PULSE','TERRA','VERDANT','IGNITION','OBJECTS OF DESIRE','EROS INDEX'];
-const MAX_AGE_HOURS=24;
+const MAX_AGE_HOURS=48;
 const REFRESH_MS=5*60*1000;
 const state={
   items:[],active:'ALL',eros:false,modeOverride:null,demo:false,loading:false,
@@ -21,6 +21,9 @@ function applyMode(){
   $('#modeToggle').textContent=state.modeOverride===null?`NOCTURNE ${n?'ON':'AUTO'}`:`NOCTURNE ${n?'ON':'OFF'}`;
   $('#modeLabel').textContent=n?'SAPIO // NOCTURNE':'DAY / CULTURAL INTELLIGENCE';
   $('#heroTitle').textContent=n?'Curiosity changes after dark.':'Your signal, before consensus.';
+  const eros=erosVisible();
+  $('#erosToggle').setAttribute('aria-pressed',eros?'true':'false');
+  $('#erosToggle').textContent=!state.eros&&n?'EROS AUTO':eros?'EROS ON':'EROS OFF';
 }
 function ageHours(date){
   const t=new Date(date).getTime();
@@ -52,7 +55,8 @@ function affinity(cat){
 }
 function rank(item){return (item.score||50)*.75+affinity(item.primaryCategory)*.25}
 function esc(s=''){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
-function baseVisible(item){return state.eros||!(item.eros||item.primaryCategory==='EROS INDEX'||item.categories?.includes('EROS INDEX'))}
+function erosVisible(){return state.eros||isNocturne()}
+function baseVisible(item){return erosVisible()||!(item.eros||item.primaryCategory==='EROS INDEX')}
 function channelVisible(item){if(!baseVisible(item))return false;return state.active==='ALL'||item.categories?.includes(state.active)||item.primaryCategory===state.active}
 function isSaved(id){return state.memories.some(m=>m.id===id)}
 function isLiked(id){return state.likes.some(m=>m.id===id)}
@@ -82,7 +86,7 @@ function categoryCounts(){
 }
 function renderChannels(){
   const counts=categoryCounts();
-  $('#categoryRail').innerHTML=CHANNELS.filter(c=>state.eros||c!=='EROS INDEX').map(c=>`<button class="chip ${state.active===c?'active':''}" data-cat="${esc(c)}">${esc(c)} <span>${counts[c]||0}</span></button>`).join('');
+  $('#categoryRail').innerHTML=CHANNELS.filter(c=>erosVisible()||c!=='EROS INDEX').map(c=>`<button class="chip ${state.active===c?'active':''}" data-cat="${esc(c)}">${esc(c)} <span>${counts[c]||0}</span></button>`).join('');
   document.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{state.active=b.dataset.cat;renderChannels();renderFeed()});
 }
 function renderFeed(){
@@ -90,7 +94,7 @@ function renderFeed(){
   $('#feed').innerHTML=items.map(item=>{
     const d=density(item), saved=isSaved(item.id), liked=isLiked(item.id), img=cardImage(item), hasLink=Boolean(item.url), retained=ageHours(item.publishedAt)>=MAX_AGE_HOURS;
     return `<article class="card ${d} ${hasLink?'clickable':''}" data-id="${esc(item.id)}" ${hasLink?`tabindex="0" role="link" aria-label="Open source for ${esc(item.title)}"`:''}>
-      <div class="media"><img loading="lazy" decoding="async" src="${esc(img)}" alt="${esc(item.title)}"/><div class="score-badge">SAPIO ${Math.round(item.score||0)}</div></div>
+      <div class="media"><img loading="lazy" decoding="async" src="${esc(img)}" alt="${esc(item.title)}"/><div class="score-badge">${esc(item.stage||'SIGNAL')}</div></div>
       <div class="body">
         <div class="meta"><span>${esc(item.primaryCategory||'SIGNAL')}</span><span class="stage">${esc(item.stage||'WHISPER')} ↑</span><span>${item.sources||1} SOURCES</span><span>${Math.round(ageHours(item.publishedAt))}H</span>${retained?'<span>RETAINED</span>':''}</div>
         <h2>${esc(item.title)}</h2><p class="summary">${esc(item.summary||'')}</p>
@@ -139,7 +143,7 @@ async function loadFeed(){
 function setup(){
   const ageOk=localStorage.getItem('sapio:21plus')==='yes';$('#ageGate').hidden=ageOk;
   $('#enterBtn').onclick=()=>{localStorage.setItem('sapio:21plus','yes');$('#ageGate').hidden=true};
-  $('#erosToggle').onclick=()=>{state.eros=!state.eros;$('#erosToggle').setAttribute('aria-pressed',state.eros?'true':'false');$('#erosToggle').textContent=state.eros?'EROS ON':'EROS OFF';if(!state.eros&&state.active==='EROS INDEX')state.active='ALL';renderChannels();renderFeed()};
+  $('#erosToggle').onclick=()=>{state.eros=!state.eros;if(!erosVisible()&&state.active==='EROS INDEX')state.active='ALL';applyMode();renderChannels();renderFeed()};
   $('#modeToggle').onclick=()=>{const current=isNocturne();state.modeOverride=state.modeOverride===null?!current:state.modeOverride?false:null;applyMode()};
   $('#memoryBtn').onclick=()=>openMemory(true);$('#closeMemory').onclick=()=>openMemory(false);$('#drawerScrim').onclick=()=>openMemory(false);
   applyMode();renderChannels();renderMemory();loadFeed();
