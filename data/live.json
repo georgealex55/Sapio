@@ -1,22 +1,22 @@
 {
   "live": true,
-  "generatedAt": "2026-08-22T03:43:42.372Z",
-  "startedAt": "2026-08-22T03:43:38.680Z",
+  "generatedAt": "2026-08-22T03:59:08.598Z",
+  "startedAt": "2026-08-22T03:59:04.593Z",
   "run": {
-    "sourcesAttempted": 48,
-    "sourcesOk": 36,
-    "observations": 369,
+    "sourcesAttempted": 50,
+    "sourcesOk": 38,
+    "observations": 393,
     "clusters": 120,
     "coverage": {
-      "SOMA": 45,
+      "SOMA": 36,
       "ARCANA": 0,
-      "APPETITE": 27,
-      "SIGNAL LAB": 69,
+      "APPETITE": 28,
+      "SIGNAL LAB": 68,
       "VISUAL CORTEX": 7,
-      "THE PULSE": 38,
-      "TERRA": 34,
-      "VERDANT": 10,
-      "IGNITION": 72,
+      "THE PULSE": 29,
+      "TERRA": 25,
+      "VERDANT": 1,
+      "IGNITION": 73,
       "OBJECTS OF DESIRE": 25,
       "EROS INDEX": 28
     },
@@ -70,14 +70,14 @@
         "error": "429 https://www.reddit.com/r/BDSMcommunity/hot/.rss"
       }
     ],
-    "imageEnrichmentAttempted": 24,
-    "imageEnriched": 0
+    "imageEnrichmentAttempted": 60,
+    "imageEnriched": 23
   },
   "items": [
     {
       "id": "c_5979f5cb30b12cd9",
       "title": "AI Boosted Homework Scores, Then Exam Scores Dropped",
-      "summary": "253 points · 296 comments",
+      "summary": "257 points · 297 comments",
       "categories": [
         "SIGNAL LAB",
         "THE PULSE",
@@ -98,9 +98,37 @@
         "economist.com"
       ],
       "publisher": "",
-      "publishedAt": "2026-08-22T03:43:39.040Z",
+      "publishedAt": "2026-08-22T03:59:04.973Z",
       "firstSeen": "2026-08-19T06:13:31.000Z",
       "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
+      "sourceImage": null,
+      "textOnly": false
+    },
+    {
+      "id": "c_eb54586b67e90ccc",
+      "title": "M4.4 earthquake — 49 km SE of Yilan, Taiwan",
+      "summary": "Depth 38.316 km · USGS reviewed event",
+      "categories": [
+        "TERRA",
+        "THE PULSE"
+      ],
+      "primaryCategory": "TERRA",
+      "score": 72,
+      "stage": "EMERGING",
+      "velocity": 77,
+      "novelty": 89,
+      "sourceEdge": 96,
+      "breadth": 51,
+      "evidenceQuality": 100,
+      "culturalReach": 47,
+      "sources": 1,
+      "sourceNames": [
+        "earthquake.usgs.gov"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-22T03:40:14.817Z",
+      "firstSeen": "2026-08-22T03:40:14.817Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmqf",
       "sourceImage": null,
       "textOnly": false
     },
@@ -113,7 +141,7 @@
         "THE PULSE"
       ],
       "primaryCategory": "TERRA",
-      "score": 77,
+      "score": 71,
       "stage": "EMERGING",
       "velocity": 75,
       "novelty": 89,
@@ -141,9 +169,9 @@
         "THE PULSE"
       ],
       "primaryCategory": "TERRA",
-      "score": 77,
+      "score": 71,
       "stage": "EMERGING",
-      "velocity": 75,
+      "velocity": 74,
       "novelty": 89,
       "sourceEdge": 96,
       "breadth": 51,
@@ -169,7 +197,7 @@
         "THE PULSE"
       ],
       "primaryCategory": "TERRA",
-      "score": 77,
+      "score": 71,
       "stage": "EMERGING",
       "velocity": 74,
       "novelty": 89,
@@ -197,7 +225,7 @@
         "THE PULSE"
       ],
       "primaryCategory": "TERRA",
-      "score": 77,
+      "score": 71,
       "stage": "EMERGING",
       "velocity": 74,
       "novelty": 89,
@@ -225,9 +253,9 @@
         "THE PULSE"
       ],
       "primaryCategory": "TERRA",
-      "score": 76,
+      "score": 71,
       "stage": "EMERGING",
-      "velocity": 72,
+      "velocity": 71,
       "novelty": 89,
       "sourceEdge": 96,
       "breadth": 51,
@@ -253,9 +281,9 @@
         "THE PULSE"
       ],
       "primaryCategory": "TERRA",
-      "score": 76,
+      "score": 71,
       "stage": "EMERGING",
-      "velocity": 72,
+      "velocity": 71,
       "novelty": 89,
       "sourceEdge": 96,
       "breadth": 51,
@@ -273,62 +301,6 @@
       "textOnly": false
     },
     {
-      "id": "c_9fd1a52850cb2970",
-      "title": "M4.7 earthquake — 147 km NE of Diego de Almagro, Chile",
-      "summary": "Depth 102.426 km · USGS reviewed event",
-      "categories": [
-        "TERRA",
-        "THE PULSE"
-      ],
-      "primaryCategory": "TERRA",
-      "score": 76,
-      "stage": "EMERGING",
-      "velocity": 69,
-      "novelty": 89,
-      "sourceEdge": 96,
-      "breadth": 51,
-      "evidenceQuality": 100,
-      "culturalReach": 47,
-      "sources": 1,
-      "sourceNames": [
-        "earthquake.usgs.gov"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T22:26:03.081Z",
-      "firstSeen": "2026-08-21T22:26:03.081Z",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmnz",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_dcbb725de04c2db4",
-      "title": "M4.4 earthquake — 112 km S of Vilyuchinsk, Russia",
-      "summary": "Depth 74.665 km · USGS reviewed event",
-      "categories": [
-        "TERRA",
-        "THE PULSE"
-      ],
-      "primaryCategory": "TERRA",
-      "score": 76,
-      "stage": "EMERGING",
-      "velocity": 68,
-      "novelty": 89,
-      "sourceEdge": 96,
-      "breadth": 51,
-      "evidenceQuality": 100,
-      "culturalReach": 47,
-      "sources": 1,
-      "sourceNames": [
-        "earthquake.usgs.gov"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T22:00:04.478Z",
-      "firstSeen": "2026-08-21T22:00:04.478Z",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmny",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
       "id": "c_316734b672abea9b",
       "title": "17β-estradiol regulates the behavioral, neuronal, and physiological responses to acute witness stress in female rats.",
       "summary": "Stress (Amsterdam, Netherlands) · Pate BS",
@@ -337,7 +309,7 @@
         "SOMA"
       ],
       "primaryCategory": "EROS INDEX",
-      "score": 75,
+      "score": 70,
       "stage": "EMERGING",
       "velocity": 78,
       "novelty": 89,
@@ -365,7 +337,7 @@
         "SOMA"
       ],
       "primaryCategory": "EROS INDEX",
-      "score": 75,
+      "score": 70,
       "stage": "EMERGING",
       "velocity": 78,
       "novelty": 89,
@@ -393,7 +365,7 @@
         "SOMA"
       ],
       "primaryCategory": "EROS INDEX",
-      "score": 75,
+      "score": 70,
       "stage": "EMERGING",
       "velocity": 78,
       "novelty": 89,
@@ -421,7 +393,7 @@
         "SOMA"
       ],
       "primaryCategory": "EROS INDEX",
-      "score": 75,
+      "score": 70,
       "stage": "EMERGING",
       "velocity": 78,
       "novelty": 89,
@@ -449,7 +421,7 @@
         "SOMA"
       ],
       "primaryCategory": "EROS INDEX",
-      "score": 75,
+      "score": 70,
       "stage": "EMERGING",
       "velocity": 78,
       "novelty": 89,
@@ -477,7 +449,7 @@
         "SOMA"
       ],
       "primaryCategory": "EROS INDEX",
-      "score": 75,
+      "score": 70,
       "stage": "EMERGING",
       "velocity": 78,
       "novelty": 89,
@@ -505,7 +477,7 @@
         "SOMA"
       ],
       "primaryCategory": "EROS INDEX",
-      "score": 75,
+      "score": 70,
       "stage": "EMERGING",
       "velocity": 78,
       "novelty": 89,
@@ -533,7 +505,7 @@
         "SOMA"
       ],
       "primaryCategory": "EROS INDEX",
-      "score": 75,
+      "score": 70,
       "stage": "EMERGING",
       "velocity": 78,
       "novelty": 89,
@@ -561,7 +533,7 @@
         "SOMA"
       ],
       "primaryCategory": "EROS INDEX",
-      "score": 75,
+      "score": 70,
       "stage": "EMERGING",
       "velocity": 78,
       "novelty": 89,
@@ -589,7 +561,7 @@
         "SOMA"
       ],
       "primaryCategory": "EROS INDEX",
-      "score": 75,
+      "score": 70,
       "stage": "EMERGING",
       "velocity": 78,
       "novelty": 89,
@@ -609,6 +581,90 @@
       "textOnly": false
     },
     {
+      "id": "c_54e0f68673546cbe",
+      "title": "There's no reason for software to be slow anymore",
+      "summary": "140 points · 128 comments",
+      "categories": [
+        "SIGNAL LAB",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 70,
+      "stage": "EMERGING",
+      "velocity": 73,
+      "novelty": 89,
+      "sourceEdge": 82,
+      "breadth": 51,
+      "evidenceQuality": 82,
+      "culturalReach": 54,
+      "sources": 1,
+      "sourceNames": [
+        "danluu.com"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-22T01:06:17.000Z",
+      "firstSeen": "2026-08-22T01:06:17.000Z",
+      "url": "https://danluu.com/perf-opt",
+      "sourceImage": null,
+      "textOnly": false
+    },
+    {
+      "id": "c_9fd1a52850cb2970",
+      "title": "M4.7 earthquake — 147 km NE of Diego de Almagro, Chile",
+      "summary": "Depth 102.426 km · USGS reviewed event",
+      "categories": [
+        "TERRA",
+        "THE PULSE"
+      ],
+      "primaryCategory": "TERRA",
+      "score": 70,
+      "stage": "EMERGING",
+      "velocity": 69,
+      "novelty": 89,
+      "sourceEdge": 96,
+      "breadth": 51,
+      "evidenceQuality": 100,
+      "culturalReach": 47,
+      "sources": 1,
+      "sourceNames": [
+        "earthquake.usgs.gov"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T22:26:03.081Z",
+      "firstSeen": "2026-08-21T22:26:03.081Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmnz",
+      "sourceImage": null,
+      "textOnly": false
+    },
+    {
+      "id": "c_dcbb725de04c2db4",
+      "title": "M4.4 earthquake — 112 km S of Vilyuchinsk, Russia",
+      "summary": "Depth 74.665 km · USGS reviewed event",
+      "categories": [
+        "TERRA",
+        "THE PULSE"
+      ],
+      "primaryCategory": "TERRA",
+      "score": 70,
+      "stage": "EMERGING",
+      "velocity": 68,
+      "novelty": 89,
+      "sourceEdge": 96,
+      "breadth": 51,
+      "evidenceQuality": 100,
+      "culturalReach": 47,
+      "sources": 1,
+      "sourceNames": [
+        "earthquake.usgs.gov"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T22:00:04.478Z",
+      "firstSeen": "2026-08-21T22:00:04.478Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmny",
+      "sourceImage": null,
+      "textOnly": false
+    },
+    {
       "id": "c_2773f290a1b3d53b",
       "title": "M4.1 earthquake — 26 km S of Tagāb, Afghanistan",
       "summary": "Depth 10 km · USGS reviewed event",
@@ -617,7 +673,7 @@
         "THE PULSE"
       ],
       "primaryCategory": "TERRA",
-      "score": 75,
+      "score": 70,
       "stage": "EMERGING",
       "velocity": 68,
       "novelty": 89,
@@ -645,7 +701,7 @@
         "THE PULSE"
       ],
       "primaryCategory": "TERRA",
-      "score": 75,
+      "score": 70,
       "stage": "EMERGING",
       "velocity": 68,
       "novelty": 89,
@@ -665,6 +721,62 @@
       "textOnly": false
     },
     {
+      "id": "c_a51689d62d1cdf98",
+      "title": "Early Humans Likely Ate Carbs and Sugary Foods",
+      "summary": "9 points · 4 comments",
+      "categories": [
+        "SIGNAL LAB",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 69,
+      "stage": "STIRRING",
+      "velocity": 76,
+      "novelty": 89,
+      "sourceEdge": 82,
+      "breadth": 51,
+      "evidenceQuality": 82,
+      "culturalReach": 43,
+      "sources": 1,
+      "sourceNames": [
+        "history.com"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-22T02:37:30.000Z",
+      "firstSeen": "2026-08-22T02:37:30.000Z",
+      "url": "https://www.history.com/articles/early-human-ancestors-diet-sugar-carbs",
+      "sourceImage": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/prehistoric-man_bixtxv?_a=BAVMn6E80",
+      "textOnly": false
+    },
+    {
+      "id": "c_cae486f1f65646d8",
+      "title": "Initial focus for our partnership with Motorola is a regular non-folding device",
+      "summary": "31 points · 10 comments",
+      "categories": [
+        "SIGNAL LAB",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 69,
+      "stage": "STIRRING",
+      "velocity": 73,
+      "novelty": 89,
+      "sourceEdge": 82,
+      "breadth": 51,
+      "evidenceQuality": 82,
+      "culturalReach": 47,
+      "sources": 1,
+      "sourceNames": [
+        "grapheneos.social"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-22T01:02:09.000Z",
+      "firstSeen": "2026-08-22T01:02:09.000Z",
+      "url": "https://grapheneos.social/@GrapheneOS/117136278553665985",
+      "sourceImage": null,
+      "textOnly": false
+    },
+    {
       "id": "c_ec375dd2141b29ce",
       "title": "M3.4 earthquake — 7 km NNW of Edgefield, Louisiana",
       "summary": "Depth 5 km · USGS reviewed event",
@@ -673,8 +785,8 @@
         "THE PULSE"
       ],
       "primaryCategory": "TERRA",
-      "score": 75,
-      "stage": "EMERGING",
+      "score": 69,
+      "stage": "STIRRING",
       "velocity": 65,
       "novelty": 89,
       "sourceEdge": 96,
@@ -701,9 +813,9 @@
         "THE PULSE"
       ],
       "primaryCategory": "TERRA",
-      "score": 74,
-      "stage": "EMERGING",
-      "velocity": 62,
+      "score": 69,
+      "stage": "STIRRING",
+      "velocity": 61,
       "novelty": 89,
       "sourceEdge": 96,
       "breadth": 51,
@@ -729,8 +841,8 @@
         "THE PULSE"
       ],
       "primaryCategory": "TERRA",
-      "score": 74,
-      "stage": "EMERGING",
+      "score": 69,
+      "stage": "STIRRING",
       "velocity": 61,
       "novelty": 89,
       "sourceEdge": 96,
@@ -749,45 +861,129 @@
       "textOnly": false
     },
     {
-      "id": "c_2a692db6c46ee8c4",
-      "title": "M3.29 earthquake — 10 km ENE of Coso Junction, CA",
-      "summary": "Depth 2.54 km · USGS reviewed event",
-      "categories": [
-        "TERRA",
-        "THE PULSE"
-      ],
-      "primaryCategory": "TERRA",
-      "score": 74,
-      "stage": "EMERGING",
-      "velocity": 61,
-      "novelty": 89,
-      "sourceEdge": 96,
-      "breadth": 51,
-      "evidenceQuality": 100,
-      "culturalReach": 46,
-      "sources": 1,
-      "sourceNames": [
-        "earthquake.usgs.gov"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T17:26:17.660Z",
-      "firstSeen": "2026-08-21T17:26:17.660Z",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41532240",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_54e0f68673546cbe",
-      "title": "There's no reason for software to be slow anymore",
-      "summary": "122 points · 119 comments",
+      "id": "c_f4f8b215640e192d",
+      "title": "HN: The Good Parts (2016)",
+      "summary": "27 points · 7 comments",
       "categories": [
         "SIGNAL LAB",
         "IGNITION"
       ],
       "primaryCategory": "SIGNAL LAB",
-      "score": 72,
-      "stage": "EMERGING",
-      "velocity": 74,
+      "score": 68,
+      "stage": "STIRRING",
+      "velocity": 71,
+      "novelty": 89,
+      "sourceEdge": 82,
+      "breadth": 51,
+      "evidenceQuality": 82,
+      "culturalReach": 46,
+      "sources": 1,
+      "sourceNames": [
+        "danluu.com"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T23:53:03.000Z",
+      "firstSeen": "2026-08-21T23:53:03.000Z",
+      "url": "https://danluu.com/hn-comments",
+      "sourceImage": null,
+      "textOnly": false
+    },
+    {
+      "id": "c_081564782cb0f2e2",
+      "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+      "summary": "52 points · 21 comments",
+      "categories": [
+        "SIGNAL LAB",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 68,
+      "stage": "STIRRING",
+      "velocity": 70,
+      "novelty": 89,
+      "sourceEdge": 82,
+      "breadth": 51,
+      "evidenceQuality": 82,
+      "culturalReach": 49,
+      "sources": 1,
+      "sourceNames": [
+        "ozbrain.com"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T23:09:06.000Z",
+      "firstSeen": "2026-08-21T23:09:06.000Z",
+      "url": "https://ozbrain.com/",
+      "sourceImage": "https://ozbrain.com/og.png?v=4",
+      "textOnly": false
+    },
+    {
+      "id": "c_513cd56d390d4afe",
+      "title": "Three important steps in my maturation process",
+      "summary": "84 points · 23 comments",
+      "categories": [
+        "SIGNAL LAB",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 68,
+      "stage": "STIRRING",
+      "velocity": 69,
+      "novelty": 89,
+      "sourceEdge": 82,
+      "breadth": 51,
+      "evidenceQuality": 82,
+      "culturalReach": 50,
+      "sources": 1,
+      "sourceNames": [
+        "thomasdullien.github.io"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T22:29:00.000Z",
+      "firstSeen": "2026-08-21T22:29:00.000Z",
+      "url": "https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process",
+      "sourceImage": null,
+      "textOnly": false
+    },
+    {
+      "id": "c_22ac6959bdefebb3",
+      "title": "Rust Glancer: Rust LSP using 100x less RAM",
+      "summary": "69 points · 24 comments",
+      "categories": [
+        "SIGNAL LAB",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 68,
+      "stage": "STIRRING",
+      "velocity": 64,
+      "novelty": 89,
+      "sourceEdge": 82,
+      "breadth": 51,
+      "evidenceQuality": 82,
+      "culturalReach": 50,
+      "sources": 1,
+      "sourceNames": [
+        "rust-glancer.github.io"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T19:51:54.000Z",
+      "firstSeen": "2026-08-21T19:51:54.000Z",
+      "url": "https://rust-glancer.github.io/blog/hello-world",
+      "sourceImage": null,
+      "textOnly": false
+    },
+    {
+      "id": "c_342edddbf26a8bb2",
+      "title": "Scientists release biggest 2D map of the universe",
+      "summary": "162 points · 52 comments",
+      "categories": [
+        "SIGNAL LAB",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 68,
+      "stage": "STIRRING",
+      "velocity": 62,
       "novelty": 89,
       "sourceEdge": 82,
       "breadth": 51,
@@ -795,13 +991,13 @@
       "culturalReach": 53,
       "sources": 1,
       "sourceNames": [
-        "danluu.com"
+        "newscenter.lbl.gov"
       ],
       "publisher": "",
-      "publishedAt": "2026-08-22T01:06:17.000Z",
-      "firstSeen": "2026-08-22T01:06:17.000Z",
-      "url": "https://danluu.com/perf-opt",
-      "sourceImage": null,
+      "publishedAt": "2026-08-21T18:36:34.000Z",
+      "firstSeen": "2026-08-21T18:36:34.000Z",
+      "url": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe",
+      "sourceImage": "https://newscenter.lbl.gov/wp-content/uploads/2026/08/Newscenter_Feature_1400px-DR11-M96_DECam_TAR-CC9.jpg",
       "textOnly": false
     },
     {
@@ -813,9 +1009,9 @@
         "SIGNAL LAB"
       ],
       "primaryCategory": "TERRA",
-      "score": 72,
-      "stage": "EMERGING",
-      "velocity": 63,
+      "score": 67,
+      "stage": "STIRRING",
+      "velocity": 62,
       "novelty": 89,
       "sourceEdge": 95,
       "breadth": 51,
@@ -833,6 +1029,523 @@
       "textOnly": false
     },
     {
+      "id": "c_616d7c075ec1fa69",
+      "title": "OTel isn't going well (and I made a spreadsheet about it)",
+      "summary": "55 points · 18 comments",
+      "categories": [
+        "SIGNAL LAB",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 67,
+      "stage": "STIRRING",
+      "velocity": 61,
+      "novelty": 89,
+      "sourceEdge": 82,
+      "breadth": 51,
+      "evidenceQuality": 82,
+      "culturalReach": 49,
+      "sources": 1,
+      "sourceNames": [
+        "matduggan.com"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T17:45:41.000Z",
+      "firstSeen": "2026-08-21T17:45:41.000Z",
+      "url": "https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it",
+      "sourceImage": null,
+      "textOnly": false
+    },
+    {
+      "id": "c_eaf2acbe160ba3e3",
+      "title": "Kobo can run apps now",
+      "summary": "457 points · 159 comments",
+      "categories": [
+        "SIGNAL LAB",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 67,
+      "stage": "STIRRING",
+      "velocity": 59,
+      "novelty": 89,
+      "sourceEdge": 82,
+      "breadth": 51,
+      "evidenceQuality": 82,
+      "culturalReach": 57,
+      "sources": 1,
+      "sourceNames": [
+        "bandarlabs.github.io"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T16:25:25.000Z",
+      "firstSeen": "2026-08-21T16:25:25.000Z",
+      "url": "https://bandarlabs.github.io/Cobalt",
+      "sourceImage": "https://bandarlabs.github.io/Cobalt/media/site/og-card.jpg",
+      "textOnly": false
+    },
+    {
+      "id": "c_ee6528a6a6259cba",
+      "title": "Felony Bench",
+      "summary": "577 points · 238 comments",
+      "categories": [
+        "SIGNAL LAB",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 67,
+      "stage": "STIRRING",
+      "velocity": 57,
+      "novelty": 89,
+      "sourceEdge": 82,
+      "breadth": 51,
+      "evidenceQuality": 82,
+      "culturalReach": 58,
+      "sources": 1,
+      "sourceNames": [
+        "felonybench.com"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T15:17:04.000Z",
+      "firstSeen": "2026-08-21T15:17:04.000Z",
+      "url": "https://www.felonybench.com/",
+      "sourceImage": "https://www.felonybench.com/og-chart.png",
+      "textOnly": false
+    },
+    {
+      "id": "c_8aea68605a34bd24",
+      "title": "Kagi added a setting for removing paywalled links from search results",
+      "summary": "1042 points · 349 comments",
+      "categories": [
+        "SIGNAL LAB",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 67,
+      "stage": "STIRRING",
+      "velocity": 54,
+      "novelty": 89,
+      "sourceEdge": 82,
+      "breadth": 51,
+      "evidenceQuality": 82,
+      "culturalReach": 60,
+      "sources": 1,
+      "sourceNames": [
+        "kagi.com"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T13:56:37.000Z",
+      "firstSeen": "2026-08-21T13:56:37.000Z",
+      "url": "https://kagi.com/changelog",
+      "sourceImage": null,
+      "textOnly": false
+    },
+    {
+      "id": "c_64f5c5f110c54686",
+      "title": "Microsoft Gives Task Manager Another Task: Watching AI Workloads",
+      "summary": "Microsoft is expanding Windows Task Manager to show per-process NPU and GPU neural-engine usage, giving users more visibility into which apps are consuming hardware for AI workloads. The Register reports: The Processes tab can show NPU use alongside CPU and GPU activity, while the Performance tab displays overall utilization. [...] Microsoft was keen to point out the metrics that can be monitored. \"As AI workloads become more common on Windows devices, visibility into NPU and GPU neural engine utilization can help ",
+      "categories": [
+        "SIGNAL LAB",
+        "THE PULSE",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 66,
+      "stage": "STIRRING",
+      "velocity": 78,
+      "novelty": 89,
+      "sourceEdge": 71,
+      "breadth": 51,
+      "evidenceQuality": 71,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "tech.slashdot.org"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-22T03:59:04.974Z",
+      "firstSeen": "2026-08-22T03:59:04.974Z",
+      "url": "https://tech.slashdot.org/story/26/08/21/0136250/microsoft-gives-task-manager-another-task-watching-ai-workloads",
+      "sourceImage": "https://a.fsdn.com/sd/topics/ai_64.png",
+      "textOnly": false
+    },
+    {
+      "id": "c_5506764f49178ecc",
+      "title": "China Is About to Launch Its Most Ambitious Moon Mission Yet",
+      "summary": "China's Chang'e 7 mission is set to launch for the moon's south pole, where it will attempt the first-ever landing directly at the pole and search the region's dark craters for water ice. \"It's an amazing mission,\" says Norbert Schorghofer, a Hawaii-based senior scientist at the Planetary Science Institute. \"There has never been a landed mission to find water [on the moon].\" If successful, China \"will be the leader in lunar science,\" Schorghofer adds. Scientific American reports: Chang'e 7, China's seventh moon mis",
+      "categories": [
+        "SIGNAL LAB",
+        "THE PULSE",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 66,
+      "stage": "STIRRING",
+      "velocity": 78,
+      "novelty": 89,
+      "sourceEdge": 71,
+      "breadth": 51,
+      "evidenceQuality": 71,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "science.slashdot.org"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-22T03:59:04.974Z",
+      "firstSeen": "2026-08-22T03:59:04.974Z",
+      "url": "https://science.slashdot.org/story/26/08/21/0121220/china-is-about-to-launch-its-most-ambitious-moon-mission-yet",
+      "sourceImage": "https://a.fsdn.com/sd/topics/moon_64.png",
+      "textOnly": false
+    },
+    {
+      "id": "c_c9e942d278671131",
+      "title": "Are You Sure You Want a Car With a Giant Touch Screen?",
+      "summary": "RAMageddon could soon push car prices higher as modern vehicles rely on ever more RAM and powerful centralized computers to run everything from infotainment to driver-assistance systems. Analysts cited by The Atlantic estimate the shortage could add a few percentage points to vehicle prices, which might not sound like much, but could potentially translate to around $2,000 on a $50,000 vehicle. The broader shift toward software-heavy vehicles could also make used cars even less affordable. An anonymous reader quotes",
+      "categories": [
+        "SIGNAL LAB",
+        "THE PULSE",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 66,
+      "stage": "STIRRING",
+      "velocity": 78,
+      "novelty": 89,
+      "sourceEdge": 71,
+      "breadth": 51,
+      "evidenceQuality": 71,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "tech.slashdot.org"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-22T03:59:04.974Z",
+      "firstSeen": "2026-08-22T03:59:04.974Z",
+      "url": "https://tech.slashdot.org/story/26/08/20/2030251/are-you-sure-you-want-a-car-with-a-giant-touch-screen",
+      "sourceImage": "https://a.fsdn.com/sd/topics/transportation_64.png",
+      "textOnly": false
+    },
+    {
+      "id": "c_58677be2cd4a3711",
+      "title": "China's YouTube Rival Bilibili Is Going Global",
+      "summary": "Bilibili, often described as China's answer to YouTube, is relaunching its international app and preparing an English-language site as part of a broader push into the U.S., Europe, Japan, and other markets. The company is courting Western creators like MrBest, hiring community and moderation staff globally, and building tools for brand partnerships. Semafor reports: The revamped international app no longer requires identity verification -- meaning users can sign up without having to provide a passport or ID documen",
+      "categories": [
+        "SIGNAL LAB",
+        "THE PULSE",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 66,
+      "stage": "STIRRING",
+      "velocity": 78,
+      "novelty": 89,
+      "sourceEdge": 71,
+      "breadth": 51,
+      "evidenceQuality": 71,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "news.slashdot.org"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-22T03:59:04.974Z",
+      "firstSeen": "2026-08-22T03:59:04.974Z",
+      "url": "https://news.slashdot.org/story/26/08/20/208238/chinas-youtube-rival-bilibili-is-going-global",
+      "sourceImage": "https://a.fsdn.com/sd/topics/china_64.png",
+      "textOnly": false
+    },
+    {
+      "id": "c_84583d75b72ac77b",
+      "title": "Man Dressed As Darth Vader Defends Flock Cameras to San Diego City Council",
+      "summary": "A man dressed as Darth Vader used a Public Safety and Livable Neighborhoods Committee meeting in San Diego to mock the city's use of Flock surveillance cameras, sarcastically arguing that the technology would help the \"emperor\" track \"rebel scum\" and find Luke Skywalker. \"This is what the emperor needs. This technology will help us find the rebel scum and the hidden base on Hoth,\" he said. The Hill reports: He urged that the cameras be used to surveil any \"rebel scum as they move from playground to playground, from",
+      "categories": [
+        "SIGNAL LAB",
+        "THE PULSE",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 66,
+      "stage": "STIRRING",
+      "velocity": 78,
+      "novelty": 89,
+      "sourceEdge": 71,
+      "breadth": 51,
+      "evidenceQuality": 71,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "yro.slashdot.org"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-22T03:59:04.973Z",
+      "firstSeen": "2026-08-22T03:59:04.973Z",
+      "url": "https://yro.slashdot.org/story/26/08/21/1840254/man-dressed-as-darth-vader-defends-flock-cameras-to-san-diego-city-council",
+      "sourceImage": "https://a.fsdn.com/sd/topics/privacy_64.png",
+      "textOnly": false
+    },
+    {
+      "id": "c_c7b203f7ff7d7644",
+      "title": "Micron Unveils $10 Billion AI Memory Research Lab In Boise",
+      "summary": "Micron says it will spend $10 billion over the next decade on a new research lab in Boise focused on advanced memory technologies, computing systems, and future chip manufacturing. Here are some details, as reported by Reuters: - Micron Research Labs will bring together customers, academia, government and the broader semiconductor ecosystem to pursue breakthroughs, the company said. - The latest investment builds on the more than $250 billion that Micron had separately committed to manufacturing and R&D across the ",
+      "categories": [
+        "SIGNAL LAB",
+        "THE PULSE",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 66,
+      "stage": "STIRRING",
+      "velocity": 78,
+      "novelty": 89,
+      "sourceEdge": 71,
+      "breadth": 51,
+      "evidenceQuality": 71,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "hardware.slashdot.org"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-22T03:59:04.973Z",
+      "firstSeen": "2026-08-22T03:59:04.973Z",
+      "url": "https://hardware.slashdot.org/story/26/08/21/1752224/micron-unveils-10-billion-ai-memory-research-lab-in-boise",
+      "sourceImage": "https://a.fsdn.com/sd/topics/business_64.png",
+      "textOnly": false
+    },
+    {
+      "id": "c_151caf94ce61f299",
+      "title": "Linus Torvalds Endures A Debug Session From Hell, 'Enormously Helped' By AI",
+      "summary": "Linus Torvalds says AI \"enormously helped\" him track down a stubborn Intel Xe graphics driver bug that took 24 debugging patches and 18 kernel boots to isolate. \"I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it,\" wrote Torvalds on the commit. \"I suspect those things have been trained by people who may not be quite as stubborn as I am...\" Phoronix reports: The patch by Linus Torvalds is for the Xe ",
+      "categories": [
+        "SIGNAL LAB",
+        "THE PULSE",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 66,
+      "stage": "STIRRING",
+      "velocity": 78,
+      "novelty": 89,
+      "sourceEdge": 71,
+      "breadth": 51,
+      "evidenceQuality": 71,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "it.slashdot.org"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-22T03:59:04.973Z",
+      "firstSeen": "2026-08-22T03:59:04.973Z",
+      "url": "https://it.slashdot.org/story/26/08/21/1742239/linus-torvalds-endures-a-debug-session-from-hell-enormously-helped-by-ai",
+      "sourceImage": "https://a.fsdn.com/sd/topics/ai_64.png",
+      "textOnly": false
+    },
+    {
+      "id": "c_008fb4fffb9eff91",
+      "title": "Walmart To Finally Start Accepting Apple Pay and Google Pay",
+      "summary": "After years of refusing to adopt tap-to-pay technology in its stores, retail giant Walmart announced today that it is finally accepting payments via both Apple Pay and Google Pay. The rollout begins August 24 at select Walmart and Sam's Club locations and is expected to reach all stores by year-end. It will then expand to fuel stations by mid-2027. TechCrunch reports: The news is a surprise, as Walmart has long refused to adopt the ubiquitous payment technology to instead promote its own in-house solutions, like Wa",
+      "categories": [
+        "SIGNAL LAB",
+        "THE PULSE",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 66,
+      "stage": "STIRRING",
+      "velocity": 78,
+      "novelty": 89,
+      "sourceEdge": 71,
+      "breadth": 51,
+      "evidenceQuality": 71,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "news.slashdot.org"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-22T03:59:04.973Z",
+      "firstSeen": "2026-08-22T03:59:04.973Z",
+      "url": "https://news.slashdot.org/story/26/08/21/1525227/walmart-to-finally-start-accepting-apple-pay-and-google-pay",
+      "sourceImage": "https://a.fsdn.com/sd/topics/money_64.png",
+      "textOnly": false
+    },
+    {
+      "id": "c_476c379c6ed7f2cf",
+      "title": "Google Gives Publishers a 'Preferred Sources' Button to Fight AI-Driven Traffic Losses",
+      "summary": "Google is giving publishers a new way to fight declining referral traffic from AI-powered search by letting them embed a \"Preferred Sources\" button that readers can use to favor their sites across Search, Discover, and Google News. \"The idea is to make it easier for readers to find links from the sites they know and trust when they're searching for content or interacting with Google's AI to learn about a topic or read the latest news,\" reports TechCrunch. \"As of May's launch, the company said that people across the",
+      "categories": [
+        "SIGNAL LAB",
+        "THE PULSE",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 66,
+      "stage": "STIRRING",
+      "velocity": 78,
+      "novelty": 89,
+      "sourceEdge": 71,
+      "breadth": 51,
+      "evidenceQuality": 71,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "news.slashdot.org"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-22T03:59:04.973Z",
+      "firstSeen": "2026-08-22T03:59:04.973Z",
+      "url": "https://news.slashdot.org/story/26/08/21/0113259/google-gives-publishers-a-preferred-sources-button-to-fight-ai-driven-traffic-losses",
+      "sourceImage": "https://a.fsdn.com/sd/topics/ai_64.png",
+      "textOnly": false
+    },
+    {
+      "id": "c_4990687b92d5099c",
+      "title": "Township Fights Nuclear Weapons Data Center By Passing a Moratorium on Electrical Infrastructure",
+      "summary": "Ypsilanti Township, Michigan, has imposed a six-month moratorium on \"major electric utility infrastructure\" in its latest attempt to delay a proposed $1.2 billion University of Michigan-Los Alamos data center that would support nuclear-weapons research. Township leaders, who have already paused water service for data centers, say the project has moved forward without adequate consultation and want more time to study noise, grid impacts, and other effects on residents. 404 Media reports: Last year, the university an",
+      "categories": [
+        "SIGNAL LAB",
+        "THE PULSE",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 66,
+      "stage": "STIRRING",
+      "velocity": 78,
+      "novelty": 89,
+      "sourceEdge": 71,
+      "breadth": 51,
+      "evidenceQuality": 71,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "hardware.slashdot.org"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-22T03:59:04.972Z",
+      "firstSeen": "2026-08-22T03:59:04.972Z",
+      "url": "https://hardware.slashdot.org/story/26/08/21/2015213/township-fights-nuclear-weapons-data-center-by-passing-a-moratorium-on-electrical-infrastructure",
+      "sourceImage": "https://a.fsdn.com/sd/topics/government_64.png",
+      "textOnly": false
+    },
+    {
+      "id": "c_94bb7aaaa18c1af0",
+      "title": "Apple Cuts Jobs In Siri, Vision Pro Immersive Video and Gaming Teams",
+      "summary": "Apple is cutting more than 200 jobs as it shifts resources toward a rebuilt, AI-powered Siri and other future products. Roughly 100 positions are being eliminated from the Vision Pro organization, including much of its gaming team and some immersive-video staff. Another 100 cuts are hitting the Siri and software teams. Bloomberg reports: In a statement, Apple acknowledged that it was realigning some teams \"to evolve our business to deliver the best experiences for our users.\" \"While we will create new roles as part",
+      "categories": [
+        "SIGNAL LAB",
+        "THE PULSE",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 66,
+      "stage": "STIRRING",
+      "velocity": 78,
+      "novelty": 89,
+      "sourceEdge": 71,
+      "breadth": 51,
+      "evidenceQuality": 71,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "apple.slashdot.org"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-22T03:59:04.972Z",
+      "firstSeen": "2026-08-22T03:59:04.972Z",
+      "url": "https://apple.slashdot.org/story/26/08/21/207246/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams",
+      "sourceImage": "https://a.fsdn.com/sd/topics/apple_64.png",
+      "textOnly": false
+    },
+    {
+      "id": "c_5b61b3d6dfb757f0",
+      "title": "American Who Wiped His Phone With 'Duress' Password During Border Search Gets Felony Charges",
+      "summary": "Federal prosecutors have charged activist Samuel Tunick with obstruction after he gave Customs and Border Protection officers a duress passcode that wiped his GrapheneOS-powered Pixel during a border search. \"His prosecution is one of the earliest known instances of the federal authorities charging a person with destroying evidence using a program designed to wipe a device clean after a specific code is entered,\" reports The New York Times. From the report: \"Obstructing federal law enforcement is a serious matter t",
+      "categories": [
+        "SIGNAL LAB",
+        "THE PULSE",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 66,
+      "stage": "STIRRING",
+      "velocity": 78,
+      "novelty": 89,
+      "sourceEdge": 71,
+      "breadth": 51,
+      "evidenceQuality": 71,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "yro.slashdot.org"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-22T03:59:04.972Z",
+      "firstSeen": "2026-08-22T03:59:04.972Z",
+      "url": "https://yro.slashdot.org/story/26/08/21/202201/american-who-wiped-his-phone-with-duress-password-during-border-search-gets-felony-charges",
+      "sourceImage": "https://a.fsdn.com/sd/topics/privacy_64.png",
+      "textOnly": false
+    },
+    {
+      "id": "c_489cb0387e213232",
+      "title": "China Joins Europe In Scrapping Windows For Linux",
+      "summary": "An anonymous reader quotes a report from ZDNet: According to a Bloomberg report, attributed to China's Ministry of State Security, the country has ordered some government agencies to drop Windows 10 China Government Edition for Chinese-made Linux distributions. Why not Windows 11? Because China, like many other non-US governments, no longer trusts American companies with their software and services. This approach is all about digital sovereignty. In addition, even before the recent trend of governments outside Amer",
+      "categories": [
+        "SIGNAL LAB",
+        "THE PULSE",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 66,
+      "stage": "STIRRING",
+      "velocity": 78,
+      "novelty": 89,
+      "sourceEdge": 71,
+      "breadth": 51,
+      "evidenceQuality": 71,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "linux.slashdot.org"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-22T03:59:04.970Z",
+      "firstSeen": "2026-08-22T03:59:04.970Z",
+      "url": "https://linux.slashdot.org/story/26/08/21/2158246/china-joins-europe-in-scrapping-windows-for-linux",
+      "sourceImage": "https://a.fsdn.com/sd/topics/china_64.png",
+      "textOnly": false
+    },
+    {
+      "id": "c_7b78a2beefc7702d",
+      "title": "How a Big Bet on Cancer Vaccines Brought Moderna Back from the Brink",
+      "summary": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Moderna's success with personalized cancer vaccine heralds a new era of personalized cancer treatments that mobilize the immune system with vaccines uniquely developed for each patient. &lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &#32; submitted by &#32; &lt;a href=\"https://www.reddit.com/user/JigglymoobsMWO\"&gt; /u/JigglymoobsMWO &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=\"https://www.wsj.com/health/pharma/moderna-cancer-vaccine-3d863ff3?st=vbp7b7&reflink=desk",
+      "categories": [
+        "SIGNAL LAB",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 66,
+      "stage": "STIRRING",
+      "velocity": 77,
+      "novelty": 89,
+      "sourceEdge": 70,
+      "breadth": 51,
+      "evidenceQuality": 70,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "reddit.com"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-22T03:28:39.000Z",
+      "firstSeen": "2026-08-22T03:28:39.000Z",
+      "url": "https://www.reddit.com/r/Futurology/comments/1vv19w8/how_a_big_bet_on_cancer_vaccines_brought_moderna",
+      "sourceImage": null,
+      "textOnly": false
+    },
+    {
       "id": "c_a071cabedbd3fa34",
       "title": "TB 26-04 Updates and Modernization of NASA’s Chemical Equilibrium with Applications (CEA) Code",
       "summary": "",
@@ -841,8 +1554,8 @@
         "SIGNAL LAB"
       ],
       "primaryCategory": "TERRA",
-      "score": 72,
-      "stage": "EMERGING",
+      "score": 66,
+      "stage": "STIRRING",
       "velocity": 61,
       "novelty": 89,
       "sourceEdge": 95,
@@ -857,7 +1570,7 @@
       "publishedAt": "2026-08-21T17:41:00.000Z",
       "firstSeen": "2026-08-21T17:41:00.000Z",
       "url": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-04-updates-and-modernization-of-nasas-chemical-equilibrium-with-applications-cea-code",
-      "sourceImage": null,
+      "sourceImage": "https://www.nasa.gov/wp-content/uploads/2023/10/nhq202211160203.jpg",
       "textOnly": false
     },
     {
@@ -869,8 +1582,8 @@
         "SIGNAL LAB"
       ],
       "primaryCategory": "TERRA",
-      "score": 72,
-      "stage": "EMERGING",
+      "score": 66,
+      "stage": "STIRRING",
       "velocity": 61,
       "novelty": 89,
       "sourceEdge": 95,
@@ -897,8 +1610,8 @@
         "SIGNAL LAB"
       ],
       "primaryCategory": "TERRA",
-      "score": 72,
-      "stage": "EMERGING",
+      "score": 66,
+      "stage": "STIRRING",
       "velocity": 60,
       "novelty": 89,
       "sourceEdge": 95,
@@ -917,171 +1630,118 @@
       "textOnly": false
     },
     {
-      "id": "c_a51689d62d1cdf98",
-      "title": "Early Humans Likely Ate Carbs and Sugary Foods",
-      "summary": "6 points · 1 comments",
+      "id": "c_c1d2b531b3076832",
+      "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
+      "summary": "221 points · 156 comments",
       "categories": [
         "SIGNAL LAB",
         "IGNITION"
       ],
       "primaryCategory": "SIGNAL LAB",
-      "score": 71,
-      "stage": "EMERGING",
-      "velocity": 76,
+      "score": 66,
+      "stage": "STIRRING",
+      "velocity": 55,
       "novelty": 89,
       "sourceEdge": 82,
       "breadth": 51,
       "evidenceQuality": 82,
-      "culturalReach": 41,
+      "culturalReach": 55,
       "sources": 1,
       "sourceNames": [
-        "history.com"
+        "github.com"
       ],
       "publisher": "",
-      "publishedAt": "2026-08-22T02:37:30.000Z",
-      "firstSeen": "2026-08-22T02:37:30.000Z",
-      "url": "https://www.history.com/articles/early-human-ancestors-diet-sugar-carbs",
+      "publishedAt": "2026-08-21T14:31:52.000Z",
+      "firstSeen": "2026-08-21T14:31:52.000Z",
+      "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+      "sourceImage": "https://opengraph.githubassets.com/e85b9a67192b2a8eb834ded756cf54acd7f58caabe3c08863c8538bbe4542e9f/adnanakil/nobuzz",
+      "textOnly": false
+    },
+    {
+      "id": "c_7dd887abb11ba8b5",
+      "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
+      "summary": "475 points · 53 comments",
+      "categories": [
+        "SIGNAL LAB",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 66,
+      "stage": "STIRRING",
+      "velocity": 53,
+      "novelty": 89,
+      "sourceEdge": 82,
+      "breadth": 51,
+      "evidenceQuality": 82,
+      "culturalReach": 56,
+      "sources": 1,
+      "sourceNames": [
+        "lina.sh"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T13:11:28.000Z",
+      "firstSeen": "2026-08-21T13:11:28.000Z",
+      "url": "https://lina.sh/blog/hijacking-e164-arpa",
+      "sourceImage": "https://lina.sh/assets/blog/e164/cover.png",
+      "textOnly": false
+    },
+    {
+      "id": "c_d29a68ddc581aa3e",
+      "title": "Felony charges for citizen deleting phone data at US Border",
+      "summary": "628 points · 787 comments",
+      "categories": [
+        "SIGNAL LAB",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 66,
+      "stage": "STIRRING",
+      "velocity": 51,
+      "novelty": 89,
+      "sourceEdge": 82,
+      "breadth": 51,
+      "evidenceQuality": 82,
+      "culturalReach": 60,
+      "sources": 1,
+      "sourceNames": [
+        "nytimes.com"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T12:10:13.000Z",
+      "firstSeen": "2026-08-21T12:10:13.000Z",
+      "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
       "sourceImage": null,
       "textOnly": false
     },
     {
-      "id": "c_cae486f1f65646d8",
-      "title": "Initial focus for our partnership with Motorola is a regular non-folding device",
-      "summary": "29 points · 9 comments",
+      "id": "c_3af0263dd19cc02a",
+      "title": "5 Best Cleansing Oils 2026, Reviewed by Dermatologists & Testers",
+      "summary": "No more morning raccoon eyes.",
       "categories": [
-        "SIGNAL LAB",
-        "IGNITION"
+        "APPETITE",
+        "VISUAL CORTEX",
+        "IGNITION",
+        "SOMA",
+        "OBJECTS OF DESIRE"
       ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 71,
-      "stage": "EMERGING",
-      "velocity": 73,
+      "primaryCategory": "APPETITE",
+      "score": 65,
+      "stage": "STIRRING",
+      "velocity": 64,
       "novelty": 89,
-      "sourceEdge": 82,
+      "sourceEdge": 80,
       "breadth": 51,
-      "evidenceQuality": 82,
-      "culturalReach": 47,
+      "evidenceQuality": 80,
+      "culturalReach": 33,
       "sources": 1,
       "sourceNames": [
-        "grapheneos.social"
+        "glamour.com"
       ],
       "publisher": "",
-      "publishedAt": "2026-08-22T01:02:09.000Z",
-      "firstSeen": "2026-08-22T01:02:09.000Z",
-      "url": "https://grapheneos.social/@GrapheneOS/117136278553665985",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_f4f8b215640e192d",
-      "title": "HN: The Good Parts (2016)",
-      "summary": "26 points · 6 comments",
-      "categories": [
-        "SIGNAL LAB",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 71,
-      "stage": "EMERGING",
-      "velocity": 72,
-      "novelty": 89,
-      "sourceEdge": 82,
-      "breadth": 51,
-      "evidenceQuality": 82,
-      "culturalReach": 46,
-      "sources": 1,
-      "sourceNames": [
-        "danluu.com"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T23:53:03.000Z",
-      "firstSeen": "2026-08-21T23:53:03.000Z",
-      "url": "https://danluu.com/hn-comments",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_081564782cb0f2e2",
-      "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
-      "summary": "50 points · 20 comments",
-      "categories": [
-        "SIGNAL LAB",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 71,
-      "stage": "EMERGING",
-      "velocity": 70,
-      "novelty": 89,
-      "sourceEdge": 82,
-      "breadth": 51,
-      "evidenceQuality": 82,
-      "culturalReach": 49,
-      "sources": 1,
-      "sourceNames": [
-        "ozbrain.com"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T23:09:06.000Z",
-      "firstSeen": "2026-08-21T23:09:06.000Z",
-      "url": "https://ozbrain.com/",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_513cd56d390d4afe",
-      "title": "Three important steps in my maturation process",
-      "summary": "82 points · 22 comments",
-      "categories": [
-        "SIGNAL LAB",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 71,
-      "stage": "EMERGING",
-      "velocity": 69,
-      "novelty": 89,
-      "sourceEdge": 82,
-      "breadth": 51,
-      "evidenceQuality": 82,
-      "culturalReach": 50,
-      "sources": 1,
-      "sourceNames": [
-        "thomasdullien.github.io"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T22:29:00.000Z",
-      "firstSeen": "2026-08-21T22:29:00.000Z",
-      "url": "https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_22ac6959bdefebb3",
-      "title": "Rust Glancer: Rust LSP using 100x less RAM",
-      "summary": "66 points · 24 comments",
-      "categories": [
-        "SIGNAL LAB",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 70,
-      "stage": "EMERGING",
-      "velocity": 65,
-      "novelty": 89,
-      "sourceEdge": 82,
-      "breadth": 51,
-      "evidenceQuality": 82,
-      "culturalReach": 50,
-      "sources": 1,
-      "sourceNames": [
-        "rust-glancer.github.io"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T19:51:54.000Z",
-      "firstSeen": "2026-08-21T19:51:54.000Z",
-      "url": "https://rust-glancer.github.io/blog/hello-world",
-      "sourceImage": null,
+      "publishedAt": "2026-08-21T19:30:24.000Z",
+      "firstSeen": "2026-08-21T19:30:24.000Z",
+      "url": "https://www.glamour.com/gallery/best-cleansing-oil",
+      "sourceImage": "https://media.glamour.com/photos/6a889c351dcc6f299fa08817/master/pass/IMG_4638.jpg",
       "textOnly": false
     },
     {
@@ -1095,7 +1755,7 @@
         "OBJECTS OF DESIRE"
       ],
       "primaryCategory": "SOMA",
-      "score": 69,
+      "score": 65,
       "stage": "STIRRING",
       "velocity": 63,
       "novelty": 89,
@@ -1115,118 +1775,6 @@
       "textOnly": false
     },
     {
-      "id": "c_342edddbf26a8bb2",
-      "title": "Scientists release biggest 2D map of the universe",
-      "summary": "161 points · 52 comments",
-      "categories": [
-        "SIGNAL LAB",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 69,
-      "stage": "STIRRING",
-      "velocity": 63,
-      "novelty": 89,
-      "sourceEdge": 82,
-      "breadth": 51,
-      "evidenceQuality": 82,
-      "culturalReach": 53,
-      "sources": 1,
-      "sourceNames": [
-        "newscenter.lbl.gov"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T18:36:34.000Z",
-      "firstSeen": "2026-08-21T18:36:34.000Z",
-      "url": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_616d7c075ec1fa69",
-      "title": "OTel isn't going well (and I made a spreadsheet about it)",
-      "summary": "51 points · 18 comments",
-      "categories": [
-        "SIGNAL LAB",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 69,
-      "stage": "STIRRING",
-      "velocity": 61,
-      "novelty": 89,
-      "sourceEdge": 82,
-      "breadth": 51,
-      "evidenceQuality": 82,
-      "culturalReach": 49,
-      "sources": 1,
-      "sourceNames": [
-        "matduggan.com"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T17:45:41.000Z",
-      "firstSeen": "2026-08-21T17:45:41.000Z",
-      "url": "https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_eaf2acbe160ba3e3",
-      "title": "Kobo can run apps now",
-      "summary": "455 points · 158 comments",
-      "categories": [
-        "SIGNAL LAB",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 69,
-      "stage": "STIRRING",
-      "velocity": 59,
-      "novelty": 89,
-      "sourceEdge": 82,
-      "breadth": 51,
-      "evidenceQuality": 82,
-      "culturalReach": 57,
-      "sources": 1,
-      "sourceNames": [
-        "bandarlabs.github.io"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T16:25:25.000Z",
-      "firstSeen": "2026-08-21T16:25:25.000Z",
-      "url": "https://bandarlabs.github.io/Cobalt",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_ee6528a6a6259cba",
-      "title": "Felony Bench",
-      "summary": "574 points · 235 comments",
-      "categories": [
-        "SIGNAL LAB",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 69,
-      "stage": "STIRRING",
-      "velocity": 57,
-      "novelty": 89,
-      "sourceEdge": 82,
-      "breadth": 51,
-      "evidenceQuality": 82,
-      "culturalReach": 58,
-      "sources": 1,
-      "sourceNames": [
-        "felonybench.com"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T15:17:04.000Z",
-      "firstSeen": "2026-08-21T15:17:04.000Z",
-      "url": "https://www.felonybench.com/",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
       "id": "c_678fb7d9320f2cab",
       "title": "Toteme's New Menswear Line Narrows the Swag Gap",
       "summary": "The Swedish cool-girl brand enlists a Slimane-era Celine alum to launch its sleek new line.",
@@ -1238,7 +1786,7 @@
         "EROS INDEX"
       ],
       "primaryCategory": "APPETITE",
-      "score": 68,
+      "score": 65,
       "stage": "STIRRING",
       "velocity": 63,
       "novelty": 89,
@@ -1268,9 +1816,9 @@
         "OBJECTS OF DESIRE"
       ],
       "primaryCategory": "SOMA",
-      "score": 68,
+      "score": 65,
       "stage": "STIRRING",
-      "velocity": 63,
+      "velocity": 62,
       "novelty": 89,
       "sourceEdge": 86,
       "breadth": 51,
@@ -1299,7 +1847,7 @@
         "EROS INDEX"
       ],
       "primaryCategory": "APPETITE",
-      "score": 68,
+      "score": 65,
       "stage": "STIRRING",
       "velocity": 62,
       "novelty": 89,
@@ -1319,506 +1867,17 @@
       "textOnly": false
     },
     {
-      "id": "c_7e58272304e4b95d",
-      "title": "How we made a text-to-speech model respond in sub-50 ms",
-      "summary": "116 points · 29 comments",
+      "id": "c_87333f16139d80fc",
+      "title": "Not commonly discussed areas of future engineering/tech",
+      "summary": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I really love learning about Renewable Energy/Electrification Technology because at heart I am an optimist and I hope to goodness we can figure out how to avoid the worst of the climate crisis and overall environmental crisis points.&lt;/p&gt; &lt;p&gt;There is a lot of talk about automation, robotics, gene editing, and so on for major topics.&lt;/p&gt; &lt;p&gt;Today on uplifting news I was reading about this new \"skin\" being developed that can sense pressure and",
       "categories": [
         "SIGNAL LAB",
         "IGNITION"
       ],
       "primaryCategory": "SIGNAL LAB",
-      "score": 68,
+      "score": 64,
       "stage": "STIRRING",
-      "velocity": 58,
-      "novelty": 89,
-      "sourceEdge": 82,
-      "breadth": 51,
-      "evidenceQuality": 82,
-      "culturalReach": 51,
-      "sources": 1,
-      "sourceNames": [
-        "nari-labs.com"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T15:51:10.000Z",
-      "firstSeen": "2026-08-21T15:51:10.000Z",
-      "url": "https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_8aea68605a34bd24",
-      "title": "Kagi added a setting for removing paywalled links from search results",
-      "summary": "1042 points · 349 comments",
-      "categories": [
-        "SIGNAL LAB",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 68,
-      "stage": "STIRRING",
-      "velocity": 55,
-      "novelty": 89,
-      "sourceEdge": 82,
-      "breadth": 51,
-      "evidenceQuality": 82,
-      "culturalReach": 60,
-      "sources": 1,
-      "sourceNames": [
-        "kagi.com"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T13:56:37.000Z",
-      "firstSeen": "2026-08-21T13:56:37.000Z",
-      "url": "https://kagi.com/changelog",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_7dd887abb11ba8b5",
-      "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
-      "summary": "471 points · 53 comments",
-      "categories": [
-        "SIGNAL LAB",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 68,
-      "stage": "STIRRING",
-      "velocity": 54,
-      "novelty": 89,
-      "sourceEdge": 82,
-      "breadth": 51,
-      "evidenceQuality": 82,
-      "culturalReach": 56,
-      "sources": 1,
-      "sourceNames": [
-        "lina.sh"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T13:11:28.000Z",
-      "firstSeen": "2026-08-21T13:11:28.000Z",
-      "url": "https://lina.sh/blog/hijacking-e164-arpa",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_d29a68ddc581aa3e",
-      "title": "Felony charges for citizen deleting phone data at US Border",
-      "summary": "623 points · 782 comments",
-      "categories": [
-        "SIGNAL LAB",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 68,
-      "stage": "STIRRING",
-      "velocity": 52,
-      "novelty": 89,
-      "sourceEdge": 82,
-      "breadth": 51,
-      "evidenceQuality": 82,
-      "culturalReach": 60,
-      "sources": 1,
-      "sourceNames": [
-        "nytimes.com"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T12:10:13.000Z",
-      "firstSeen": "2026-08-21T12:10:13.000Z",
-      "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_c7b203f7ff7d7644",
-      "title": "Micron Unveils $10 Billion AI Memory Research Lab In Boise",
-      "summary": "Micron says it will spend $10 billion over the next decade on a new research lab in Boise focused on advanced memory technologies, computing systems, and future chip manufacturing. Here are some details, as reported by Reuters: - Micron Research Labs will bring together customers, academia, government and the broader semiconductor ecosystem to pursue breakthroughs, the company said. - The latest investment builds on the more than $250 billion that Micron had separately committed to manufacturing and R&D across the ",
-      "categories": [
-        "SIGNAL LAB",
-        "THE PULSE",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 67,
-      "stage": "STIRRING",
-      "velocity": 78,
-      "novelty": 89,
-      "sourceEdge": 71,
-      "breadth": 51,
-      "evidenceQuality": 71,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "hardware.slashdot.org"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-22T03:43:39.041Z",
-      "firstSeen": "2026-08-22T03:43:39.041Z",
-      "url": "https://hardware.slashdot.org/story/26/08/21/1752224/micron-unveils-10-billion-ai-memory-research-lab-in-boise",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_151caf94ce61f299",
-      "title": "Linus Torvalds Endures A Debug Session From Hell, 'Enormously Helped' By AI",
-      "summary": "Linus Torvalds says AI \"enormously helped\" him track down a stubborn Intel Xe graphics driver bug that took 24 debugging patches and 18 kernel boots to isolate. \"I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it,\" wrote Torvalds on the commit. \"I suspect those things have been trained by people who may not be quite as stubborn as I am...\" Phoronix reports: The patch by Linus Torvalds is for the Xe ",
-      "categories": [
-        "SIGNAL LAB",
-        "THE PULSE",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 67,
-      "stage": "STIRRING",
-      "velocity": 78,
-      "novelty": 89,
-      "sourceEdge": 71,
-      "breadth": 51,
-      "evidenceQuality": 71,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "it.slashdot.org"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-22T03:43:39.041Z",
-      "firstSeen": "2026-08-22T03:43:39.041Z",
-      "url": "https://it.slashdot.org/story/26/08/21/1742239/linus-torvalds-endures-a-debug-session-from-hell-enormously-helped-by-ai",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_008fb4fffb9eff91",
-      "title": "Walmart To Finally Start Accepting Apple Pay and Google Pay",
-      "summary": "After years of refusing to adopt tap-to-pay technology in its stores, retail giant Walmart announced today that it is finally accepting payments via both Apple Pay and Google Pay. The rollout begins August 24 at select Walmart and Sam's Club locations and is expected to reach all stores by year-end. It will then expand to fuel stations by mid-2027. TechCrunch reports: The news is a surprise, as Walmart has long refused to adopt the ubiquitous payment technology to instead promote its own in-house solutions, like Wa",
-      "categories": [
-        "SIGNAL LAB",
-        "THE PULSE",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 67,
-      "stage": "STIRRING",
-      "velocity": 78,
-      "novelty": 89,
-      "sourceEdge": 71,
-      "breadth": 51,
-      "evidenceQuality": 71,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "news.slashdot.org"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-22T03:43:39.041Z",
-      "firstSeen": "2026-08-22T03:43:39.041Z",
-      "url": "https://news.slashdot.org/story/26/08/21/1525227/walmart-to-finally-start-accepting-apple-pay-and-google-pay",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_476c379c6ed7f2cf",
-      "title": "Google Gives Publishers a 'Preferred Sources' Button to Fight AI-Driven Traffic Losses",
-      "summary": "Google is giving publishers a new way to fight declining referral traffic from AI-powered search by letting them embed a \"Preferred Sources\" button that readers can use to favor their sites across Search, Discover, and Google News. \"The idea is to make it easier for readers to find links from the sites they know and trust when they're searching for content or interacting with Google's AI to learn about a topic or read the latest news,\" reports TechCrunch. \"As of May's launch, the company said that people across the",
-      "categories": [
-        "SIGNAL LAB",
-        "THE PULSE",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 67,
-      "stage": "STIRRING",
-      "velocity": 78,
-      "novelty": 89,
-      "sourceEdge": 71,
-      "breadth": 51,
-      "evidenceQuality": 71,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "news.slashdot.org"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-22T03:43:39.041Z",
-      "firstSeen": "2026-08-22T03:43:39.041Z",
-      "url": "https://news.slashdot.org/story/26/08/21/0113259/google-gives-publishers-a-preferred-sources-button-to-fight-ai-driven-traffic-losses",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_64f5c5f110c54686",
-      "title": "Microsoft Gives Task Manager Another Task: Watching AI Workloads",
-      "summary": "Microsoft is expanding Windows Task Manager to show per-process NPU and GPU neural-engine usage, giving users more visibility into which apps are consuming hardware for AI workloads. The Register reports: The Processes tab can show NPU use alongside CPU and GPU activity, while the Performance tab displays overall utilization. [...] Microsoft was keen to point out the metrics that can be monitored. \"As AI workloads become more common on Windows devices, visibility into NPU and GPU neural engine utilization can help ",
-      "categories": [
-        "SIGNAL LAB",
-        "THE PULSE",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 67,
-      "stage": "STIRRING",
-      "velocity": 78,
-      "novelty": 89,
-      "sourceEdge": 71,
-      "breadth": 51,
-      "evidenceQuality": 71,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "tech.slashdot.org"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-22T03:43:39.041Z",
-      "firstSeen": "2026-08-22T03:43:39.041Z",
-      "url": "https://tech.slashdot.org/story/26/08/21/0136250/microsoft-gives-task-manager-another-task-watching-ai-workloads",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_5506764f49178ecc",
-      "title": "China Is About to Launch Its Most Ambitious Moon Mission Yet",
-      "summary": "China's Chang'e 7 mission is set to launch for the moon's south pole, where it will attempt the first-ever landing directly at the pole and search the region's dark craters for water ice. \"It's an amazing mission,\" says Norbert Schorghofer, a Hawaii-based senior scientist at the Planetary Science Institute. \"There has never been a landed mission to find water [on the moon].\" If successful, China \"will be the leader in lunar science,\" Schorghofer adds. Scientific American reports: Chang'e 7, China's seventh moon mis",
-      "categories": [
-        "SIGNAL LAB",
-        "THE PULSE",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 67,
-      "stage": "STIRRING",
-      "velocity": 78,
-      "novelty": 89,
-      "sourceEdge": 71,
-      "breadth": 51,
-      "evidenceQuality": 71,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "science.slashdot.org"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-22T03:43:39.041Z",
-      "firstSeen": "2026-08-22T03:43:39.041Z",
-      "url": "https://science.slashdot.org/story/26/08/21/0121220/china-is-about-to-launch-its-most-ambitious-moon-mission-yet",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_c9e942d278671131",
-      "title": "Are You Sure You Want a Car With a Giant Touch Screen?",
-      "summary": "RAMageddon could soon push car prices higher as modern vehicles rely on ever more RAM and powerful centralized computers to run everything from infotainment to driver-assistance systems. Analysts cited by The Atlantic estimate the shortage could add a few percentage points to vehicle prices, which might not sound like much, but could potentially translate to around $2,000 on a $50,000 vehicle. The broader shift toward software-heavy vehicles could also make used cars even less affordable. An anonymous reader quotes",
-      "categories": [
-        "SIGNAL LAB",
-        "THE PULSE",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 67,
-      "stage": "STIRRING",
-      "velocity": 78,
-      "novelty": 89,
-      "sourceEdge": 71,
-      "breadth": 51,
-      "evidenceQuality": 71,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "tech.slashdot.org"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-22T03:43:39.041Z",
-      "firstSeen": "2026-08-22T03:43:39.041Z",
-      "url": "https://tech.slashdot.org/story/26/08/20/2030251/are-you-sure-you-want-a-car-with-a-giant-touch-screen",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_58677be2cd4a3711",
-      "title": "China's YouTube Rival Bilibili Is Going Global",
-      "summary": "Bilibili, often described as China's answer to YouTube, is relaunching its international app and preparing an English-language site as part of a broader push into the U.S., Europe, Japan, and other markets. The company is courting Western creators like MrBest, hiring community and moderation staff globally, and building tools for brand partnerships. Semafor reports: The revamped international app no longer requires identity verification -- meaning users can sign up without having to provide a passport or ID documen",
-      "categories": [
-        "SIGNAL LAB",
-        "THE PULSE",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 67,
-      "stage": "STIRRING",
-      "velocity": 78,
-      "novelty": 89,
-      "sourceEdge": 71,
-      "breadth": 51,
-      "evidenceQuality": 71,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "news.slashdot.org"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-22T03:43:39.041Z",
-      "firstSeen": "2026-08-22T03:43:39.041Z",
-      "url": "https://news.slashdot.org/story/26/08/20/208238/chinas-youtube-rival-bilibili-is-going-global",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_4990687b92d5099c",
-      "title": "Township Fights Nuclear Weapons Data Center By Passing a Moratorium on Electrical Infrastructure",
-      "summary": "Ypsilanti Township, Michigan, has imposed a six-month moratorium on \"major electric utility infrastructure\" in its latest attempt to delay a proposed $1.2 billion University of Michigan-Los Alamos data center that would support nuclear-weapons research. Township leaders, who have already paused water service for data centers, say the project has moved forward without adequate consultation and want more time to study noise, grid impacts, and other effects on residents. 404 Media reports: Last year, the university an",
-      "categories": [
-        "SIGNAL LAB",
-        "THE PULSE",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 67,
-      "stage": "STIRRING",
-      "velocity": 78,
-      "novelty": 89,
-      "sourceEdge": 71,
-      "breadth": 51,
-      "evidenceQuality": 71,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "hardware.slashdot.org"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-22T03:43:39.040Z",
-      "firstSeen": "2026-08-22T03:43:39.040Z",
-      "url": "https://hardware.slashdot.org/story/26/08/21/2015213/township-fights-nuclear-weapons-data-center-by-passing-a-moratorium-on-electrical-infrastructure",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_94bb7aaaa18c1af0",
-      "title": "Apple Cuts Jobs In Siri, Vision Pro Immersive Video and Gaming Teams",
-      "summary": "Apple is cutting more than 200 jobs as it shifts resources toward a rebuilt, AI-powered Siri and other future products. Roughly 100 positions are being eliminated from the Vision Pro organization, including much of its gaming team and some immersive-video staff. Another 100 cuts are hitting the Siri and software teams. Bloomberg reports: In a statement, Apple acknowledged that it was realigning some teams \"to evolve our business to deliver the best experiences for our users.\" \"While we will create new roles as part",
-      "categories": [
-        "SIGNAL LAB",
-        "THE PULSE",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 67,
-      "stage": "STIRRING",
-      "velocity": 78,
-      "novelty": 89,
-      "sourceEdge": 71,
-      "breadth": 51,
-      "evidenceQuality": 71,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "apple.slashdot.org"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-22T03:43:39.040Z",
-      "firstSeen": "2026-08-22T03:43:39.040Z",
-      "url": "https://apple.slashdot.org/story/26/08/21/207246/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_5b61b3d6dfb757f0",
-      "title": "American Who Wiped His Phone With 'Duress' Password During Border Search Gets Felony Charges",
-      "summary": "Federal prosecutors have charged activist Samuel Tunick with obstruction after he gave Customs and Border Protection officers a duress passcode that wiped his GrapheneOS-powered Pixel during a border search. \"His prosecution is one of the earliest known instances of the federal authorities charging a person with destroying evidence using a program designed to wipe a device clean after a specific code is entered,\" reports The New York Times. From the report: \"Obstructing federal law enforcement is a serious matter t",
-      "categories": [
-        "SIGNAL LAB",
-        "THE PULSE",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 67,
-      "stage": "STIRRING",
-      "velocity": 78,
-      "novelty": 89,
-      "sourceEdge": 71,
-      "breadth": 51,
-      "evidenceQuality": 71,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "yro.slashdot.org"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-22T03:43:39.040Z",
-      "firstSeen": "2026-08-22T03:43:39.040Z",
-      "url": "https://yro.slashdot.org/story/26/08/21/202201/american-who-wiped-his-phone-with-duress-password-during-border-search-gets-felony-charges",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_84583d75b72ac77b",
-      "title": "Man Dressed As Darth Vader Defends Flock Cameras to San Diego City Council",
-      "summary": "A man dressed as Darth Vader used a Public Safety and Livable Neighborhoods Committee meeting in San Diego to mock the city's use of Flock surveillance cameras, sarcastically arguing that the technology would help the \"emperor\" track \"rebel scum\" and find Luke Skywalker. \"This is what the emperor needs. This technology will help us find the rebel scum and the hidden base on Hoth,\" he said. The Hill reports: He urged that the cameras be used to surveil any \"rebel scum as they move from playground to playground, from",
-      "categories": [
-        "SIGNAL LAB",
-        "THE PULSE",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 67,
-      "stage": "STIRRING",
-      "velocity": 78,
-      "novelty": 89,
-      "sourceEdge": 71,
-      "breadth": 51,
-      "evidenceQuality": 71,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "yro.slashdot.org"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-22T03:43:39.040Z",
-      "firstSeen": "2026-08-22T03:43:39.040Z",
-      "url": "https://yro.slashdot.org/story/26/08/21/1840254/man-dressed-as-darth-vader-defends-flock-cameras-to-san-diego-city-council",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_489cb0387e213232",
-      "title": "China Joins Europe In Scrapping Windows For Linux",
-      "summary": "An anonymous reader quotes a report from ZDNet: According to a Bloomberg report, attributed to China's Ministry of State Security, the country has ordered some government agencies to drop Windows 10 China Government Edition for Chinese-made Linux distributions. Why not Windows 11? Because China, like many other non-US governments, no longer trusts American companies with their software and services. This approach is all about digital sovereignty. In addition, even before the recent trend of governments outside Amer",
-      "categories": [
-        "SIGNAL LAB",
-        "THE PULSE",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 67,
-      "stage": "STIRRING",
-      "velocity": 78,
-      "novelty": 89,
-      "sourceEdge": 71,
-      "breadth": 51,
-      "evidenceQuality": 71,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "linux.slashdot.org"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-22T03:43:39.039Z",
-      "firstSeen": "2026-08-22T03:43:39.039Z",
-      "url": "https://linux.slashdot.org/story/26/08/21/2158246/china-joins-europe-in-scrapping-windows-for-linux",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_7b78a2beefc7702d",
-      "title": "How a Big Bet on Cancer Vaccines Brought Moderna Back from the Brink",
-      "summary": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Moderna's success with personalized cancer vaccine heralds a new era of personalized cancer treatments that mobilize the immune system with vaccines uniquely developed for each patient. &lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &#32; submitted by &#32; &lt;a href=\"https://www.reddit.com/user/JigglymoobsMWO\"&gt; /u/JigglymoobsMWO &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=\"https://www.wsj.com/health/pharma/moderna-cancer-vaccine-3d863ff3?st=vbp7b7&reflink=desk",
-      "categories": [
-        "SIGNAL LAB",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 67,
-      "stage": "STIRRING",
-      "velocity": 78,
+      "velocity": 70,
       "novelty": 89,
       "sourceEdge": 70,
       "breadth": 51,
@@ -1829,16 +1888,72 @@
         "reddit.com"
       ],
       "publisher": "",
-      "publishedAt": "2026-08-22T03:28:39.000Z",
-      "firstSeen": "2026-08-22T03:28:39.000Z",
-      "url": "https://www.reddit.com/r/Futurology/comments/1vv19w8/how_a_big_bet_on_cancer_vaccines_brought_moderna",
+      "publishedAt": "2026-08-21T23:28:09.000Z",
+      "firstSeen": "2026-08-21T23:28:09.000Z",
+      "url": "https://www.reddit.com/r/Futurology/comments/1vuw4ly/not_commonly_discussed_areas_of_future",
       "sourceImage": null,
       "textOnly": false
     },
     {
-      "id": "c_3af0263dd19cc02a",
-      "title": "5 Best Cleansing Oils 2026, Reviewed by Dermatologists & Testers",
-      "summary": "No more morning raccoon eyes.",
+      "id": "c_9afb6099594885da",
+      "title": "Homebrew 68K Machine Has A PCI Bus",
+      "summary": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/zstki6/homebrew_68k_machine_has_pci_bus\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+      "categories": [
+        "SIGNAL LAB",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 64,
+      "stage": "STIRRING",
+      "velocity": 65,
+      "novelty": 89,
+      "sourceEdge": 72,
+      "breadth": 51,
+      "evidenceQuality": 72,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "hackaday.com"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T20:24:46.000Z",
+      "firstSeen": "2026-08-21T20:24:46.000Z",
+      "url": "https://hackaday.com/2026/08/20/homebrew-68k-machine-has-a-pci-bus",
+      "sourceImage": "https://hackaday.com/wp-content/uploads/2026/08/img_20260819_215428_c-e1787210997954.jpg",
+      "textOnly": false
+    },
+    {
+      "id": "c_3e077438c36f3fa9",
+      "title": "Ernest Servantes: 'Chopped' Champion and the 'Pope of BBQ' - foodnetwork.com",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTFBkbGZ0VkQ1R3d1QmJ1Y0lyT3BUTGowQkpVWGpuU3pIa283WmRONkE3dlVYOG9kN01LUVZqUVJsaEEzcUxTNXVqNWpQSUcwcnRCbUVhY1B2T1BSSGF2UEh0YS13YkNqZnp0ZUl6U0ZCNXhSZw?oc=5\" target=\"_blank\"&gt;Ernest Servantes: 'Chopped' Champion and the 'Pope of BBQ'&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;foodnetwork.com&lt;/font&gt;",
+      "categories": [
+        "APPETITE",
+        "IGNITION"
+      ],
+      "primaryCategory": "APPETITE",
+      "score": 64,
+      "stage": "STIRRING",
+      "velocity": 60,
+      "novelty": 89,
+      "sourceEdge": 80,
+      "breadth": 51,
+      "evidenceQuality": 80,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "foodnetwork.com"
+      ],
+      "publisher": "foodnetwork.com",
+      "publishedAt": "2026-08-21T17:21:00.000Z",
+      "firstSeen": "2026-08-21T17:21:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkbGZ0VkQ1R3d1QmJ1Y0lyT3BUTGowQkpVWGpuU3pIa283WmRONkE3dlVYOG9kN01LUVZqUVJsaEEzcUxTNXVqNWpQSUcwcnRCbUVhY1B2T1BSSGF2UEh0YS13YkNqZnp0ZUl6U0ZCNXhSZw?oc=5",
+      "sourceImage": null,
+      "textOnly": false
+    },
+    {
+      "id": "c_7397db514bf70c2d",
+      "title": "7 Best Foot Creams for Dry Heels 2026, Tested and Reviewed",
+      "summary": "From drugstore creams to treatment balms that relieve hard, itchy skin.",
       "categories": [
         "APPETITE",
         "VISUAL CORTEX",
@@ -1847,9 +1962,9 @@
         "OBJECTS OF DESIRE"
       ],
       "primaryCategory": "APPETITE",
-      "score": 67,
+      "score": 64,
       "stage": "STIRRING",
-      "velocity": 64,
+      "velocity": 60,
       "novelty": 89,
       "sourceEdge": 80,
       "breadth": 51,
@@ -1860,10 +1975,10 @@
         "glamour.com"
       ],
       "publisher": "",
-      "publishedAt": "2026-08-21T19:30:24.000Z",
-      "firstSeen": "2026-08-21T19:30:24.000Z",
-      "url": "https://www.glamour.com/gallery/best-cleansing-oil",
-      "sourceImage": "https://media.glamour.com/photos/6a889c351dcc6f299fa08817/master/pass/IMG_4638.jpg",
+      "publishedAt": "2026-08-21T17:07:34.000Z",
+      "firstSeen": "2026-08-21T17:07:34.000Z",
+      "url": "https://www.glamour.com/gallery/best-foot-creams-tested",
+      "sourceImage": "https://media.glamour.com/photos/6a8750d62b7300462eedd7ea/master/pass/08.20_GL_Best%20Foot%20Creams_v1.jpg",
       "textOnly": false
     },
     {
@@ -1878,7 +1993,7 @@
         "EROS INDEX"
       ],
       "primaryCategory": "APPETITE",
-      "score": 67,
+      "score": 64,
       "stage": "STIRRING",
       "velocity": 60,
       "novelty": 89,
@@ -1909,9 +2024,9 @@
         "EROS INDEX"
       ],
       "primaryCategory": "APPETITE",
-      "score": 67,
+      "score": 64,
       "stage": "STIRRING",
-      "velocity": 59,
+      "velocity": 58,
       "novelty": 89,
       "sourceEdge": 84,
       "breadth": 51,
@@ -1929,65 +2044,6 @@
       "textOnly": false
     },
     {
-      "id": "c_3e077438c36f3fa9",
-      "title": "Ernest Servantes: 'Chopped' Champion and the 'Pope of BBQ' - foodnetwork.com",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTFBkbGZ0VkQ1R3d1QmJ1Y0lyT3BUTGowQkpVWGpuU3pIa283WmRONkE3dlVYOG9kN01LUVZqUVJsaEEzcUxTNXVqNWpQSUcwcnRCbUVhY1B2T1BSSGF2UEh0YS13YkNqZnp0ZUl6U0ZCNXhSZw?oc=5\" target=\"_blank\"&gt;Ernest Servantes: 'Chopped' Champion and the 'Pope of BBQ'&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;foodnetwork.com&lt;/font&gt;",
-      "categories": [
-        "APPETITE",
-        "IGNITION"
-      ],
-      "primaryCategory": "APPETITE",
-      "score": 66,
-      "stage": "STIRRING",
-      "velocity": 61,
-      "novelty": 89,
-      "sourceEdge": 80,
-      "breadth": 51,
-      "evidenceQuality": 80,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "foodnetwork.com"
-      ],
-      "publisher": "foodnetwork.com",
-      "publishedAt": "2026-08-21T17:21:00.000Z",
-      "firstSeen": "2026-08-21T17:21:00.000Z",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkbGZ0VkQ1R3d1QmJ1Y0lyT3BUTGowQkpVWGpuU3pIa283WmRONkE3dlVYOG9kN01LUVZqUVJsaEEzcUxTNXVqNWpQSUcwcnRCbUVhY1B2T1BSSGF2UEh0YS13YkNqZnp0ZUl6U0ZCNXhSZw?oc=5",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_7397db514bf70c2d",
-      "title": "7 Best Foot Creams for Dry Heels 2026, Tested and Reviewed",
-      "summary": "From drugstore creams to treatment balms that relieve hard, itchy skin.",
-      "categories": [
-        "APPETITE",
-        "VISUAL CORTEX",
-        "IGNITION",
-        "SOMA",
-        "OBJECTS OF DESIRE"
-      ],
-      "primaryCategory": "APPETITE",
-      "score": 66,
-      "stage": "STIRRING",
-      "velocity": 60,
-      "novelty": 89,
-      "sourceEdge": 80,
-      "breadth": 51,
-      "evidenceQuality": 80,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "glamour.com"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T17:07:34.000Z",
-      "firstSeen": "2026-08-21T17:07:34.000Z",
-      "url": "https://www.glamour.com/gallery/best-foot-creams-tested",
-      "sourceImage": "https://media.glamour.com/photos/6a8750d62b7300462eedd7ea/master/pass/08.20_GL_Best%20Foot%20Creams_v1.jpg",
-      "textOnly": false
-    },
-    {
       "id": "c_ac7c2e842e020436",
       "title": "An All-Time Great Air Jordan Is Finally Returning In Its Purest Possible Form",
       "summary": "The Air Jordan 4 ‘Bred’ is set for a comeback this fall.",
@@ -1999,9 +2055,9 @@
         "EROS INDEX"
       ],
       "primaryCategory": "APPETITE",
-      "score": 66,
+      "score": 64,
       "stage": "STIRRING",
-      "velocity": 56,
+      "velocity": 55,
       "novelty": 89,
       "sourceEdge": 84,
       "breadth": 51,
@@ -2016,307 +2072,6 @@
       "firstSeen": "2026-08-21T14:27:42.000Z",
       "url": "https://www.gq.com/story/air-jordan-4-bred-2026-retro",
       "sourceImage": "https://media.gq.com/photos/6a8859ccdd2271394f3c3f46/master/pass/057-Jordans.jpg",
-      "textOnly": false
-    },
-    {
-      "id": "c_74221ed01c916557",
-      "title": "Connor Storrie’s YSL Campaign Haircut Was Inspired by a ‘70s Punk Rock Legend",
-      "summary": "The Saint Laurent global ambassador’s hairstylist tells GQ the inspiration behind his hair for the fall 2026 campaign—and how you can get the look, too.",
-      "categories": [
-        "APPETITE",
-        "IGNITION",
-        "OBJECTS OF DESIRE",
-        "SOMA",
-        "EROS INDEX"
-      ],
-      "primaryCategory": "APPETITE",
-      "score": 66,
-      "stage": "STIRRING",
-      "velocity": 55,
-      "novelty": 89,
-      "sourceEdge": 84,
-      "breadth": 51,
-      "evidenceQuality": 84,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "gq.com"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T13:49:17.000Z",
-      "firstSeen": "2026-08-21T13:49:17.000Z",
-      "url": "https://www.gq.com/story/connor-storrie-saint-laurent-hairstyle",
-      "sourceImage": "https://media.gq.com/photos/6a87dd4edd2271394f3c30d0/master/pass/SAINT%20LAURENT_TALIA-CHETRIT_FALL26-PT2_25_HR.jpg",
-      "textOnly": false
-    },
-    {
-      "id": "c_3657014d79c31caa",
-      "title": "Could This City-Beach Break be Morocco's Next Big Hit? - National Geographic",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPajB3NHBBUC1STEJadTEzQjFqSDhsYVhxSlpJRUFzMnBBMEFpRnJlQXRMYi1SbGhoVWNCSWpDd2tnU3l2VEFQMzJVeER1WXN5aWtic29EY0NicVhIYkVTd25ZNVFYVGtpTk04VThNS19JVlpPWTdqRnpHeVJFajFqM1g0NVFkR1hZbG9CUlZiY0hZbFN1aGdWRzVSeXF3OHRB?oc=5\" target=\"_blank\"&gt;Could This City-Beach Break be Morocco's Next Big Hit?&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;National Geographic&lt;/font&gt;",
-      "categories": [
-        "TERRA",
-        "SIGNAL LAB",
-        "SOMA",
-        "VERDANT",
-        "THE PULSE"
-      ],
-      "primaryCategory": "TERRA",
-      "score": 66,
-      "stage": "STIRRING",
-      "velocity": 46,
-      "novelty": 89,
-      "sourceEdge": 90,
-      "breadth": 51,
-      "evidenceQuality": 90,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "National Geographic"
-      ],
-      "publisher": "National Geographic",
-      "publishedAt": "2026-08-21T08:38:48.000Z",
-      "firstSeen": "2026-08-21T08:38:48.000Z",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPajB3NHBBUC1STEJadTEzQjFqSDhsYVhxSlpJRUFzMnBBMEFpRnJlQXRMYi1SbGhoVWNCSWpDd2tnU3l2VEFQMzJVeER1WXN5aWtic29EY0NicVhIYkVTd25ZNVFYVGtpTk04VThNS19JVlpPWTdqRnpHeVJFajFqM1g0NVFkR1hZbG9CUlZiY0hZbFN1aGdWRzVSeXF3OHRB?oc=5",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_54a2bfb361bd5fc3",
-      "title": "Europe’s Scorching Summer",
-      "summary": "",
-      "categories": [
-        "TERRA",
-        "SIGNAL LAB"
-      ],
-      "primaryCategory": "TERRA",
-      "score": 66,
-      "stage": "STIRRING",
-      "velocity": 38,
-      "novelty": 89,
-      "sourceEdge": 95,
-      "breadth": 51,
-      "evidenceQuality": 100,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "science.nasa.gov"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T04:01:00.000Z",
-      "firstSeen": "2026-08-21T04:01:00.000Z",
-      "url": "https://science.nasa.gov/earth/europes-scorching-summer",
-      "sourceImage": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/heat-dome-broils-the-western-u-s-/usheatwave_geos5_20260712_th.jpg?fit=clip&#038;crop=faces%2Cfocalpoint&#038;w=300",
-      "textOnly": false
-    },
-    {
-      "id": "c_87333f16139d80fc",
-      "title": "Not commonly discussed areas of future engineering/tech",
-      "summary": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I really love learning about Renewable Energy/Electrification Technology because at heart I am an optimist and I hope to goodness we can figure out how to avoid the worst of the climate crisis and overall environmental crisis points.&lt;/p&gt; &lt;p&gt;There is a lot of talk about automation, robotics, gene editing, and so on for major topics.&lt;/p&gt; &lt;p&gt;Today on uplifting news I was reading about this new \"skin\" being developed that can sense pressure and",
-      "categories": [
-        "SIGNAL LAB",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 65,
-      "stage": "STIRRING",
-      "velocity": 71,
-      "novelty": 89,
-      "sourceEdge": 70,
-      "breadth": 51,
-      "evidenceQuality": 70,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "reddit.com"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T23:28:09.000Z",
-      "firstSeen": "2026-08-21T23:28:09.000Z",
-      "url": "https://www.reddit.com/r/Futurology/comments/1vuw4ly/not_commonly_discussed_areas_of_future",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_354c4117bdbf5c6a",
-      "title": "How Christopher Nolan Helped Create a Beloved Sub-$1,000 Watch",
-      "summary": "12 years after the release of Interstellar, a timepiece designed for the movie boasts a cult following of its own.",
-      "categories": [
-        "APPETITE",
-        "IGNITION",
-        "OBJECTS OF DESIRE",
-        "SOMA",
-        "EROS INDEX"
-      ],
-      "primaryCategory": "APPETITE",
-      "score": 65,
-      "stage": "STIRRING",
-      "velocity": 52,
-      "novelty": 89,
-      "sourceEdge": 84,
-      "breadth": 51,
-      "evidenceQuality": 84,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "gq.com"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T12:01:33.000Z",
-      "firstSeen": "2026-08-21T12:01:33.000Z",
-      "url": "https://www.gq.com/story/hamilton-khaki-field-murph-interstellar-christopher-nolan",
-      "sourceImage": "https://media.gq.com/photos/6a871343808de284b670bd50/master/pass/christopher%20nolan%20watch%20copy.jpg",
-      "textOnly": false
-    },
-    {
-      "id": "c_035b495a527fd9f2",
-      "title": "Can’t a Big Boy Carry a Big, Beautiful Bag?",
-      "summary": "The time has never been better to get a grip on a real-deal handbag.",
-      "categories": [
-        "APPETITE",
-        "IGNITION",
-        "OBJECTS OF DESIRE",
-        "SOMA",
-        "EROS INDEX"
-      ],
-      "primaryCategory": "APPETITE",
-      "score": 65,
-      "stage": "STIRRING",
-      "velocity": 52,
-      "novelty": 89,
-      "sourceEdge": 84,
-      "breadth": 51,
-      "evidenceQuality": 84,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "gq.com"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T12:00:00.000Z",
-      "firstSeen": "2026-08-21T12:00:00.000Z",
-      "url": "https://www.gq.com/story/handbags-for-your-consideration",
-      "sourceImage": "https://media.gq.com/photos/6a8607dd0de25daa697fd128/master/pass/GQ0926_FYC_01_Digital_forWeb.jpg",
-      "textOnly": false
-    },
-    {
-      "id": "c_9afb6099594885da",
-      "title": "Homebrew 68K Machine Has A PCI Bus",
-      "summary": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/zstki6/homebrew_68k_machine_has_pci_bus\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
-      "categories": [
-        "SIGNAL LAB",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 64,
-      "stage": "STIRRING",
-      "velocity": 66,
-      "novelty": 89,
-      "sourceEdge": 72,
-      "breadth": 51,
-      "evidenceQuality": 72,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "hackaday.com"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T20:24:46.000Z",
-      "firstSeen": "2026-08-21T20:24:46.000Z",
-      "url": "https://hackaday.com/2026/08/20/homebrew-68k-machine-has-a-pci-bus",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_b455cb9940e003ce",
-      "title": "WNBA Star Cameron Brink Is My Transitional Style MVP",
-      "summary": "Glamour broke down Cameron Brink’s fall-coded tunnel ’fits so you don’t have to.",
-      "categories": [
-        "APPETITE",
-        "VISUAL CORTEX",
-        "IGNITION",
-        "SOMA",
-        "OBJECTS OF DESIRE"
-      ],
-      "primaryCategory": "APPETITE",
-      "score": 64,
-      "stage": "STIRRING",
-      "velocity": 54,
-      "novelty": 89,
-      "sourceEdge": 80,
-      "breadth": 51,
-      "evidenceQuality": 80,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "glamour.com"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T13:30:00.000Z",
-      "firstSeen": "2026-08-21T13:30:00.000Z",
-      "url": "https://www.glamour.com/story/wnba-cameron-brink-style-how-to-get",
-      "sourceImage": "https://media.glamour.com/photos/6a84c2b2a847e4ac1e5b7f07/master/pass/2289856347",
-      "textOnly": false
-    },
-    {
-      "id": "c_7268691d2c4a5247",
-      "title": "Strawberries and Cream Is Fall’s Sweetest Color Trend",
-      "summary": "From powdery pink to the deepest strawberry red, with shades of cream in between",
-      "categories": [
-        "APPETITE",
-        "VISUAL CORTEX",
-        "IGNITION",
-        "SOMA",
-        "OBJECTS OF DESIRE"
-      ],
-      "primaryCategory": "APPETITE",
-      "score": 64,
-      "stage": "STIRRING",
-      "velocity": 53,
-      "novelty": 89,
-      "sourceEdge": 80,
-      "breadth": 51,
-      "evidenceQuality": 80,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "glamour.com"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T13:01:00.000Z",
-      "firstSeen": "2026-08-21T13:01:00.000Z",
-      "url": "https://www.glamour.com/story/strawberries-and-cream-is-falls-sweetest-color-trend",
-      "sourceImage": "https://media.glamour.com/photos/6a7e143acf954215cfedbb28/master/pass/look%20panna%20e%20fragola.jpg",
-      "textOnly": false
-    },
-    {
-      "id": "c_170c5feacc2e9615",
-      "title": "Does Dressing Your Age Matter? We Asked 5 Stylish Women",
-      "summary": "In a world where your style inspiration can be someone who’s 25 or 75, the old rules around dressing your age are looking increasingly dated. Women in their 20s through 50s weigh in on what they’re actually wearing, buying, and leaving behind.",
-      "categories": [
-        "APPETITE",
-        "VISUAL CORTEX",
-        "IGNITION",
-        "SOMA",
-        "OBJECTS OF DESIRE"
-      ],
-      "primaryCategory": "APPETITE",
-      "score": 64,
-      "stage": "STIRRING",
-      "velocity": 52,
-      "novelty": 89,
-      "sourceEdge": 80,
-      "breadth": 51,
-      "evidenceQuality": 80,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "glamour.com"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T12:00:00.000Z",
-      "firstSeen": "2026-08-21T12:00:00.000Z",
-      "url": "https://www.glamour.com/story/does-dressing-your-age-still-matter",
-      "sourceImage": "https://media.glamour.com/photos/6a87244f5cea3774738d0dfe/master/pass/1%20(3).jpg",
       "textOnly": false
     },
     {
@@ -2348,6 +2103,130 @@
       "textOnly": false
     },
     {
+      "id": "c_74221ed01c916557",
+      "title": "Connor Storrie’s YSL Campaign Haircut Was Inspired by a ‘70s Punk Rock Legend",
+      "summary": "The Saint Laurent global ambassador’s hairstylist tells GQ the inspiration behind his hair for the fall 2026 campaign—and how you can get the look, too.",
+      "categories": [
+        "APPETITE",
+        "IGNITION",
+        "OBJECTS OF DESIRE",
+        "SOMA",
+        "EROS INDEX"
+      ],
+      "primaryCategory": "APPETITE",
+      "score": 63,
+      "stage": "STIRRING",
+      "velocity": 54,
+      "novelty": 89,
+      "sourceEdge": 84,
+      "breadth": 51,
+      "evidenceQuality": 84,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "gq.com"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T13:49:17.000Z",
+      "firstSeen": "2026-08-21T13:49:17.000Z",
+      "url": "https://www.gq.com/story/connor-storrie-saint-laurent-hairstyle",
+      "sourceImage": "https://media.gq.com/photos/6a87dd4edd2271394f3c30d0/master/pass/SAINT%20LAURENT_TALIA-CHETRIT_FALL26-PT2_25_HR.jpg",
+      "textOnly": false
+    },
+    {
+      "id": "c_b455cb9940e003ce",
+      "title": "WNBA Star Cameron Brink Is My Transitional Style MVP",
+      "summary": "Glamour broke down Cameron Brink’s fall-coded tunnel ’fits so you don’t have to.",
+      "categories": [
+        "APPETITE",
+        "VISUAL CORTEX",
+        "IGNITION",
+        "SOMA",
+        "OBJECTS OF DESIRE"
+      ],
+      "primaryCategory": "APPETITE",
+      "score": 63,
+      "stage": "STIRRING",
+      "velocity": 54,
+      "novelty": 89,
+      "sourceEdge": 80,
+      "breadth": 51,
+      "evidenceQuality": 80,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "glamour.com"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T13:30:00.000Z",
+      "firstSeen": "2026-08-21T13:30:00.000Z",
+      "url": "https://www.glamour.com/story/wnba-cameron-brink-style-how-to-get",
+      "sourceImage": "https://media.glamour.com/photos/6a84c2b2a847e4ac1e5b7f07/master/pass/2289856347",
+      "textOnly": false
+    },
+    {
+      "id": "c_354c4117bdbf5c6a",
+      "title": "How Christopher Nolan Helped Create a Beloved Sub-$1,000 Watch",
+      "summary": "12 years after the release of Interstellar, a timepiece designed for the movie boasts a cult following of its own.",
+      "categories": [
+        "APPETITE",
+        "IGNITION",
+        "OBJECTS OF DESIRE",
+        "SOMA",
+        "EROS INDEX"
+      ],
+      "primaryCategory": "APPETITE",
+      "score": 63,
+      "stage": "STIRRING",
+      "velocity": 51,
+      "novelty": 89,
+      "sourceEdge": 84,
+      "breadth": 51,
+      "evidenceQuality": 84,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "gq.com"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T12:01:33.000Z",
+      "firstSeen": "2026-08-21T12:01:33.000Z",
+      "url": "https://www.gq.com/story/hamilton-khaki-field-murph-interstellar-christopher-nolan",
+      "sourceImage": "https://media.gq.com/photos/6a871343808de284b670bd50/master/pass/christopher%20nolan%20watch%20copy.jpg",
+      "textOnly": false
+    },
+    {
+      "id": "c_035b495a527fd9f2",
+      "title": "Can’t a Big Boy Carry a Big, Beautiful Bag?",
+      "summary": "The time has never been better to get a grip on a real-deal handbag.",
+      "categories": [
+        "APPETITE",
+        "IGNITION",
+        "OBJECTS OF DESIRE",
+        "SOMA",
+        "EROS INDEX"
+      ],
+      "primaryCategory": "APPETITE",
+      "score": 63,
+      "stage": "STIRRING",
+      "velocity": 51,
+      "novelty": 89,
+      "sourceEdge": 84,
+      "breadth": 51,
+      "evidenceQuality": 84,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "gq.com"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T12:00:00.000Z",
+      "firstSeen": "2026-08-21T12:00:00.000Z",
+      "url": "https://www.gq.com/story/handbags-for-your-consideration",
+      "sourceImage": "https://media.gq.com/photos/6a8607dd0de25daa697fd128/master/pass/GQ0926_FYC_01_Digital_forWeb.jpg",
+      "textOnly": false
+    },
+    {
       "id": "c_fe6e9540bd68e509",
       "title": "Silicon Valley’s Most Dangerous Innovation",
       "summary": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=\"https://www.reddit.com/r/Futurology/comments/1vumtsa/silicon_valleys_most_dangerous_innovation/\"&gt; &lt;img src=\"https://external-preview.redd.it/6_JIkPvtqnpzXYzH4yTakQC8FEsoEsw0aotVXmYrPGU.jpeg?width=640&crop=smart&auto=webp&s=60743496dd1818f277b57da60e43edf85e1a8190\" alt=\"Silicon Valley’s Most Dangerous Innovation\" title=\"Silicon Valley’s Most Dangerous Innovation\" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt; In a new b",
@@ -2356,9 +2235,9 @@
         "IGNITION"
       ],
       "primaryCategory": "SIGNAL LAB",
-      "score": 63,
+      "score": 62,
       "stage": "STIRRING",
-      "velocity": 61,
+      "velocity": 60,
       "novelty": 89,
       "sourceEdge": 70,
       "breadth": 51,
@@ -2373,34 +2252,6 @@
       "firstSeen": "2026-08-21T17:28:36.000Z",
       "url": "https://www.reddit.com/r/Futurology/comments/1vumtsa/silicon_valleys_most_dangerous_innovation",
       "sourceImage": "https://external-preview.redd.it/6_JIkPvtqnpzXYzH4yTakQC8FEsoEsw0aotVXmYrPGU.jpeg?width=640&crop=smart&auto=webp&s=60743496dd1818f277b57da60e43edf85e1a8190",
-      "textOnly": false
-    },
-    {
-      "id": "c_f844cd46a7b39942",
-      "title": "SmallSat 2026",
-      "summary": "",
-      "categories": [
-        "TERRA",
-        "SIGNAL LAB"
-      ],
-      "primaryCategory": "TERRA",
-      "score": 63,
-      "stage": "STIRRING",
-      "velocity": 25,
-      "novelty": 89,
-      "sourceEdge": 95,
-      "breadth": 51,
-      "evidenceQuality": 100,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "science.nasa.gov"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-20T20:05:41.000Z",
-      "firstSeen": "2026-08-20T20:05:41.000Z",
-      "url": "https://science.nasa.gov/earth/smallsat-2026",
-      "sourceImage": null,
       "textOnly": false
     },
     {
@@ -2428,7 +2279,7 @@
       "publishedAt": "2026-08-21T15:15:16.000Z",
       "firstSeen": "2026-08-21T15:15:16.000Z",
       "url": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly",
-      "sourceImage": null,
+      "sourceImage": "https://www.rust-lang.org/static/images/rust-social-wide.jpg",
       "textOnly": false
     },
     {
@@ -2442,7 +2293,7 @@
       "primaryCategory": "SIGNAL LAB",
       "score": 62,
       "stage": "STIRRING",
-      "velocity": 56,
+      "velocity": 55,
       "novelty": 89,
       "sourceEdge": 72,
       "breadth": 51,
@@ -2457,6 +2308,127 @@
       "firstSeen": "2026-08-21T14:32:54.000Z",
       "url": "https://htmlcat.net/",
       "sourceImage": null,
+      "textOnly": false
+    },
+    {
+      "id": "c_7268691d2c4a5247",
+      "title": "Strawberries and Cream Is Fall’s Sweetest Color Trend",
+      "summary": "From powdery pink to the deepest strawberry red, with shades of cream in between",
+      "categories": [
+        "APPETITE",
+        "VISUAL CORTEX",
+        "IGNITION",
+        "SOMA",
+        "OBJECTS OF DESIRE"
+      ],
+      "primaryCategory": "APPETITE",
+      "score": 62,
+      "stage": "STIRRING",
+      "velocity": 53,
+      "novelty": 89,
+      "sourceEdge": 80,
+      "breadth": 51,
+      "evidenceQuality": 80,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "glamour.com"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T13:01:00.000Z",
+      "firstSeen": "2026-08-21T13:01:00.000Z",
+      "url": "https://www.glamour.com/story/strawberries-and-cream-is-falls-sweetest-color-trend",
+      "sourceImage": "https://media.glamour.com/photos/6a7e143acf954215cfedbb28/master/pass/look%20panna%20e%20fragola.jpg",
+      "textOnly": false
+    },
+    {
+      "id": "c_170c5feacc2e9615",
+      "title": "Does Dressing Your Age Matter? We Asked 5 Stylish Women",
+      "summary": "In a world where your style inspiration can be someone who’s 25 or 75, the old rules around dressing your age are looking increasingly dated. Women in their 20s through 50s weigh in on what they’re actually wearing, buying, and leaving behind.",
+      "categories": [
+        "APPETITE",
+        "VISUAL CORTEX",
+        "IGNITION",
+        "SOMA",
+        "OBJECTS OF DESIRE"
+      ],
+      "primaryCategory": "APPETITE",
+      "score": 62,
+      "stage": "STIRRING",
+      "velocity": 51,
+      "novelty": 89,
+      "sourceEdge": 80,
+      "breadth": 51,
+      "evidenceQuality": 80,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "glamour.com"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T12:00:00.000Z",
+      "firstSeen": "2026-08-21T12:00:00.000Z",
+      "url": "https://www.glamour.com/story/does-dressing-your-age-still-matter",
+      "sourceImage": "https://media.glamour.com/photos/6a87244f5cea3774738d0dfe/master/pass/1%20(3).jpg",
+      "textOnly": false
+    },
+    {
+      "id": "c_3657014d79c31caa",
+      "title": "Could This City-Beach Break be Morocco's Next Big Hit? - National Geographic",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPajB3NHBBUC1STEJadTEzQjFqSDhsYVhxSlpJRUFzMnBBMEFpRnJlQXRMYi1SbGhoVWNCSWpDd2tnU3l2VEFQMzJVeER1WXN5aWtic29EY0NicVhIYkVTd25ZNVFYVGtpTk04VThNS19JVlpPWTdqRnpHeVJFajFqM1g0NVFkR1hZbG9CUlZiY0hZbFN1aGdWRzVSeXF3OHRB?oc=5\" target=\"_blank\"&gt;Could This City-Beach Break be Morocco's Next Big Hit?&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;National Geographic&lt;/font&gt;",
+      "categories": [
+        "TERRA",
+        "SIGNAL LAB",
+        "SOMA",
+        "VERDANT",
+        "THE PULSE"
+      ],
+      "primaryCategory": "TERRA",
+      "score": 62,
+      "stage": "STIRRING",
+      "velocity": 46,
+      "novelty": 89,
+      "sourceEdge": 90,
+      "breadth": 51,
+      "evidenceQuality": 90,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "National Geographic"
+      ],
+      "publisher": "National Geographic",
+      "publishedAt": "2026-08-21T08:38:48.000Z",
+      "firstSeen": "2026-08-21T08:38:48.000Z",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPajB3NHBBUC1STEJadTEzQjFqSDhsYVhxSlpJRUFzMnBBMEFpRnJlQXRMYi1SbGhoVWNCSWpDd2tnU3l2VEFQMzJVeER1WXN5aWtic29EY0NicVhIYkVTd25ZNVFYVGtpTk04VThNS19JVlpPWTdqRnpHeVJFajFqM1g0NVFkR1hZbG9CUlZiY0hZbFN1aGdWRzVSeXF3OHRB?oc=5",
+      "sourceImage": null,
+      "textOnly": false
+    },
+    {
+      "id": "c_54a2bfb361bd5fc3",
+      "title": "Europe’s Scorching Summer",
+      "summary": "",
+      "categories": [
+        "TERRA",
+        "SIGNAL LAB"
+      ],
+      "primaryCategory": "TERRA",
+      "score": 62,
+      "stage": "STIRRING",
+      "velocity": 38,
+      "novelty": 89,
+      "sourceEdge": 95,
+      "breadth": 51,
+      "evidenceQuality": 100,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "science.nasa.gov"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T04:01:00.000Z",
+      "firstSeen": "2026-08-21T04:01:00.000Z",
+      "url": "https://science.nasa.gov/earth/europes-scorching-summer",
+      "sourceImage": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/heat-dome-broils-the-western-u-s-/usheatwave_geos5_20260712_th.jpg?fit=clip&#038;crop=faces%2Cfocalpoint&#038;w=300",
       "textOnly": false
     },
     {
@@ -2498,7 +2470,7 @@
       "primaryCategory": "SIGNAL LAB",
       "score": 61,
       "stage": "STIRRING",
-      "velocity": 54,
+      "velocity": 53,
       "novelty": 89,
       "sourceEdge": 70,
       "breadth": 51,
@@ -2526,7 +2498,7 @@
       "primaryCategory": "SIGNAL LAB",
       "score": 61,
       "stage": "STIRRING",
-      "velocity": 54,
+      "velocity": 53,
       "novelty": 89,
       "sourceEdge": 72,
       "breadth": 51,
@@ -2582,7 +2554,7 @@
       "primaryCategory": "SIGNAL LAB",
       "score": 61,
       "stage": "STIRRING",
-      "velocity": 53,
+      "velocity": 52,
       "novelty": 89,
       "sourceEdge": 72,
       "breadth": 51,
@@ -2600,34 +2572,6 @@
       "textOnly": false
     },
     {
-      "id": "c_5c4ca92e402d4abb",
-      "title": "The road to ACID transactions in Cassandra 6",
-      "summary": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/c9xng0/road_acid_transactions_cassandra_6\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
-      "categories": [
-        "SIGNAL LAB",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 61,
-      "stage": "STIRRING",
-      "velocity": 52,
-      "novelty": 89,
-      "sourceEdge": 72,
-      "breadth": 51,
-      "evidenceQuality": 72,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "theconsensus.dev"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T12:08:34.000Z",
-      "firstSeen": "2026-08-21T12:08:34.000Z",
-      "url": "https://theconsensus.dev/p/2026/08/16/transactions-in-cassandra.html",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
       "id": "c_c7746edace5027ab",
       "title": "Music theory for programmers",
       "summary": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/zcgvtz/music_theory_for_programmers\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
@@ -2638,7 +2582,7 @@
       "primaryCategory": "SIGNAL LAB",
       "score": 61,
       "stage": "STIRRING",
-      "velocity": 52,
+      "velocity": 51,
       "novelty": 89,
       "sourceEdge": 72,
       "breadth": 51,
@@ -2684,115 +2628,59 @@
       "textOnly": false
     },
     {
-      "id": "c_3d5e2f61dee416af",
-      "title": "Artemis Mission Patches",
-      "summary": "",
+      "id": "c_b1ae613eccfbfc3c",
+      "title": "Better Batteries",
+      "summary": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/qxvz7f/better_batteries\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
       "categories": [
-        "TERRA",
-        "SIGNAL LAB"
+        "SIGNAL LAB",
+        "IGNITION"
       ],
-      "primaryCategory": "TERRA",
-      "score": 61,
+      "primaryCategory": "SIGNAL LAB",
+      "score": 59,
       "stage": "STIRRING",
-      "velocity": 17,
+      "velocity": 44,
       "novelty": 89,
-      "sourceEdge": 95,
+      "sourceEdge": 72,
       "breadth": 51,
-      "evidenceQuality": 100,
+      "evidenceQuality": 72,
       "culturalReach": 33,
       "sources": 1,
       "sourceNames": [
-        "nasa.gov"
+        "matklad.github.io"
       ],
       "publisher": "",
-      "publishedAt": "2026-08-20T15:13:51.000Z",
-      "firstSeen": "2026-08-20T15:13:51.000Z",
-      "url": "https://www.nasa.gov/image-article/artemis-mission-patches",
-      "sourceImage": "https://www.nasa.gov/wp-content/uploads/2026/08/ksc-20260806-ph-rcr01-0010orig.jpg?w=2048",
+      "publishedAt": "2026-08-21T07:47:50.000Z",
+      "firstSeen": "2026-08-21T07:47:50.000Z",
+      "url": "https://matklad.github.io/2026/08/20/better-batteries.html",
+      "sourceImage": null,
       "textOnly": false
     },
     {
-      "id": "c_3cd4fc660b43a9bc",
-      "title": "NASA Selects University Teams to Help Advance Aviation Research",
-      "summary": "",
+      "id": "c_038652d591b4ffa4",
+      "title": "Btrfs Snapshot Integration in KDE",
+      "summary": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/umey8v/btrfs_snapshot_integration_kde\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
       "categories": [
-        "TERRA",
-        "SIGNAL LAB"
+        "SIGNAL LAB",
+        "IGNITION"
       ],
-      "primaryCategory": "TERRA",
-      "score": 61,
+      "primaryCategory": "SIGNAL LAB",
+      "score": 59,
       "stage": "STIRRING",
-      "velocity": 16,
+      "velocity": 40,
       "novelty": 89,
-      "sourceEdge": 95,
+      "sourceEdge": 72,
       "breadth": 51,
-      "evidenceQuality": 100,
+      "evidenceQuality": 72,
       "culturalReach": 33,
       "sources": 1,
       "sourceNames": [
-        "nasa.gov"
+        "bharadwajraju.com"
       ],
       "publisher": "",
-      "publishedAt": "2026-08-20T14:57:01.000Z",
-      "firstSeen": "2026-08-20T14:57:01.000Z",
-      "url": "https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research",
-      "sourceImage": "https://www.nasa.gov/wp-content/uploads/2026/08/uli-round-9-awards.jpg?w=1400",
-      "textOnly": false
-    },
-    {
-      "id": "c_6ee510338b8e0c2c",
-      "title": "The View from Above: The Gemini Visual Acuity Experiments",
-      "summary": "",
-      "categories": [
-        "TERRA",
-        "SIGNAL LAB"
-      ],
-      "primaryCategory": "TERRA",
-      "score": 61,
-      "stage": "STIRRING",
-      "velocity": 15,
-      "novelty": 89,
-      "sourceEdge": 95,
-      "breadth": 51,
-      "evidenceQuality": 100,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "nasa.gov"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-20T14:30:00.000Z",
-      "firstSeen": "2026-08-20T14:30:00.000Z",
-      "url": "https://www.nasa.gov/history/the-view-from-above-the-gemini-visual-acuity-experiments",
-      "sourceImage": "https://images-assets.nasa.gov/image/s65-45683/s65-45683~large.jpg?w=1920&h=1920&fit=clip&crop=faces%2Cfocalpoint",
-      "textOnly": false
-    },
-    {
-      "id": "c_e79aef747afa93fa",
-      "title": "NASA Data Feeds River Forecasts as Snow Drought Effects Linger",
-      "summary": "",
-      "categories": [
-        "TERRA",
-        "SIGNAL LAB"
-      ],
-      "primaryCategory": "TERRA",
-      "score": 61,
-      "stage": "STIRRING",
-      "velocity": 15,
-      "novelty": 89,
-      "sourceEdge": 95,
-      "breadth": 51,
-      "evidenceQuality": 100,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "science.nasa.gov"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-20T14:12:09.000Z",
-      "firstSeen": "2026-08-20T14:12:09.000Z",
-      "url": "https://science.nasa.gov/centers-and-facilities/goddard/nasa-river-forecasts-snow-drought",
-      "sourceImage": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/articles/2026/washing_water_extremes2.png?w=3840&#038;h=1920&#038;fit=clip&#038;crop=faces%2Cfocalpoint",
+      "publishedAt": "2026-08-21T05:14:08.000Z",
+      "firstSeen": "2026-08-21T05:14:08.000Z",
+      "url": "https://bharadwajraju.com/posts/btrfs-snapshots-in-kde",
+      "sourceImage": null,
       "textOnly": false
     },
     {
@@ -2804,7 +2692,7 @@
         "IGNITION"
       ],
       "primaryCategory": "SIGNAL LAB",
-      "score": 60,
+      "score": 59,
       "stage": "STIRRING",
       "velocity": 30,
       "novelty": 89,
@@ -2824,31 +2712,87 @@
       "textOnly": false
     },
     {
-      "id": "c_b1ae613eccfbfc3c",
-      "title": "Better Batteries",
-      "summary": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/qxvz7f/better_batteries\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+      "id": "c_f844cd46a7b39942",
+      "title": "SmallSat 2026",
+      "summary": "",
+      "categories": [
+        "TERRA",
+        "SIGNAL LAB"
+      ],
+      "primaryCategory": "TERRA",
+      "score": 59,
+      "stage": "STIRRING",
+      "velocity": 24,
+      "novelty": 89,
+      "sourceEdge": 95,
+      "breadth": 51,
+      "evidenceQuality": 100,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "science.nasa.gov"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-20T20:05:41.000Z",
+      "firstSeen": "2026-08-20T20:05:41.000Z",
+      "url": "https://science.nasa.gov/earth/smallsat-2026",
+      "sourceImage": null,
+      "textOnly": false
+    },
+    {
+      "id": "c_2e6f31f65ea1ee4b",
+      "title": "In China first, project breathes new life into ageing wind turbines",
+      "summary": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=\"https://www.reddit.com/r/Futurology/comments/1vu6sqq/in_china_first_project_breathes_new_life_into/\"&gt; &lt;img src=\"https://external-preview.redd.it/h1s9qJzLATGtJTa3vkBfg2t1MjkTcNNPDxgvivj2lMY.jpeg?width=640&crop=smart&auto=webp&s=062dd7c2b22996cab8699370cd822ec9ddc16b68\" alt=\"In China first, project breathes new life into ageing wind turbines\" title=\"In China first, project breathes new life into ageing wind turbines\" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &#32; sub",
       "categories": [
         "SIGNAL LAB",
         "IGNITION"
       ],
       "primaryCategory": "SIGNAL LAB",
-      "score": 59,
+      "score": 58,
       "stage": "STIRRING",
-      "velocity": 45,
+      "velocity": 39,
       "novelty": 89,
-      "sourceEdge": 72,
+      "sourceEdge": 70,
       "breadth": 51,
-      "evidenceQuality": 72,
+      "evidenceQuality": 70,
       "culturalReach": 33,
       "sources": 1,
       "sourceNames": [
-        "matklad.github.io"
+        "reddit.com"
       ],
       "publisher": "",
-      "publishedAt": "2026-08-21T07:47:50.000Z",
-      "firstSeen": "2026-08-21T07:47:50.000Z",
-      "url": "https://matklad.github.io/2026/08/20/better-batteries.html",
-      "sourceImage": null,
+      "publishedAt": "2026-08-21T05:03:18.000Z",
+      "firstSeen": "2026-08-21T05:03:18.000Z",
+      "url": "https://www.reddit.com/r/Futurology/comments/1vu6sqq/in_china_first_project_breathes_new_life_into",
+      "sourceImage": "https://external-preview.redd.it/h1s9qJzLATGtJTa3vkBfg2t1MjkTcNNPDxgvivj2lMY.jpeg?width=640&crop=smart&auto=webp&s=062dd7c2b22996cab8699370cd822ec9ddc16b68",
+      "textOnly": false
+    },
+    {
+      "id": "c_235ab92cdc39abd6",
+      "title": "El Niño set to be 'strongest in living memory', says Met Office",
+      "summary": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=\"https://www.reddit.com/r/Futurology/comments/1vu65cd/el_niño_set_to_be_strongest_in_living_memory_says/\"&gt; &lt;img src=\"https://external-preview.redd.it/2PsFRkn5yWskLTZvNmnY8qgXYOTOP8LhY1wHhEpN-Ms.jpeg?width=640&crop=smart&auto=webp&s=35b02889f9edec9290af57266c7f997441e5347e\" alt=\"El Niño set to be 'strongest in living memory', says Met Office\" title=\"El Niño set to be 'strongest in living memory', says Met Office\" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &#32; submitt",
+      "categories": [
+        "SIGNAL LAB",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 58,
+      "stage": "STIRRING",
+      "velocity": 39,
+      "novelty": 89,
+      "sourceEdge": 70,
+      "breadth": 51,
+      "evidenceQuality": 70,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "reddit.com"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T04:29:14.000Z",
+      "firstSeen": "2026-08-21T04:29:14.000Z",
+      "url": "https://www.reddit.com/r/Futurology/comments/1vu65cd/el_ni%C3%B1o_set_to_be_strongest_in_living_memory_says",
+      "sourceImage": "https://external-preview.redd.it/2PsFRkn5yWskLTZvNmnY8qgXYOTOP8LhY1wHhEpN-Ms.jpeg?width=640&crop=smart&auto=webp&s=35b02889f9edec9290af57266c7f997441e5347e",
       "textOnly": false
     },
     {
@@ -2860,7 +2804,7 @@
         "IGNITION"
       ],
       "primaryCategory": "APPETITE",
-      "score": 59,
+      "score": 58,
       "stage": "STIRRING",
       "velocity": 33,
       "novelty": 89,
@@ -2891,7 +2835,7 @@
         "EROS INDEX"
       ],
       "primaryCategory": "APPETITE",
-      "score": 59,
+      "score": 58,
       "stage": "STIRRING",
       "velocity": 27,
       "novelty": 89,
@@ -2922,9 +2866,9 @@
         "EROS INDEX"
       ],
       "primaryCategory": "APPETITE",
-      "score": 59,
+      "score": 58,
       "stage": "STIRRING",
-      "velocity": 27,
+      "velocity": 26,
       "novelty": 89,
       "sourceEdge": 84,
       "breadth": 51,
@@ -2953,9 +2897,9 @@
         "EROS INDEX"
       ],
       "primaryCategory": "APPETITE",
-      "score": 59,
+      "score": 58,
       "stage": "STIRRING",
-      "velocity": 27,
+      "velocity": 26,
       "novelty": 89,
       "sourceEdge": 84,
       "breadth": 51,
@@ -2973,6 +2917,90 @@
       "textOnly": false
     },
     {
+      "id": "c_3d5e2f61dee416af",
+      "title": "Artemis Mission Patches",
+      "summary": "",
+      "categories": [
+        "TERRA",
+        "SIGNAL LAB"
+      ],
+      "primaryCategory": "TERRA",
+      "score": 58,
+      "stage": "STIRRING",
+      "velocity": 16,
+      "novelty": 89,
+      "sourceEdge": 95,
+      "breadth": 51,
+      "evidenceQuality": 100,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "nasa.gov"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-20T15:13:51.000Z",
+      "firstSeen": "2026-08-20T15:13:51.000Z",
+      "url": "https://www.nasa.gov/image-article/artemis-mission-patches",
+      "sourceImage": "https://www.nasa.gov/wp-content/uploads/2026/08/ksc-20260806-ph-rcr01-0010orig.jpg?w=2048",
+      "textOnly": false
+    },
+    {
+      "id": "c_3cd4fc660b43a9bc",
+      "title": "NASA Selects University Teams to Help Advance Aviation Research",
+      "summary": "",
+      "categories": [
+        "TERRA",
+        "SIGNAL LAB"
+      ],
+      "primaryCategory": "TERRA",
+      "score": 58,
+      "stage": "STIRRING",
+      "velocity": 16,
+      "novelty": 89,
+      "sourceEdge": 95,
+      "breadth": 51,
+      "evidenceQuality": 100,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "nasa.gov"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-20T14:57:01.000Z",
+      "firstSeen": "2026-08-20T14:57:01.000Z",
+      "url": "https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research",
+      "sourceImage": "https://www.nasa.gov/wp-content/uploads/2026/08/uli-round-9-awards.jpg?w=1400",
+      "textOnly": false
+    },
+    {
+      "id": "c_1f9a032d1b91f4b5",
+      "title": "Announcing Rust 1.98.0",
+      "summary": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/hbjeir/announcing_rust_1_98_0\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+      "categories": [
+        "SIGNAL LAB",
+        "IGNITION"
+      ],
+      "primaryCategory": "SIGNAL LAB",
+      "score": 57,
+      "stage": "WHISPER",
+      "velocity": 32,
+      "novelty": 89,
+      "sourceEdge": 72,
+      "breadth": 51,
+      "evidenceQuality": 72,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "blog.rust-lang.org"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-21T00:38:21.000Z",
+      "firstSeen": "2026-08-21T00:38:21.000Z",
+      "url": "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0",
+      "sourceImage": null,
+      "textOnly": false
+    },
+    {
       "id": "c_1e616cff37f6818b",
       "title": "Reacher Season 4]]>",
       "summary": "We know you don’t want to miss an episode—and we’re here to make sure that doesn’t happen. ]]>",
@@ -2983,9 +3011,9 @@
         "OBJECTS OF DESIRE"
       ],
       "primaryCategory": "SOMA",
-      "score": 59,
-      "stage": "STIRRING",
-      "velocity": 24,
+      "score": 57,
+      "stage": "WHISPER",
+      "velocity": 23,
       "novelty": 89,
       "sourceEdge": 86,
       "breadth": 51,
@@ -3013,9 +3041,9 @@
         "OBJECTS OF DESIRE"
       ],
       "primaryCategory": "SOMA",
-      "score": 59,
-      "stage": "STIRRING",
-      "velocity": 24,
+      "score": 57,
+      "stage": "WHISPER",
+      "velocity": 23,
       "novelty": 89,
       "sourceEdge": 86,
       "breadth": 51,
@@ -3033,59 +3061,34 @@
       "textOnly": false
     },
     {
-      "id": "c_038652d591b4ffa4",
-      "title": "Btrfs Snapshot Integration in KDE",
-      "summary": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/umey8v/btrfs_snapshot_integration_kde\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+      "id": "c_689852bdec18ec78",
+      "title": "7 Best Tummy-Control Swimsuits That Actually Smooth 2026",
+      "summary": "Without making you feel overly squeezed",
       "categories": [
-        "SIGNAL LAB",
-        "IGNITION"
+        "APPETITE",
+        "VISUAL CORTEX",
+        "IGNITION",
+        "SOMA",
+        "OBJECTS OF DESIRE"
       ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 58,
-      "stage": "STIRRING",
-      "velocity": 40,
+      "primaryCategory": "APPETITE",
+      "score": 57,
+      "stage": "WHISPER",
+      "velocity": 23,
       "novelty": 89,
-      "sourceEdge": 72,
+      "sourceEdge": 80,
       "breadth": 51,
-      "evidenceQuality": 72,
+      "evidenceQuality": 80,
       "culturalReach": 33,
       "sources": 1,
       "sourceNames": [
-        "bharadwajraju.com"
+        "glamour.com"
       ],
       "publisher": "",
-      "publishedAt": "2026-08-21T05:14:08.000Z",
-      "firstSeen": "2026-08-21T05:14:08.000Z",
-      "url": "https://bharadwajraju.com/posts/btrfs-snapshots-in-kde",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_2e6f31f65ea1ee4b",
-      "title": "In China first, project breathes new life into ageing wind turbines",
-      "summary": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=\"https://www.reddit.com/r/Futurology/comments/1vu6sqq/in_china_first_project_breathes_new_life_into/\"&gt; &lt;img src=\"https://external-preview.redd.it/h1s9qJzLATGtJTa3vkBfg2t1MjkTcNNPDxgvivj2lMY.jpeg?width=640&crop=smart&auto=webp&s=062dd7c2b22996cab8699370cd822ec9ddc16b68\" alt=\"In China first, project breathes new life into ageing wind turbines\" title=\"In China first, project breathes new life into ageing wind turbines\" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &#32; sub",
-      "categories": [
-        "SIGNAL LAB",
-        "IGNITION"
-      ],
-      "primaryCategory": "SIGNAL LAB",
-      "score": 58,
-      "stage": "STIRRING",
-      "velocity": 40,
-      "novelty": 89,
-      "sourceEdge": 70,
-      "breadth": 51,
-      "evidenceQuality": 70,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "reddit.com"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-21T05:03:18.000Z",
-      "firstSeen": "2026-08-21T05:03:18.000Z",
-      "url": "https://www.reddit.com/r/Futurology/comments/1vu6sqq/in_china_first_project_breathes_new_life_into",
-      "sourceImage": "https://external-preview.redd.it/h1s9qJzLATGtJTa3vkBfg2t1MjkTcNNPDxgvivj2lMY.jpeg?width=640&crop=smart&auto=webp&s=062dd7c2b22996cab8699370cd822ec9ddc16b68",
+      "publishedAt": "2026-08-20T19:25:23.000Z",
+      "firstSeen": "2026-08-20T19:25:23.000Z",
+      "url": "https://www.glamour.com/gallery/tummy-control-swimsuits",
+      "sourceImage": "https://media.glamour.com/photos/6a86026d599cc9bf54b914b6/master/pass/08.11_GL_Best%20Tummy%20Control%20Swimsuits_v2.jpg",
       "textOnly": false
     },
     {
@@ -3100,9 +3103,9 @@
         "EROS INDEX"
       ],
       "primaryCategory": "APPETITE",
-      "score": 58,
-      "stage": "STIRRING",
-      "velocity": 22,
+      "score": 57,
+      "stage": "WHISPER",
+      "velocity": 21,
       "novelty": 89,
       "sourceEdge": 84,
       "breadth": 51,
@@ -3131,9 +3134,9 @@
         "EROS INDEX"
       ],
       "primaryCategory": "APPETITE",
-      "score": 58,
-      "stage": "STIRRING",
-      "velocity": 22,
+      "score": 57,
+      "stage": "WHISPER",
+      "velocity": 21,
       "novelty": 89,
       "sourceEdge": 84,
       "breadth": 51,
@@ -3162,8 +3165,8 @@
         "EROS INDEX"
       ],
       "primaryCategory": "APPETITE",
-      "score": 58,
-      "stage": "STIRRING",
+      "score": 57,
+      "stage": "WHISPER",
       "velocity": 21,
       "novelty": 89,
       "sourceEdge": 84,
@@ -3182,17 +3185,73 @@
       "textOnly": false
     },
     {
-      "id": "c_235ab92cdc39abd6",
-      "title": "El Niño set to be 'strongest in living memory', says Met Office",
-      "summary": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=\"https://www.reddit.com/r/Futurology/comments/1vu65cd/el_niño_set_to_be_strongest_in_living_memory_says/\"&gt; &lt;img src=\"https://external-preview.redd.it/2PsFRkn5yWskLTZvNmnY8qgXYOTOP8LhY1wHhEpN-Ms.jpeg?width=640&crop=smart&auto=webp&s=35b02889f9edec9290af57266c7f997441e5347e\" alt=\"El Niño set to be 'strongest in living memory', says Met Office\" title=\"El Niño set to be 'strongest in living memory', says Met Office\" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &#32; submitt",
+      "id": "c_6ee510338b8e0c2c",
+      "title": "The View from Above: The Gemini Visual Acuity Experiments",
+      "summary": "",
+      "categories": [
+        "TERRA",
+        "SIGNAL LAB"
+      ],
+      "primaryCategory": "TERRA",
+      "score": 57,
+      "stage": "WHISPER",
+      "velocity": 15,
+      "novelty": 89,
+      "sourceEdge": 95,
+      "breadth": 51,
+      "evidenceQuality": 100,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "nasa.gov"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-20T14:30:00.000Z",
+      "firstSeen": "2026-08-20T14:30:00.000Z",
+      "url": "https://www.nasa.gov/history/the-view-from-above-the-gemini-visual-acuity-experiments",
+      "sourceImage": "https://images-assets.nasa.gov/image/s65-45683/s65-45683~large.jpg?w=1920&h=1920&fit=clip&crop=faces%2Cfocalpoint",
+      "textOnly": false
+    },
+    {
+      "id": "c_e79aef747afa93fa",
+      "title": "NASA Data Feeds River Forecasts as Snow Drought Effects Linger",
+      "summary": "",
+      "categories": [
+        "TERRA",
+        "SIGNAL LAB"
+      ],
+      "primaryCategory": "TERRA",
+      "score": 57,
+      "stage": "WHISPER",
+      "velocity": 15,
+      "novelty": 89,
+      "sourceEdge": 95,
+      "breadth": 51,
+      "evidenceQuality": 100,
+      "culturalReach": 33,
+      "sources": 1,
+      "sourceNames": [
+        "science.nasa.gov"
+      ],
+      "publisher": "",
+      "publishedAt": "2026-08-20T14:12:09.000Z",
+      "firstSeen": "2026-08-20T14:12:09.000Z",
+      "url": "https://science.nasa.gov/centers-and-facilities/goddard/nasa-river-forecasts-snow-drought",
+      "sourceImage": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/articles/2026/washing_water_extremes2.png?w=3840&#038;h=1920&#038;fit=clip&#038;crop=faces%2Cfocalpoint",
+      "textOnly": false
+    },
+    {
+      "id": "c_ab8bb4d9d2e4c4b8",
+      "title": "China seems on the verge of commercializing reusable rockets, after a second firm successfully recovers a rocket.",
+      "summary": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;&lt;em&gt;\"LandSpace joins CASC in successfully recovering an orbital booster, and the company says the mission means it moves from the recovery technology verification phase to engineering-scale reuse verification.\"&lt;/em&gt;&lt;/p&gt; &lt;p&gt;Significantly, this is with a stainless steel body and methane-liquid oxygen engines, different choices than the Falcon 9. How soon from where CASC and LandSpace are now to frequent and readily available flights? If they ",
       "categories": [
         "SIGNAL LAB",
         "IGNITION"
       ],
       "primaryCategory": "SIGNAL LAB",
-      "score": 57,
+      "score": 56,
       "stage": "WHISPER",
-      "velocity": 39,
+      "velocity": 29,
       "novelty": 89,
       "sourceEdge": 70,
       "breadth": 51,
@@ -3203,41 +3262,10 @@
         "reddit.com"
       ],
       "publisher": "",
-      "publishedAt": "2026-08-21T04:29:14.000Z",
-      "firstSeen": "2026-08-21T04:29:14.000Z",
-      "url": "https://www.reddit.com/r/Futurology/comments/1vu65cd/el_ni%C3%B1o_set_to_be_strongest_in_living_memory_says",
-      "sourceImage": "https://external-preview.redd.it/2PsFRkn5yWskLTZvNmnY8qgXYOTOP8LhY1wHhEpN-Ms.jpeg?width=640&crop=smart&auto=webp&s=35b02889f9edec9290af57266c7f997441e5347e",
-      "textOnly": false
-    },
-    {
-      "id": "c_689852bdec18ec78",
-      "title": "7 Best Tummy-Control Swimsuits That Actually Smooth 2026",
-      "summary": "Without making you feel overly squeezed",
-      "categories": [
-        "APPETITE",
-        "VISUAL CORTEX",
-        "IGNITION",
-        "SOMA",
-        "OBJECTS OF DESIRE"
-      ],
-      "primaryCategory": "APPETITE",
-      "score": 57,
-      "stage": "WHISPER",
-      "velocity": 24,
-      "novelty": 89,
-      "sourceEdge": 80,
-      "breadth": 51,
-      "evidenceQuality": 80,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "glamour.com"
-      ],
-      "publisher": "",
-      "publishedAt": "2026-08-20T19:25:23.000Z",
-      "firstSeen": "2026-08-20T19:25:23.000Z",
-      "url": "https://www.glamour.com/gallery/tummy-control-swimsuits",
-      "sourceImage": "https://media.glamour.com/photos/6a86026d599cc9bf54b914b6/master/pass/08.11_GL_Best%20Tummy%20Control%20Swimsuits_v2.jpg",
+      "publishedAt": "2026-08-20T22:57:11.000Z",
+      "firstSeen": "2026-08-20T22:57:11.000Z",
+      "url": "https://www.reddit.com/r/Futurology/comments/1vtyvvn/china_seems_on_the_verge_of_commercializing",
+      "sourceImage": null,
       "textOnly": false
     },
     {
@@ -3252,7 +3280,7 @@
         "OBJECTS OF DESIRE"
       ],
       "primaryCategory": "APPETITE",
-      "score": 57,
+      "score": 56,
       "stage": "WHISPER",
       "velocity": 23,
       "novelty": 89,
@@ -3272,281 +3300,218 @@
       "textOnly": false
     },
     {
-      "id": "c_5312c2564b5a3a2d",
-      "title": "The Sun’s Magnetic Field is Behaving Oddly. Astronomers Still Don’t Know Why. - National Geographic",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPdV93N2JCbHZEVzNjZGh5ZTZRdnhCa3NONG5MdWhMQTRNSnQ2NXd6bGl0bkp6NDZOTWpDSmtBSmlia0tKVWVjMUx1SS1EZF84MjQ4UTUzQjRjQ2F6S1dDVkpwVVR4WlB1YXM3WVhwUjRjM1hRN0VXbG5uek9kZ1hhWm1MWkdIcm1hVzJuWFNvQmtwaXRxQ0hZR1BySQ?oc=5\" target=\"_blank\"&gt;The Sun’s Magnetic Field is Behaving Oddly. Astronomers Still Don’t Know Why.&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;National Geographic&lt;/font&gt;",
+      "id": "c_91e714237794f837",
+      "title": "Michael Symon’s Chicken Dinner Is So Easy, I Know It by Heart - Allrecipes",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPOVpjWk9xaFNSU1FHR21ibXdSRGFCT1ZYV09iUHZkbXB0MkpkUVdaTXBldDctNk5UdUJDY0E2eTdVZHVRNHFGN0w1Z0VXN2liVWcyaEdTZWhPT1ZuSWk4eDI2VEszVzBJemtoTWpkSXpRTzEzZ0xFTHRwNlJHZXFkejZpOA?oc=5\" target=\"_blank\"&gt;Michael Symon’s Chicken Dinner Is So Easy, I Know It by Heart&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Allrecipes&lt;/font&gt;",
       "categories": [
-        "TERRA",
-        "SIGNAL LAB",
-        "SOMA",
-        "VERDANT",
-        "THE PULSE"
+        "APPETITE"
       ],
-      "primaryCategory": "TERRA",
-      "score": 57,
+      "primaryCategory": "APPETITE",
+      "score": 56,
       "stage": "WHISPER",
-      "velocity": 10,
+      "velocity": 23,
       "novelty": 89,
-      "sourceEdge": 90,
+      "sourceEdge": 78,
       "breadth": 51,
-      "evidenceQuality": 90,
+      "evidenceQuality": 78,
       "culturalReach": 33,
       "sources": 1,
       "sourceNames": [
-        "National Geographic"
+        "Allrecipes"
       ],
-      "publisher": "National Geographic",
-      "publishedAt": "2026-08-20T11:04:32.000Z",
-      "firstSeen": "2026-08-20T11:04:32.000Z",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdV93N2JCbHZEVzNjZGh5ZTZRdnhCa3NONG5MdWhMQTRNSnQ2NXd6bGl0bkp6NDZOTWpDSmtBSmlia0tKVWVjMUx1SS1EZF84MjQ4UTUzQjRjQ2F6S1dDVkpwVVR4WlB1YXM3WVhwUjRjM1hRN0VXbG5uek9kZ1hhWm1MWkdIcm1hVzJuWFNvQmtwaXRxQ0hZR1BySQ?oc=5",
+      "publisher": "Allrecipes",
+      "publishedAt": "2026-08-20T19:00:00.000Z",
+      "firstSeen": "2026-08-20T19:00:00.000Z",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOVpjWk9xaFNSU1FHR21ibXdSRGFCT1ZYV09iUHZkbXB0MkpkUVdaTXBldDctNk5UdUJDY0E2eTdVZHVRNHFGN0w1Z0VXN2liVWcyaEdTZWhPT1ZuSWk4eDI2VEszVzBJemtoTWpkSXpRTzEzZ0xFTHRwNlJHZXFkejZpOA?oc=5",
       "sourceImage": null,
       "textOnly": false
     },
     {
-      "id": "c_42f74908d6851f48",
-      "title": "The Surprising History of Loco Moco - National Geographic",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOZWZRbEd6NEtYNWVoMm1URzhQNEt1UHZiMGFVSUtHQldYNXJ6dnU0YVZjdFJUSkhHNWRvanBpYWo1RkpFVGhRMlBpMEx1OGx6T1AyeEJ3ODZiMjlhN1drUjNLWlBVdHpDNnJJcnlhTEhsck1oazU3aVFucDhjd1lobnlHZ2ZzOFk?oc=5\" target=\"_blank\"&gt;The Surprising History of Loco Moco&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;National Geographic&lt;/font&gt;",
+      "id": "c_2eca83ff26a26e64",
+      "title": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation",
+      "summary": "Personalized interpretation of medical reports has emerged as an increasingly important need among patients. Addressing this need requires both evidence-grounded medical factuality and context-dependent patient communication, yet existing medical vision-language tasks do not adequately capture these dual requirements. To bridge this gap, we introduce Patient-oriented Medical Report Interpretation (PMRI), a novel open-ended multimodal generation task that requires models to explain medical reports in accurate and ac",
       "categories": [
-        "TERRA",
-        "SIGNAL LAB",
-        "SOMA",
-        "VERDANT",
-        "THE PULSE"
+        "SIGNAL LAB"
       ],
-      "primaryCategory": "TERRA",
-      "score": 57,
+      "primaryCategory": "SIGNAL LAB",
+      "score": 56,
       "stage": "WHISPER",
-      "velocity": 10,
+      "velocity": 21,
       "novelty": 89,
-      "sourceEdge": 90,
+      "sourceEdge": 78,
       "breadth": 51,
-      "evidenceQuality": 90,
+      "evidenceQuality": 78,
       "culturalReach": 33,
       "sources": 1,
       "sourceNames": [
-        "National Geographic"
+        "arxiv.org"
       ],
-      "publisher": "National Geographic",
-      "publishedAt": "2026-08-20T11:04:32.000Z",
-      "firstSeen": "2026-08-20T11:04:32.000Z",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZWZRbEd6NEtYNWVoMm1URzhQNEt1UHZiMGFVSUtHQldYNXJ6dnU0YVZjdFJUSkhHNWRvanBpYWo1RkpFVGhRMlBpMEx1OGx6T1AyeEJ3ODZiMjlhN1drUjNLWlBVdHpDNnJJcnlhTEhsck1oazU3aVFucDhjd1lobnlHZ2ZzOFk?oc=5",
+      "publisher": "",
+      "publishedAt": "2026-08-20T17:59:46.000Z",
+      "firstSeen": "2026-08-20T17:59:46.000Z",
+      "url": "https://arxiv.org/abs/2608.20331v1",
       "sourceImage": null,
       "textOnly": false
     },
     {
-      "id": "c_09802ac868060c92",
-      "title": "How Losing Just an Hour of Sleep a Night Could Affect Your Weight - National Geographic",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPcmN4UjJZeWU1NzJRc1NJWVZVM0pxRTdVc2lOZTg3U3FJX2dWU1hidk9XajdXRnE2c0M1ZXFRdFN1bzVxTGE2QUh3cXZIQlpLQ00xREdNOGxQc1lfRUZNam1zX0NXOUNCWGdYTzdoSVpUd09vcTA1WktLMU1hWnpxd0U4eWp0RjFVZ01JcHpB?oc=5\" target=\"_blank\"&gt;How Losing Just an Hour of Sleep a Night Could Affect Your Weight&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;National Geographic&lt;/font&gt;",
+      "id": "c_b26d3583227c3d1e",
+      "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
+      "summary": "Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workflow integrating conversational data collection, structured data processing, and behavioral prediction. A chatbot-administered, image-augmented stated-preference survey collected mode choices from student commuters across five predefined weather scenarios, yielding 454 respondent-scenario observations. Weather-related as",
       "categories": [
-        "TERRA",
-        "SIGNAL LAB",
-        "SOMA",
-        "VERDANT",
-        "THE PULSE"
+        "SIGNAL LAB"
       ],
-      "primaryCategory": "TERRA",
-      "score": 57,
+      "primaryCategory": "SIGNAL LAB",
+      "score": 56,
       "stage": "WHISPER",
-      "velocity": 8,
+      "velocity": 21,
       "novelty": 89,
-      "sourceEdge": 90,
+      "sourceEdge": 78,
       "breadth": 51,
-      "evidenceQuality": 90,
+      "evidenceQuality": 78,
       "culturalReach": 33,
       "sources": 1,
       "sourceNames": [
-        "National Geographic"
+        "arxiv.org"
       ],
-      "publisher": "National Geographic",
-      "publishedAt": "2026-08-19T11:05:06.000Z",
-      "firstSeen": "2026-08-19T11:05:06.000Z",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcmN4UjJZeWU1NzJRc1NJWVZVM0pxRTdVc2lOZTg3U3FJX2dWU1hidk9XajdXRnE2c0M1ZXFRdFN1bzVxTGE2QUh3cXZIQlpLQ00xREdNOGxQc1lfRUZNam1zX0NXOUNCWGdYTzdoSVpUd09vcTA1WktLMU1hWnpxd0U4eWp0RjFVZ01JcHpB?oc=5",
+      "publisher": "",
+      "publishedAt": "2026-08-20T17:57:42.000Z",
+      "firstSeen": "2026-08-20T17:57:42.000Z",
+      "url": "https://arxiv.org/abs/2608.20320v1",
       "sourceImage": null,
       "textOnly": false
     },
     {
-      "id": "c_dead2bbe354aaeed",
-      "title": "Exclusive Survey Shows What Americans Would Give Up for a Longer Life - National Geographic",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOdWdFOTFUQmRvLUZ1c2FCSGdkNGVjTzZvei1VNWw2QlotWTU3cHRMUUpOUWNmeWp1MnhIM0ZkSnpfNHRnaVF5Ty0zQzFjRE5Gb0ZiLUtfcFItSTg5RU41R29meDVlZmZwdHFERWVlMWl1VnlPQ2VNQUFxTnlwcy1YZ0FqX0hEdDRZWXc?oc=5\" target=\"_blank\"&gt;Exclusive Survey Shows What Americans Would Give Up for a Longer Life&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;National Geographic&lt;/font&gt;",
+      "id": "c_8ea0d2a37896b1fc",
+      "title": "Inducing Task Models from Computer-Use Traces",
+      "summary": "Naturalistic computer-use traces, passively recorded screenshots and mouse or keyboard actions, are a valuable resource for deriving symbolic, auditable, and reusable models of how everyday work is done. Such models matter as computer-use agents enter real work, where agents need to learn how tasks are actually performed, and organizations need to audit and reuse that knowledge. However, inducing such task models is challenging, as activity is observed only as low-level events and real-world work is multi-threaded ",
       "categories": [
-        "TERRA",
-        "SIGNAL LAB",
-        "SOMA",
-        "VERDANT",
-        "THE PULSE"
+        "SIGNAL LAB"
       ],
-      "primaryCategory": "TERRA",
-      "score": 57,
+      "primaryCategory": "SIGNAL LAB",
+      "score": 56,
       "stage": "WHISPER",
-      "velocity": 8,
+      "velocity": 21,
       "novelty": 89,
-      "sourceEdge": 90,
+      "sourceEdge": 78,
       "breadth": 51,
-      "evidenceQuality": 90,
+      "evidenceQuality": 78,
       "culturalReach": 33,
       "sources": 1,
       "sourceNames": [
-        "National Geographic"
+        "arxiv.org"
       ],
-      "publisher": "National Geographic",
-      "publishedAt": "2026-08-18T21:23:43.000Z",
-      "firstSeen": "2026-08-18T21:23:43.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdWdFOTFUQmRvLUZ1c2FCSGdkNGVjTzZvei1VNWw2QlotWTU3cHRMUUpOUWNmeWp1MnhIM0ZkSnpfNHRnaVF5Ty0zQzFjRE5Gb0ZiLUtfcFItSTg5RU41R29meDVlZmZwdHFERWVlMWl1VnlPQ2VNQUFxTnlwcy1YZ0FqX0hEdDRZWXc?oc=5",
+      "publisher": "",
+      "publishedAt": "2026-08-20T17:57:00.000Z",
+      "firstSeen": "2026-08-20T17:57:00.000Z",
+      "url": "https://arxiv.org/abs/2608.20319v1",
       "sourceImage": null,
       "textOnly": false
     },
     {
-      "id": "c_ecdc4491f4ec7364",
-      "title": "The Future of Space Travel Could Come Down to This Potato - National Geographic",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQWUlPdHdSZktDYTJHTl91MjhkYWRGOHJYNS0yamt2S2xkLUlNZ2dkRWEwSmpGSlNxTnp5aGJFUzZTcDI0dzVmNFJrMmo0T0t4eFNVVHRUVXYtbWw0aXBhTXVncFZlS3VnWDRWOS1EOF9zSFA5NkhTZnllYWtwYXVKS001OGpiWlZKNzluazlOb0hvUQ?oc=5\" target=\"_blank\"&gt;The Future of Space Travel Could Come Down to This Potato&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;National Geographic&lt;/font&gt;",
+      "id": "c_7957e9f8b24a9f21",
+      "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+      "summary": "Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or update rule improves the compute\\mbox{-}capability exchange rate for every subsequent run, including the one that produces the next agent. Whether RSI is feasible therefore turns on whether an agent can design training algorithms. No benchmark isolates that ability: existing suites are won by colle",
       "categories": [
-        "TERRA",
-        "SIGNAL LAB",
-        "SOMA",
-        "VERDANT",
-        "THE PULSE"
+        "SIGNAL LAB"
       ],
-      "primaryCategory": "TERRA",
-      "score": 57,
+      "primaryCategory": "SIGNAL LAB",
+      "score": 56,
       "stage": "WHISPER",
-      "velocity": 8,
+      "velocity": 21,
       "novelty": 89,
-      "sourceEdge": 90,
+      "sourceEdge": 78,
       "breadth": 51,
-      "evidenceQuality": 90,
+      "evidenceQuality": 78,
       "culturalReach": 33,
       "sources": 1,
       "sourceNames": [
-        "National Geographic"
+        "arxiv.org"
       ],
-      "publisher": "National Geographic",
-      "publishedAt": "2026-08-18T15:17:34.000Z",
-      "firstSeen": "2026-08-18T15:17:34.000Z",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWUlPdHdSZktDYTJHTl91MjhkYWRGOHJYNS0yamt2S2xkLUlNZ2dkRWEwSmpGSlNxTnp5aGJFUzZTcDI0dzVmNFJrMmo0T0t4eFNVVHRUVXYtbWw0aXBhTXVncFZlS3VnWDRWOS1EOF9zSFA5NkhTZnllYWtwYXVKS001OGpiWlZKNzluazlOb0hvUQ?oc=5",
+      "publisher": "",
+      "publishedAt": "2026-08-20T17:56:59.000Z",
+      "firstSeen": "2026-08-20T17:56:59.000Z",
+      "url": "https://arxiv.org/abs/2608.20318v1",
       "sourceImage": null,
       "textOnly": false
     },
     {
-      "id": "c_23fdee800de5e0d4",
-      "title": "Walk the Streets of Panama City Like a Local—Here's How - National Geographic",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNWURlNk5mVGw5c3ZZa2NxajZvYUZwOERjWFF6WGRqcllQWVpqa3ZpMHlJU1Q1eEhoR1ZMSFA3SVhjLXd2T2xmaE1RY1FTRkZxUFkwb2N3R0lCb1YydklnUE1QemNBdkJnMzl5bE00RGJFaVhsNGhVejMxNG5QQmgtVHB6Y1dpbmYzcnp1TUpHZFhqcWVYSGMwWHV3?oc=5\" target=\"_blank\"&gt;Walk the Streets of Panama City Like a Local—Here's How&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;National Geographic&lt;/font&gt;",
+      "id": "c_cbe9212f0591456d",
+      "title": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
+      "summary": "Heterogeneous AI systems composed of multiple models, architectures, harnesses, or inference-time settings can improve quality and efficiency by routing queries to the specialist who can answer most effectively at the lowest cost. Routing requires estimating each specialist's expected return, but this value estimation has a cost. Cheap estimators (e.g., embedding-based predictors) are fast but noisy, while accurate estimators (e.g., fine-tuned models with access to retrieval results or partial reasoning traces) are",
       "categories": [
-        "TERRA",
-        "SIGNAL LAB",
-        "SOMA",
-        "VERDANT",
-        "THE PULSE"
+        "SIGNAL LAB"
       ],
-      "primaryCategory": "TERRA",
-      "score": 57,
+      "primaryCategory": "SIGNAL LAB",
+      "score": 56,
       "stage": "WHISPER",
-      "velocity": 8,
+      "velocity": 21,
       "novelty": 89,
-      "sourceEdge": 90,
+      "sourceEdge": 78,
       "breadth": 51,
-      "evidenceQuality": 90,
+      "evidenceQuality": 78,
       "culturalReach": 33,
       "sources": 1,
       "sourceNames": [
-        "National Geographic"
+        "arxiv.org"
       ],
-      "publisher": "National Geographic",
-      "publishedAt": "2026-08-15T12:03:52.000Z",
-      "firstSeen": "2026-08-15T12:03:52.000Z",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWURlNk5mVGw5c3ZZa2NxajZvYUZwOERjWFF6WGRqcllQWVpqa3ZpMHlJU1Q1eEhoR1ZMSFA3SVhjLXd2T2xmaE1RY1FTRkZxUFkwb2N3R0lCb1YydklnUE1QemNBdkJnMzl5bE00RGJFaVhsNGhVejMxNG5QQmgtVHB6Y1dpbmYzcnp1TUpHZFhqcWVYSGMwWHV3?oc=5",
+      "publisher": "",
+      "publishedAt": "2026-08-20T17:54:37.000Z",
+      "firstSeen": "2026-08-20T17:54:37.000Z",
+      "url": "https://arxiv.org/abs/2608.20316v1",
       "sourceImage": null,
       "textOnly": false
     },
     {
-      "id": "c_0bca6cb0cf92422c",
-      "title": "Capybara Facts - National Geographic",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTFBVSU1ycG92cmE4M2JtdUkwWkU4Vkw0WFRTQ1k5UV9BQWRPd3ZkZlJiaFFXMW10MlRVNlBJVkxxY0JVN0lLMkVpTXNrTGxKRGhid0JvdFhjM0FIZnVkbmZka2NBcDlFdUpuUVEtb1ZoTDFobmpSRVRkYVU4OA?oc=5\" target=\"_blank\"&gt;Capybara Facts&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;National Geographic&lt;/font&gt;",
+      "id": "c_ee8edc3bf1def8c1",
+      "title": "MidTool: Mid-training Data Synthesis for Agentic Tool Use",
+      "summary": "Mid-training is increasingly recognized as a critical stage for shaping the capabilities of large language models. Recent work has shown that targeted mid-training can strengthen reasoning-intensive abilities such as math and science, and can also improve agentic capabilities in software-engineering settings. In this work, we study the parallel but less explored agentic capability: general tool use. We present MidTool, an open corpus construction pipeline for agentic tool-use mid-training that combines large-scale ",
       "categories": [
-        "TERRA",
-        "SIGNAL LAB",
-        "SOMA",
-        "VERDANT",
-        "THE PULSE"
+        "SIGNAL LAB"
       ],
-      "primaryCategory": "TERRA",
-      "score": 57,
+      "primaryCategory": "SIGNAL LAB",
+      "score": 56,
       "stage": "WHISPER",
-      "velocity": 8,
+      "velocity": 21,
       "novelty": 89,
-      "sourceEdge": 90,
+      "sourceEdge": 78,
       "breadth": 51,
-      "evidenceQuality": 90,
+      "evidenceQuality": 78,
       "culturalReach": 33,
       "sources": 1,
       "sourceNames": [
-        "National Geographic"
+        "arxiv.org"
       ],
-      "publisher": "National Geographic",
-      "publishedAt": "2021-02-17T15:55:46.000Z",
-      "firstSeen": "2021-02-17T15:55:46.000Z",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBVSU1ycG92cmE4M2JtdUkwWkU4Vkw0WFRTQ1k5UV9BQWRPd3ZkZlJiaFFXMW10MlRVNlBJVkxxY0JVN0lLMkVpTXNrTGxKRGhid0JvdFhjM0FIZnVkbmZka2NBcDlFdUpuUVEtb1ZoTDFobmpSRVRkYVU4OA?oc=5",
+      "publisher": "",
+      "publishedAt": "2026-08-20T17:53:59.000Z",
+      "firstSeen": "2026-08-20T17:53:59.000Z",
+      "url": "https://arxiv.org/abs/2608.20314v1",
       "sourceImage": null,
       "textOnly": false
     },
     {
-      "id": "c_2d64fc5d03dc70c4",
-      "title": "National Geographic Your Shot - National Geographic",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE41YzlCVzBzazhrQ3ZjWGxpZ2NxeXBEbFZ3RWxVRXFHbngwUVMxczRPanVwX1VNN3U3SXdqU0UyZUtFNGFfVmlkQlJHRXotRE9zT3d0djdmTElKUWQ3QS15QUQycnJsQQ?oc=5\" target=\"_blank\"&gt;National Geographic Your Shot&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;National Geographic&lt;/font&gt;",
+      "id": "c_dee270b6ba34c591",
+      "title": "Phantom Gains: Auditing Self-Improvement Against a Measured Null",
+      "summary": "Whether a language model has improved itself is increasingly judged not by mean accuracy but by which individual problems it gains and loses. Tracking these transitions means differencing two noisy estimates, leaving them vulnerable to measurement artifacts. Auditing three rounds of rank-$32$ LoRA self-training on Qwen3-8B against a frozen control pushed through the identical pipeline, we identify seven measurement failures, each of which inverts a reported finding when its control is absent. Several are standard p",
       "categories": [
-        "TERRA",
-        "SIGNAL LAB",
-        "SOMA",
-        "VERDANT",
-        "THE PULSE"
+        "SIGNAL LAB"
       ],
-      "primaryCategory": "TERRA",
-      "score": 57,
+      "primaryCategory": "SIGNAL LAB",
+      "score": 56,
       "stage": "WHISPER",
-      "velocity": 8,
+      "velocity": 20,
       "novelty": 89,
-      "sourceEdge": 90,
+      "sourceEdge": 78,
       "breadth": 51,
-      "evidenceQuality": 90,
+      "evidenceQuality": 78,
       "culturalReach": 33,
       "sources": 1,
       "sourceNames": [
-        "National Geographic"
+        "arxiv.org"
       ],
-      "publisher": "National Geographic",
-      "publishedAt": "2021-02-17T15:07:47.000Z",
-      "firstSeen": "2021-02-17T15:07:47.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE41YzlCVzBzazhrQ3ZjWGxpZ2NxeXBEbFZ3RWxVRXFHbngwUVMxczRPanVwX1VNN3U3SXdqU0UyZUtFNGFfVmlkQlJHRXotRE9zT3d0djdmTElKUWQ3QS15QUQycnJsQQ?oc=5",
-      "sourceImage": null,
-      "textOnly": false
-    },
-    {
-      "id": "c_8321d75e8fdc78da",
-      "title": "A Century of Photographing Lions in National Geographic - National Geographic",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiS0FVX3lxTE1nbW9lVlhjTUxWd1RoUW44MDM2bTlDTHhnSzU1NVZEaDY5Vnlha1B3R3BCeEEwWXlmWllVa0gxRUNKZDl6MU1SRmo5NA?oc=5\" target=\"_blank\"&gt;A Century of Photographing Lions in National Geographic&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;National Geographic&lt;/font&gt;",
-      "categories": [
-        "TERRA",
-        "SIGNAL LAB",
-        "SOMA",
-        "VERDANT",
-        "THE PULSE"
-      ],
-      "primaryCategory": "TERRA",
-      "score": 57,
-      "stage": "WHISPER",
-      "velocity": 8,
-      "novelty": 89,
-      "sourceEdge": 90,
-      "breadth": 51,
-      "evidenceQuality": 90,
-      "culturalReach": 33,
-      "sources": 1,
-      "sourceNames": [
-        "National Geographic"
-      ],
-      "publisher": "National Geographic",
-      "publishedAt": "2012-12-09T04:09:34.000Z",
-      "firstSeen": "2012-12-09T04:09:34.000Z",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1nbW9lVlhjTUxWd1RoUW44MDM2bTlDTHhnSzU1NVZEaDY5Vnlha1B3R3BCeEEwWXlmWllVa0gxRUNKZDl6MU1SRmo5NA?oc=5",
+      "publisher": "",
+      "publishedAt": "2026-08-20T17:30:14.000Z",
+      "firstSeen": "2026-08-20T17:30:14.000Z",
+      "url": "https://arxiv.org/abs/2608.20290v1",
       "sourceImage": null,
       "textOnly": false
     }
