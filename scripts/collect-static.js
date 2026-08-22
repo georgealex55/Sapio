@@ -5,7 +5,7 @@ const {enrichFeedImages}=require('../lib/image-enrichment');
 
 async function main(){
   const payload=await collectAll();
-  await enrichFeedImages(payload,{limit:24,concurrency:4,timeoutMs:1800});
+  await enrichFeedImages(payload,{limit:60,concurrency:4,timeoutMs:1800});
   payload.scheduled=true;
   payload.generator='github-actions';
   if(!payload.items?.length)throw new Error('Collector returned no timeline items; preserving the previous snapshot.');
