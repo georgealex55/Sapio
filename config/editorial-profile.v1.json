@@ -1,0 +1,484 @@
+{
+  "schemaVersion": "1.0",
+  "generatedFrom": "docs/POP_CULTURE_SOURCE_AND_IMMERSION_QUESTIONNAIRE.md",
+  "editorialProfile": {
+    "discoveryFirst": true,
+    "surpriseMode": "adaptive-high",
+    "intellectualTone": [
+      "smart-accessible",
+      "graduate-when-useful",
+      "per-card-adjustable"
+    ],
+    "narrativeVoice": {
+      "default": "provocative-cultural-critic",
+      "byCategory": true
+    },
+    "geographicScope": [
+      "US-with-global-context",
+      "global-English"
+    ],
+    "priorityHorizons": [
+      "accelerating-week",
+      "building-month",
+      "historical-echoes"
+    ],
+    "mustInclude": [
+      "Reddit",
+      "Tumblr",
+      "Twitter/Black Twitter"
+    ],
+    "specialUnderstanding": [
+      "sex-kink-drugs-music",
+      "mentally-stimulating-facts-and-graduate-sources",
+      "pop-culture-and-global-news"
+    ],
+    "essentialExperiences": [
+      "controversial-information",
+      "personally-selected-feeling",
+      "adaptive-sources-and-advancing-clusters"
+    ],
+    "avoidDominance": [
+      "celebrity-gossip",
+      "politics",
+      "product-promotions"
+    ],
+    "challengeExistingInterests": "frequently",
+    "explainSelection": "unusual-recommendations-only"
+  },
+  "sourceFamilyWeights": {
+    "reddit": 5,
+    "publicForums": 5,
+    "blackTwitter": 5,
+    "adultTradeText": 5,
+    "tiktok": 4,
+    "instagram": 4,
+    "magazines": 4,
+    "memeCommunities": 4,
+    "youtubePodcasts": 3,
+    "newsWires": 3,
+    "academicJournals": 3,
+    "preprints": 3,
+    "blogs": 3,
+    "productCommunities": 3,
+    "governmentScience": 2,
+    "newsletters": 2,
+    "searchTrends": 2
+  },
+  "sourceRules": {
+    "roles": [
+      "WHISPER",
+      "CONFIRMATION",
+      "CONTEXT",
+      "EVIDENCE",
+      "PREPRINT",
+      "COMMERCE",
+      "CREATOR",
+      "WITNESS"
+    ],
+    "allowMultipleRoles": true,
+    "anonymousPosts": [
+      "confirmed-elsewhere",
+      "first-person-experience"
+    ],
+    "paywalled": false,
+    "resolveOriginalPublisher": true,
+    "creatorsBecomeEntitiesAfterRecurringAppearances": true,
+    "usernamesVisible": false,
+    "commentsAsObservations": false,
+    "nicheCommunityMinimumEngagement": 0,
+    "deleteCommunityContentWhenDetected": true,
+    "redditFallbacks": [
+      "public-rss",
+      "search-index",
+      "pause-with-internal-health-state"
+    ],
+    "controversialCommunities": "include-with-context-labels",
+    "forumQuotation": "short-excerpt-with-link"
+  },
+  "categoryProfiles": {
+    "SOMA": {
+      "minimumFresh": 7,
+      "topicWeights": {
+        "exercise": 3,
+        "longevity": 4,
+        "sleep": 3,
+        "nutrition": 4,
+        "supplements": 4,
+        "mentalPerformance": 5,
+        "mensHealth": 5,
+        "womensHealth": 3,
+        "sexualHealth": 5,
+        "bodyModification": 4,
+        "cannabisPsychedelics": 5,
+        "alternativeWellness": 5,
+        "medicalInnovation": 3
+      }
+    },
+    "ARCANA": {
+      "minimumFresh": 7,
+      "topicWeights": {
+        "astrology": 5,
+        "tarot": 4,
+        "occultHistory": 5,
+        "comparativeReligion": 3,
+        "mysticism": 3,
+        "folkMagic": 3,
+        "africanDiasporaSpirituality": 5,
+        "ancientMythology": 5,
+        "synchronicity": 4,
+        "paranormal": 3,
+        "esotericPhilosophy": 4,
+        "ritualAesthetics": 4
+      }
+    },
+    "APPETITE": {
+      "minimumFresh": 6,
+      "topicWeights": {
+        "viralFood": 5,
+        "restaurants": 4,
+        "homeCooking": 5,
+        "cocktailsNightlife": 5,
+        "functionalDrinks": 5,
+        "regionalCuisine": 1,
+        "blackFoodCulture": 5,
+        "luxuryDining": 3,
+        "budgetFood": 4,
+        "foodScience": 3,
+        "cannabisFood": 4,
+        "sensualDining": 4
+      }
+    },
+    "SIGNAL LAB": {
+      "minimumFresh": 6,
+      "topicWeights": {
+        "ai": 5,
+        "robotics": 3,
+        "dataCenters": 3,
+        "semiconductors": 3,
+        "telecomFiber": 3,
+        "consumerTech": 5,
+        "cybersecurity": 5,
+        "space": 5,
+        "science": 5,
+        "creatorTools": 3,
+        "openSource": 4,
+        "futureOfWork": 3
+      }
+    },
+    "VISUAL CORTEX": {
+      "minimumFresh": 7,
+      "topicWeights": {
+        "graphicDesign": 5,
+        "streetwearGraphics": 5,
+        "fashionImagery": 5,
+        "photography": 3,
+        "architecture": 3,
+        "interiorDesign": 2,
+        "digitalArt": 3,
+        "aiArt": 4,
+        "albumVideoAesthetics": 4,
+        "y2kRetro": 3,
+        "memesVisualLanguage": 3
+      }
+    },
+    "THE PULSE": {
+      "minimumFresh": 10,
+      "topicWeights": {
+        "usPolitics": 3,
+        "globalPolitics": 3,
+        "blackConversation": 4,
+        "labor": 3,
+        "crimeJustice": 2,
+        "education": 5,
+        "relationshipsFamily": 5,
+        "internetControversies": 5,
+        "economicMood": 3,
+        "generationalConflict": 4,
+        "mediaCriticism": 3,
+        "localCivic": 1
+      }
+    },
+    "TERRA": {
+      "minimumFresh": 7,
+      "topicWeights": {
+        "earthquakes": 1,
+        "severeWeather": 1,
+        "climate": 4,
+        "spaceWeather": 5,
+        "wildlife": 5,
+        "oceans": 5,
+        "environmentalDisasters": 3,
+        "rarePhenomena": 5,
+        "agriculture": 2,
+        "humanAdaptation": 2
+      }
+    },
+    "VERDANT": {
+      "minimumFresh": 6,
+      "topicWeights": {
+        "houseplants": 4,
+        "homeGardening": 5,
+        "foodGrowing": 3,
+        "rarePlants": 5,
+        "landscaping": 2,
+        "urbanAgriculture": 3,
+        "cannabisCultivation": 3,
+        "plantScience": 5,
+        "ecologicalRestoration": 3,
+        "gardenProducts": 2,
+        "botanicalAesthetics": 4
+      }
+    },
+    "IGNITION": {
+      "minimumFresh": 10,
+      "topicWeights": {
+        "memes": 4,
+        "viralCreators": 4,
+        "music": 5,
+        "filmTv": 3,
+        "podcasts": 3,
+        "celebrityMoments": 4,
+        "blackInternetCulture": 5,
+        "danceChallenges": 3,
+        "gaming": 5,
+        "sports": 2,
+        "books": 3,
+        "comedy": 5
+      }
+    },
+    "OBJECTS OF DESIRE": {
+      "minimumFresh": 10,
+      "topicWeights": {
+        "fashion": 4,
+        "sneakers": 3,
+        "fragrance": 3,
+        "watchesJewelry": 2,
+        "cars": 4,
+        "technology": 5,
+        "homeProducts": 5,
+        "beautyGrooming": 3,
+        "collectibles": 2,
+        "luxuryTravel": 2,
+        "affordableAlternatives": 5,
+        "selloutRestock": 5
+      }
+    },
+    "EROS INDEX": {
+      "minimumFresh": 10,
+      "topicWeights": {
+        "sexualHealth": 5,
+        "relationshipPsychology": 4,
+        "desireLibido": 5,
+        "dating": 3,
+        "kinkBdsm": 5,
+        "pleasureProducts": 5,
+        "genderSexualityResearch": 4,
+        "adultIndustryBusiness": 5,
+        "sexualTechnology": 5,
+        "eroticArtLiterature": 5,
+        "nightlife": 3,
+        "censorshipLaw": 3
+      }
+    }
+  },
+  "clusterPolicy": {
+    "types": [
+      "EVENT",
+      "TREND",
+      "ENTITY",
+      "AESTHETIC",
+      "DEBATE",
+      "RESEARCH",
+      "PRODUCT",
+      "MEME",
+      "PLACE",
+      "CREATOR"
+    ],
+    "crossCategory": "aggressive",
+    "titleStyle": "neutral-summary",
+    "relatedClusterBehavior": "merge",
+    "splitOn": [
+      "conflicting-categories"
+    ],
+    "preserveDissent": "credible-sources",
+    "displayedSources": "top-only",
+    "oldClusterBehavior": "continue-original-storyline",
+    "seasonalBehavior": "permanent-cluster-with-yearly-chapters",
+    "confidence": [
+      "numeric",
+      "explain-matching-reasons"
+    ],
+    "correctionMode": "suggest-only",
+    "lifecycle": [
+      "ORIGIN",
+      "EMERGENCE",
+      "CONFIRMATION",
+      "MAINSTREAM_ADOPTION",
+      "SATURATION",
+      "DECLINE",
+      "REVIVAL"
+    ],
+    "matchingDimensions": [
+      "theme",
+      "direction-effect",
+      "primary-entity",
+      "catalyst-cause",
+      "related-entities",
+      "time-proximity",
+      "semantic-similarity"
+    ]
+  },
+  "persistencePolicy": {
+    "persist": [
+      "raw-observations",
+      "normalized-observations",
+      "canonical-urls",
+      "cluster-membership",
+      "score-history",
+      "images-attribution",
+      "named-entities",
+      "topic-fingerprints",
+      "memory-saves"
+    ],
+    "rawRetention": "indefinite-for-important-clusters",
+    "defaultClusterRetentionDays": 90,
+    "deletedSourceRecord": [
+      "cluster-aggregate-only",
+      "source-specific-rules"
+    ],
+    "savedClustersContinueUpdating": true,
+    "privacyModel": "anonymous-server-side",
+    "memoryExport": false
+  },
+  "affinityPolicy": {
+    "rankingStrength": "strong",
+    "positiveSignals": [
+      "likes",
+      "memory-saves"
+    ],
+    "negativeSignals": [
+      "hidden-topic",
+      "hidden-source"
+    ],
+    "ignoreForAffinity": [
+      "clicks",
+      "views",
+      "searches"
+    ]
+  },
+  "experiencePolicy": {
+    "views": [
+      "main-timeline",
+      "topic-constellation",
+      "visual-moodboard",
+      "nocturne-discovery",
+      "memory-room"
+    ],
+    "clusterSections": [
+      "what-happened",
+      "why-it-matters",
+      "origin",
+      "amplifiers",
+      "evidence",
+      "counterpoints",
+      "related-products-media",
+      "historical-echoes",
+      "forecast"
+    ],
+    "motion": [
+      "cluster-growth",
+      "progressive-card-shrink",
+      "history-rail"
+    ],
+    "sound": false,
+    "visualEvidence": "generated-visual-summaries",
+    "followable": [
+      "entities",
+      "clusters",
+      "categories",
+      "sources"
+    ],
+    "density": "adaptive-image-heavy-information-dense",
+    "nocturne": [
+      "experimental-sources",
+      "eros-adjacent",
+      "stranger-cross-category-links",
+      "music-nightlife",
+      "more-visual",
+      "different-voice"
+    ],
+    "culturalWeather": false,
+    "sourceImagesRequiredPriority": true
+  },
+  "rankingPolicy": {
+    "weights": {
+      "velocity": 4,
+      "novelty": 4,
+      "independentBreadth": 5,
+      "evidenceQuality": 3,
+      "communityEngagement": 2,
+      "culturalReach": 3,
+      "personalAffinity": 5,
+      "geographicRelevance": 1,
+      "visualStrength": 3,
+      "commercialMovement": 1,
+      "sourceCredibility": 2,
+      "surpriseDiscovery": 5
+    },
+    "cardLifetimeHours": 48,
+    "retentionTriggers": [
+      "liked",
+      "high-cultural-score"
+    ],
+    "decay": [
+      "progressive-shrink",
+      "history-rail"
+    ],
+    "repetition": "allow-dominance-when-justified",
+    "controversialEngagementDiscount": false,
+    "scoreDisplay": "stage-only",
+    "serendipity": "adaptive",
+    "emptyCategoryFallback": [
+      "best-older-cluster",
+      "broaden-source-search",
+      "learning-explainer"
+    ]
+  },
+  "collectionPolicy": {
+    "baselineMinutes": 15,
+    "selectedSourcesFaster": true,
+    "dynamicBySource": true,
+    "dayNightCadence": true,
+    "pauseAfterFailures": 5,
+    "lowYieldAction": "auto-demote-and-recommend-review",
+    "sourceDiscovery": "automatic-shadow-test",
+    "shadowTestHours": 24,
+    "activationSignals": [
+      "unique-cluster-contribution",
+      "low-duplicate-rate",
+      "reliable-uptime",
+      "image-quality",
+      "category-coverage"
+    ],
+    "sourceHealthVisible": false,
+    "notifications": false
+  },
+  "contentPolicy": {
+    "explicitImages": false,
+    "directPornLinks": false,
+    "clinicalDiagrams": true,
+    "suggestiveEditorialImages": true,
+    "adultTradeTextOnly": true,
+    "erosAutoInNocturne": true,
+    "selectedErosInNormalCategories": true,
+    "communityErosWithoutConclusions": true
+  },
+  "resolutionNotes": [
+    "BREAKING requires four independent sources.",
+    "New clusters use category-specific minimums; initial implementation may surface provisional clusters while coverage is learned.",
+    "Low-yield sources may be automatically demoted, but removal remains a review decision.",
+    "Inactive clusters expire after 90 days unless important, saved, seasonal, or part of a continuing storyline.",
+    "Celebrity coverage is allowed for major viral and entertainment moments but must not dominate the feed.",
+    "Existing global rule against explicit sexual media and direct porn links remains in force."
+  ]
+}
