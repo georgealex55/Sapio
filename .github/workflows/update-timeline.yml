@@ -30,6 +30,12 @@ jobs:
       - name: Collect public sources
         env:
           COLLECTOR_MAX_CONCURRENCY: '8'
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+          NCBI_TOOL: sapio
+          NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
         run: npm run collect:static
 
       - name: Publish changed timeline snapshot
