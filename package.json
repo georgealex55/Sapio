@@ -4,7 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "vercel dev",
-    "start": "npx serve ."
+    "start": "npx serve .",
+    "collect:static": "node scripts/collect-static.js"
   },
-  "engines": {"node": ">=20"}
+  "engines": {
+    "node": ">=20"
+  }
 }
