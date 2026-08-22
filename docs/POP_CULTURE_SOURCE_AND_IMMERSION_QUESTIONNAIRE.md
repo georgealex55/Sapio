@@ -18,77 +18,77 @@ Purpose: Convert editorial preferences into source-registry configuration, clust
 
 ### G-01. What should SAPIO feel like most often? Select up to five.
 
-- [ ] A brilliant friend who always knows what is about to become popular
-- [ ] A premium digital magazine
-- [ ] A cultural intelligence terminal
-- [ ] A late-night discovery channel
-- [ ] A personalized research librarian
-- [ ] A trend forecaster
-- [ ] A provocative salon
-- [ ] A visual moodboard
+- X A brilliant friend who always knows what is about to become popular
+- X A premium digital magazine
+- X A cultural intelligence terminal
+- X A late-night discovery channel
+- X A personalized research librarian
+- X A trend forecaster
+- X A provocative salon
+- X A visual moodboard
 - [ ] A serious evidence desk
-- [ ] A fast-moving social feed
+- X A fast-moving social feed
 - [ ] Other:
 
 ### G-02. Rank the main reasons you would open SAPIO.
 
-- [ ] Discover something before everyone else
-- [ ] Understand why a trend is happening
-- [ ] Find unusual communities and conversations
-- [ ] See evidence behind cultural claims
-- [ ] Find products, media, food, fashion, or experiences
-- [ ] Follow recurring stories over time
-- [ ] Enter an immersive after-dark experience
-- [ ] Save ideas for later
+- X Discover something before everyone else
+- X Understand why a trend is happening
+- X Find unusual communities and conversations
+- X See evidence behind cultural claims
+- X Find products, media, food, fashion, or experiences
+- X Follow recurring stories over time
+- X Enter an immersive after-dark experience
+- X Save ideas for later
 - [ ] Other:
 
 ### G-03. How surprising should the default feed be?
 
 - [ ] Mostly familiar subjects with occasional surprises
 - [ ] Balanced familiar and unfamiliar
-- [ ] Strongly exploratory
-- [ ] Highly unpredictable but still relevant
-- [ ] Different by time of day
+- X Strongly exploratory
+- X Highly unpredictable but still relevant
+- X Different by time of day
 
 ### G-04. How intellectual should the writing be?
 
 - [ ] Fast and plain
-- [ ] Smart but accessible
-- [ ] Graduate-level when useful
+- X Smart but accessible
+- X Graduate-level when useful
 - [ ] Highly academic in evidence views
-- [ ] Adjustable per card
+- X Adjustable per card
 
 ### G-05. How provocative should SAPIO be?
 
 - [ ] Conservative
 - [ ] Curious but restrained
 - [ ] Bold without being explicit
-- [ ] Highly provocative in NOCTURNE
+- X Highly provocative in NOCTURNE
 - [ ] Adjustable by channel
 
 ### G-06. Which audiences should SAPIO understand especially well?
 
-- [ ] Black American culture
-- [ ] Southern U.S. culture
-- [ ] Urban professionals
-- [ ] Tradespeople and technical workers
-- [ ] Creators and designers
-- [ ] Academics and researchers
-- [ ] Entrepreneurs
-- [ ] Men’s culture
-- [ ] Women’s culture
+- X Black American culture
+- X Southern U.S. culture
+- X Urban professionals
+- X Tradespeople and technical workers
+- X Creators and designers
+- X Academics and researchers
+- X Entrepreneurs
+- X Men’s culture
+- X Women’s culture
 - [ ] LGBTQ+ culture
 - [ ] Gen Z
 - [ ] Millennials
 - [ ] Gen X
-- [ ] Global English-speaking culture
+- X Global English-speaking culture
 - [ ] Other:
 
 ### G-07. Geographic priority.
 
 - [ ] United States first
-- [ ] U.S. with strong global context
-- [ ] Fully global English
+- X U.S. with strong global context
+- X Fully global English
 - [ ] City-level trends where possible
 - [ ] Regional feeds
 - [ ] Specific regions/cities:
@@ -97,17 +97,17 @@ Purpose: Convert editorial preferences into source-registry configuration, clust
 
 - [ ] Happening in the last hour
 - [ ] Emerging today
-- [ ] Accelerating this week
-- [ ] Building this month
+- X Accelerating this week
+- X Building this month
 - [ ] Slow cultural shifts
-- [ ] Historical echoes and recurring cycles
+- X Historical echoes and recurring cycles
 
 ### G-09. What should never dominate the feed?
 
-- [ ] Celebrity gossip
-- [ ] Politics
+- X Celebrity gossip
+- X Politics
 - [ ] Outrage cycles
-- [ ] Product promotions
+- X Product promotions
 - [ ] Academic papers
 - [ ] Sexuality
 - [ ] Crime
@@ -120,7 +120,7 @@ Purpose: Convert editorial preferences into source-registry configuration, clust
 
 - [ ] Always
 - [ ] Only in expanded view
-- [ ] Only for unusual recommendations
+- X Only for unusual recommendations
 - [ ] No, keep the experience mysterious
 - [ ] Adjustable
 
@@ -132,38 +132,38 @@ Purpose: Convert editorial preferences into source-registry configuration, clust
 
 | Source family | Priority |
 |---|---:|
-| Reddit communities | |
-| Independent public forums | |
-| TikTok trend coverage | |
-| Instagram trend coverage | |
-| Black Twitter/social culture | |
-| YouTube and podcasts | |
-| Magazines | |
-| Newspapers/wire services | |
-| Academic journals | |
-| Preprints | |
-| Government/science agencies | |
-| Newsletters/Substack | |
-| Blogs | |
-| Product/review communities | |
-| Search trend tools | |
-| Meme communities | |
-| Adult-industry trade press, text-only | |
+| Reddit communities | 5|
+| Independent public forums | 5|
+| TikTok trend coverage |4 |
+| Instagram trend coverage |4 |
+| Black Twitter/social culture | 5|
+| YouTube and podcasts |3 |
+| Magazines |4|
+| Newspapers/wire services |3 |
+| Academic journals |3 |
+| Preprints | 3|
+| Government/science agencies |2|
+| Newsletters/Substack |2 |
+| Blogs | 3|
+| Product/review communities |3 |
+| Search trend tools |2 |
+| Meme communities | 4|
+| Adult-industry trade press, text-only |5|
 
 ### S-02. Which source roles should SAPIO display?
 
-- [ ] WHISPER — early community signal
-- [ ] CONFIRMATION — established reporting
-- [ ] CONTEXT — interpretation and history
-- [ ] EVIDENCE — peer-reviewed or official
-- [ ] PREPRINT — emerging research
-- [ ] COMMERCE — sales/product movement
-- [ ] CREATOR — original creator signal
-- [ ] WITNESS — first-person account
+- X WHISPER — early community signal
+- X CONFIRMATION — established reporting
+- X CONTEXT — interpretation and history
+- X EVIDENCE — peer-reviewed or official
+- X PREPRINT — emerging research
+- X COMMERCE — sales/product movement
+- X CREATOR — original creator signal
+- X WITNESS — first-person account
 
 ### S-03. Can one source occupy multiple roles?
 
-- [ ] Yes
+- X Yes
 - [ ] No
 - [ ] Only when the specific post supports it
 
@@ -171,24 +171,24 @@ Purpose: Convert editorial preferences into source-registry configuration, clust
 
 - [ ] As early signals only
 - [ ] When engagement is unusually high
-- [ ] When confirmed elsewhere
-- [ ] For first-person experience
+- X When confirmed elsewhere
+- X For first-person experience
 - [ ] Never
 - [ ] Other rule:
 
 ### S-05. Minimum independent sources before a cluster appears.
 
 - [ ] One strong source
-- [ ] Two sources
-- [ ] Three sources
-- [ ] Varies by category
+- X Two sources
+- X Three sources
+- X Varies by category
 - [ ] Show single-source cards but label them clearly
 
 ### S-06. Minimum sources before a cluster becomes BREAKING.
 
 - [ ] Two
 - [ ] Three
-- [ ] Four
+- X Four
 - [ ] Five or more
 - [ ] Require both community signal and confirmation
 - [ ] Require evidence for health/science claims
@@ -197,20 +197,20 @@ Purpose: Convert editorial preferences into source-registry configuration, clust
 
 - [ ] Yes, with summaries and source link
 - [ ] Only when another free source confirms the story
-- [ ] No
+- X No
 - [ ] User-selectable
 
 ### S-08. Should SAPIO use search-index proxies when direct access is unavailable?
 
 - [ ] Yes, clearly label the proxy
-- [ ] Yes, but resolve the original publisher first
+- X Yes, but resolve the original publisher first
 - [ ] Only temporarily
 - [ ] No
 
 ### S-09. Should individual creators be saved as persistent entities?
 
 - [ ] Yes
-- [ ] Only after recurring appearances
+- X Only after recurring appearances
 - [ ] Only verified/high-impact creators
 - [ ] No
 
@@ -228,49 +228,49 @@ Answer:
 
 | Topic | Priority |
 |---|---:|
-| Exercise and strength | |
-| Longevity | |
-| Sleep | |
-| Nutrition | |
-| Supplements | |
-| Mental performance | |
-| Men’s health | |
-| Women’s health | |
-| Sexual health | |
-| Body modification | |
-| Cannabis and psychedelics | |
-| Alternative wellness | |
-| Medical innovation | |
+| Exercise and strength |3|
+| Longevity |4|
+| Sleep |3|
+| Nutrition |4|
+| Supplements |4|
+| Mental performance |5|
+| Men’s health |5|
+| Women’s health |3 |
+| Sexual health |5|
+| Body modification |4|
+| Cannabis and psychedelics |5|
+| Alternative wellness |5|
+| Medical innovation |3|
 
 ### SOM-02. Preferred sources.
 
-- [ ] PubMed
-- [ ] The Journal of Sexual Medicine
-- [ ] Men’s Health
-- [ ] Women’s Health
-- [ ] Examine
-- [ ] Huberman Lab
-- [ ] FoundMyFitness
-- [ ] Reddit r/Biohackers
-- [ ] Reddit r/Fitness
-- [ ] Reddit r/Supplements
-- [ ] Patient/public health forums
-- [ ] Medical organizations
-- [ ] Fitness TikTok/YouTube trend reporting
+- X PubMed
+- X The Journal of Sexual Medicine
+- X Men’s Health
+- X Women’s Health
+- X Examine
+- X Huberman Lab
+- X FoundMyFitness
+- X Reddit r/Biohackers
+- X Reddit r/Fitness
+- X Reddit r/Supplements
+- X Patient/public health forums
+- X Medical organizations
+- X Fitness TikTok/YouTube trend reporting
 - [ ] Other:
 
 ### SOM-03. Should anecdotes be clustered separately from clinical evidence?
 
 - [ ] Always
 - [ ] Combine them but label each layer
-- [ ] Combine only after confirmation
+- X Combine only after confirmation
 - [ ] No anecdotes
 
 ### SOM-04. Medical claim rule.
 
 - [ ] Require peer-reviewed evidence
-- [ ] Allow preprints with warning label
-- [ ] Allow community signals without conclusions
+- X Allow preprints with warning label
+- X Allow community signals without conclusions
 - [ ] Create separate “What people report” and “What evidence shows” panels
 
 ### SOM-05. Excluded wellness claims/sources:
@@ -283,46 +283,46 @@ Answer:
 
 | Topic | Priority |
 |---|---:|
-| Astrology | |
-| Tarot | |
-| Occult history | |
-| Comparative religion | |
-| Mysticism | |
-| Folk magic | |
-| African diaspora spirituality | |
-| Ancient mythology | |
-| Synchronicity | |
-| Paranormal culture | |
-| Esoteric philosophy | |
-| Ritual aesthetics | |
+| Astrology |5 |
+| Tarot |4 |
+| Occult history |5 |
+| Comparative religion |3 |
+| Mysticism |3 |
+| Folk magic |3 |
+| African diaspora spirituality | 5|
+| Ancient mythology | 5|
+| Synchronicity |4 |
+| Paranormal culture |3 |
+| Esoteric philosophy |4 |
+| Ritual aesthetics | 4|
 
 ### ARC-02. Preferred sources.
 
-- [ ] Reddit r/occult
-- [ ] Reddit r/astrology
-- [ ] Religion and mythology forums
-- [ ] Academic religious-studies journals
-- [ ] JSTOR/open scholarship
-- [ ] Aeon
-- [ ] Psyche
-- [ ] Patheos
-- [ ] Podcasts
-- [ ] YouTube essayists
-- [ ] Historical archives
+- X Reddit r/occult
+- X Reddit r/astrology
+- X Religion and mythology forums
+- X Academic religious-studies journals
+- X JSTOR/open scholarship
+- X Aeon
+- X Psyche
+- X Patheos
+- X Podcasts
+- X YouTube essayists
+- X Historical archives
 - [ ] Other:
 
 ### ARC-03. How should belief claims be handled?
 
-- [ ] Present as cultural belief, not empirical fact
+- X Present as cultural belief, not empirical fact
 - [ ] Pair with historical context
 - [ ] Pair with skeptical/scientific context
-- [ ] Let competing interpretations coexist
+- X Let competing interpretations coexist
 - [ ] Other:
 
 ### ARC-04. Should SAPIO detect recurring symbols across religion, fashion, music and art?
 
 - [ ] Yes, aggressively
-- [ ] Yes, only with strong visual/textual matches
+- X Yes, only with strong visual/textual matches
 - [ ] Only in expanded views
 - [ ] No
 
@@ -336,38 +336,38 @@ Answer:
 
 | Topic | Priority |
 |---|---:|
-| Viral food | |
-| Restaurants | |
-| Home cooking | |
-| Cocktails/nightlife | |
-| Functional drinks | |
-| Regional cuisine | |
-| Black food culture | |
-| Luxury dining | |
-| Budget food | |
-| Food science | |
-| Cannabis food culture | |
-| Sensual/romantic dining | |
+| Viral food |5 |
+| Restaurants | 4|
+| Home cooking |5 |
+| Cocktails/nightlife |5 |
+| Functional drinks |5 |
+| Regional cuisine |1 |
+| Black food culture |5 |
+| Luxury dining |3 |
+| Budget food |4 |
+| Food science |3 |
+| Cannabis food culture |4 |
+| Sensual/romantic dining |4 |
 
 ### APP-02. Preferred sources.
 
-- [ ] Foodbeast
+- X Foodbeast
 - [ ] Allrecipes
 - [ ] Food Network
-- [ ] Eater
-- [ ] Bon Appétit
-- [ ] Serious Eats
-- [ ] Food & Wine
-- [ ] Reddit r/Cooking
-- [ ] Local restaurant forums
-- [ ] TikTok food trend reporting
-- [ ] Black food creators
+- X Eater
+- X Bon Appétit
+- X Serious Eats
+- X Food & Wine
+- X Reddit r/Cooking
+- X Local restaurant forums
+- X TikTok food trend reporting
+- X Black food creators
 - [ ] Yelp/Google review trends
 - [ ] Other:
 
 ### APP-03. Should recipes and restaurants appear as ordinary timeline cards?
 
-- [ ] Both
+- X Both
 - [ ] Recipes only
 - [ ] Restaurants only
 - [ ] Only when culturally significant
@@ -375,7 +375,7 @@ Answer:
 ### APP-04. Should SAPIO connect food signals with health, products, travel and nightlife?
 
 - [ ] Always
-- [ ] Only with strong overlap
+- X Only with strong overlap
 - [ ] User-selectable
 - [ ] No
 
@@ -389,40 +389,40 @@ Answer:
 
 | Topic | Priority |
 |---|---:|
-| Artificial intelligence | |
-| Robotics | |
-| Data centers | |
-| Semiconductors | |
-| Telecom/fiber | |
-| Consumer technology | |
-| Cybersecurity | |
-| Space | |
-| Scientific discoveries | |
-| Creator tools | |
-| Open source | |
-| Future-of-work | |
+| Artificial intelligence |5 |
+| Robotics | 3|
+| Data centers | 3|
+| Semiconductors |3 |
+| Telecom/fiber |3 |
+| Consumer technology |5 |
+| Cybersecurity | 5|
+| Space |5 |
+| Scientific discoveries |5 |
+| Creator tools | 3|
+| Open source |4 |
+| Future-of-work |3 |
 
 ### SIG-02. Preferred sources.
 
-- [ ] Hacker News
-- [ ] Lobsters
-- [ ] Slashdot
-- [ ] GitHub Trending
-- [ ] Product Hunt
-- [ ] arXiv
-- [ ] MIT Technology Review
-- [ ] WIRED
-- [ ] Ars Technica
-- [ ] The Verge
-- [ ] 404 Media
-- [ ] IEEE
-- [ ] Technical forums
+- X Hacker News
+- X Lobsters
+- X Slashdot
+- X GitHub Trending
+- X Product Hunt
+- X arXiv
+- X MIT Technology Review
+- X WIRED
+- X Ars Technica
+- X The Verge
+- X 404 Media
+- X IEEE
+- X Technical forums
 - [ ] Other:
 
 ### SIG-03. Should highly technical stories receive simplified summaries?
 
 - [ ] Always
-- [ ] Default summary plus technical expansion
+- X Default summary plus technical expansion
 - [ ] Preserve technical language
 - [ ] User-selectable
 
@@ -430,7 +430,7 @@ Answer:
 
 - [ ] Yes, as an adoption storyline
 - [ ] Keep research, product and community layers distinct
-- [ ] Only after a direct relationship is verified
+- X Only after a direct relationship is verified
 - [ ] No
 
 ### SIG-05. Exclusions:
@@ -443,49 +443,49 @@ Answer:
 
 | Topic | Priority |
 |---|---:|
-| Graphic design | |
-| Streetwear graphics | |
-| Fashion imagery | |
-| Photography | |
-| Architecture | |
-| Interior design | |
-| Digital art | |
-| AI art | |
+| Graphic design |5 |
+| Streetwear graphics |5 |
+| Fashion imagery |5 |
+| Photography |3 |
+| Architecture |3 |
+| Interior design | 2|
+| Digital art |3 |
+| AI art |4 |
 | Tattoos | |
-| Album/video aesthetics | |
-| Y2K/retro revivals | |
-| Memes and visual language | |
+| Album/video aesthetics |4 |
+| Y2K/retro revivals |3 |
+| Memes and visual language |3 |
 
 ### VIS-02. Preferred sources.
 
-- [ ] Pinterest
-- [ ] Instagram trend reporting
-- [ ] Behance
-- [ ] Dribbble
-- [ ] Reddit r/graphic_design
-- [ ] Design forums
-- [ ] Dazed
-- [ ] Highsnobiety
-- [ ] Hypebeast
-- [ ] Vogue
-- [ ] Art/design magazines
-- [ ] Museum archives
+- X Pinterest
+- X Instagram trend reporting
+- X Behance
+- X Dribbble
+- X Reddit r/graphic_design
+- X Design forums
+- X Dazed
+- X Highsnobiety
+- X Hypebeast
+- X Vogue
+- X Art/design magazines
+- X Museum archives
 - [ ] Other:
 
 ### VIS-03. Should visual similarity create clusters even when captions differ?
 
 - [ ] Yes
 - [ ] Only after perceptual-image matching is implemented
-- [ ] Only within the same category
+- X Only within the same category
 - [ ] No
 
 ### VIS-04. Preferred card imagery.
 
-- [ ] Original source image
+- X Original source image
 - [ ] Unique generated editorial image
 - [ ] Collage of cluster sources
 - [ ] Abstract SAPIO visualization
-- [ ] Rotate formats
+- X Rotate formats
 
 ### VIS-05. Excluded aesthetics/sources:
 
@@ -497,38 +497,38 @@ Answer:
 
 | Topic | Priority |
 |---|---:|
-| U.S. politics | |
-| Global politics | |
-| Black public conversation | |
-| Labor and work | |
-| Crime and justice | |
-| Education | |
-| Relationships and family | |
-| Internet controversies | |
-| Economic mood | |
-| Generational conflict | |
-| Media criticism | |
-| Local civic stories | |
+| U.S. politics |3 |
+| Global politics |3 |
+| Black public conversation |4 |
+| Labor and work |3 |
+| Crime and justice |2 |
+| Education |5 |
+| Relationships and family |5 |
+| Internet controversies |5 |
+| Economic mood |3 |
+| Generational conflict |4 |
+| Media criticism |3 |
+| Local civic stories |1 |
 
 ### PUL-02. Preferred sources.
 
-- [ ] Reuters
-- [ ] AP
-- [ ] BBC
-- [ ] NPR
-- [ ] Black Twitter/social reporting
-- [ ] Reddit r/BlackPeopleTwitter
-- [ ] MetaFilter
-- [ ] Community forums
-- [ ] The Atlantic
-- [ ] The Economist
-- [ ] Semafor
-- [ ] Local news
+- X Reuters
+- X AP
+- X BBC
+- X NPR
+- X Black Twitter/social reporting
+- X Reddit r/BlackPeopleTwitter
+- X MetaFilter
+- X Community forums
+- X The Atlantic
+- X The Economist
+- X Semafor
+- X Local news
 - [ ] Other:
 
 ### PUL-03. Political balance rule.
 
-- [ ] Show multiple ideological perspectives
+- X Show multiple ideological perspectives
 - [ ] Weight evidence/primary reporting over balance
 - [ ] Separate facts, interpretation and reaction
 - [ ] Avoid political content unless culturally significant
@@ -538,7 +538,7 @@ Answer:
 
 - [ ] Strong penalty
 - [ ] Moderate penalty
-- [ ] No penalty
+- X No penalty
 - [ ] Hide outrage entirely
 - [ ] Promote it when engagement accelerates
 
@@ -552,37 +552,37 @@ Answer:
 
 | Topic | Priority |
 |---|---:|
-| Earthquakes | |
-| Severe weather | |
-| Climate | |
-| Space weather | |
-| Wildlife | |
-| Oceans | |
-| Environmental disasters | |
-| Rare natural phenomena | |
-| Agriculture | |
-| Human adaptation | |
+| Earthquakes | 1|
+| Severe weather | 1|
+| Climate |4 |
+| Space weather |5 |
+| Wildlife |5 |
+| Oceans | 5|
+| Environmental disasters |3 |
+| Rare natural phenomena |5 |
+| Agriculture | 2|
+| Human adaptation |2 |
 
 ### TER-02. Preferred sources.
 
-- [ ] USGS
-- [ ] NOAA
-- [ ] NASA Earth Observatory
-- [ ] National Geographic
-- [ ] Discovery
-- [ ] Eos
-- [ ] EarthSky
-- [ ] Nature
-- [ ] Regional weather forums
-- [ ] Storm-chaser communities
+- X USGS
+- X NOAA
+- X NASA Earth Observatory
+- X National Geographic
+- X Discovery
+- X Eos
+- X EarthSky
+- X Nature
+- X Regional weather forums
+- X Storm-chaser communities
 - [ ] Other:
 
 ### TER-03. When should a raw natural event become a cultural card?
 
 - [ ] Magnitude/severity threshold
 - [ ] Significant human impact
-- [ ] Unusual public conversation
-- [ ] Strong visual impact
+- X Unusual public conversation
+- X Strong visual impact
 - [ ] Connection to another SAPIO category
 - [ ] Any official alert
 
@@ -590,7 +590,7 @@ Answer:
 
 - [ ] Yes, by region and time window
 - [ ] Only related aftershocks/events
-- [ ] No
+- X No
 - [ ] Let user expand a map cluster
 
 ### TER-05. Regions to prioritize:
@@ -603,42 +603,42 @@ Answer:
 
 | Topic | Priority |
 |---|---:|
-| Houseplants | |
-| Home gardening | |
-| Food growing | |
-| Rare plants | |
-| Landscaping | |
-| Urban agriculture | |
-| Cannabis cultivation culture | |
-| Plant science | |
-| Ecological restoration | |
-| Garden products | |
-| Botanical aesthetics | |
+| Houseplants |4 |
+| Home gardening | 5|
+| Food growing |3 |
+| Rare plants |5 |
+| Landscaping |2 |
+| Urban agriculture |3 |
+| Cannabis cultivation culture |3 |
+| Plant science |5 |
+| Ecological restoration |3 |
+| Garden products |2 |
+| Botanical aesthetics |4 |
 
 ### VER-02. Preferred sources.
 
-- [ ] Reddit r/gardening
-- [ ] GardenWeb/Houzz forums
-- [ ] Permies
-- [ ] Dave’s Garden
-- [ ] Gardening magazines
-- [ ] University extensions
-- [ ] USDA
-- [ ] Plant creators
-- [ ] Pinterest
+- X Reddit r/gardening
+- X GardenWeb/Houzz forums
+- X Permies
+- X Dave’s Garden
+- X Gardening magazines
+- X University extensions
+- X USDA
+- X Plant creators
+- X Pinterest
 - [ ] Other:
 
 ### VER-03. Should seasonal and geographic relevance affect ranking?
 
 - [ ] Strongly
-- [ ] Moderately
+- X Moderately
 - [ ] Only in local mode
 - [ ] No
 
 ### VER-04. Should plant trends connect to design, food, wellness and products?
 
 - [ ] Yes
-- [ ] Only explicit connections
+- X Only explicit connections
 - [ ] No
 - [ ] User-selectable
 
@@ -652,36 +652,36 @@ Answer:
 
 | Topic | Priority |
 |---|---:|
-| Memes | |
-| Viral creators | |
-| Music | |
-| Film/television | |
-| Podcasts | |
-| Celebrity moments | |
-| Black internet culture | |
-| Dance/challenges | |
-| Gaming culture | |
-| Sports culture | |
-| Books/novels | |
-| Comedy | |
+| Memes |4 |
+| Viral creators |4 |
+| Music | 5|
+| Film/television |3 |
+| Podcasts |3 |
+| Celebrity moments |4 |
+| Black internet culture |5 |
+| Dance/challenges |3 |
+| Gaming culture |5 |
+| Sports culture |2 |
+| Books/novels |3 |
+| Comedy | 5|
 
 ### IGN-02. Preferred sources.
 
-- [ ] TikTok trend reporting
-- [ ] YouTube/Shorts
-- [ ] Instagram
-- [ ] Black Twitter/social culture
-- [ ] Know Your Meme
-- [ ] Reddit
-- [ ] Lipstick Alley
-- [ ] Boxden
-- [ ] The Coli
-- [ ] ResetEra
-- [ ] NeoGAF
-- [ ] Music forums
-- [ ] Podcast charts
-- [ ] Billboard
-- [ ] Variety/Deadline
+- X TikTok trend reporting
+- X YouTube/Shorts
+- X Instagram
+- X Black Twitter/social culture
+- X Know Your Meme
+- X Reddit
+- X Lipstick Alley
+- X Boxden
+- X The Coli
+- X ResetEra
+- X NeoGAF
+- X Music forums
+- X Podcast charts
+- X Billboard
+- X Variety/Deadline
 - [ ] Other:
 
 ### IGN-03. Which specific communities, creators or podcasts are essential?
@@ -690,7 +690,7 @@ Answer:
 
 ### IGN-04. Should a meme cluster retain its origin and mutation history?
 
-- [ ] Yes, show a visual lineage
+- X Yes, show a visual lineage
 - [ ] Yes, text timeline only
 - [ ] Only for major memes
 - [ ] No
@@ -698,8 +698,8 @@ Answer:
 ### IGN-05. Celebrity rule.
 
 - [ ] Include only culturally consequential stories
-- [ ] Include major viral moments
-- [ ] Include broad entertainment coverage
+- X Include major viral moments
+- X Include broad entertainment coverage
 - [ ] Exclude celebrity gossip
 
 ### IGN-06. Exclusions:
@@ -712,53 +712,53 @@ Answer:
 
 | Topic | Priority |
 |---|---:|
-| Fashion | |
-| Sneakers | |
-| Fragrance | |
-| Watches/jewelry | |
-| Cars | |
-| Technology | |
-| Home products | |
-| Beauty/grooming | |
-| Collectibles | |
-| Luxury travel | |
-| Affordable alternatives | |
-| Sold-out/restock signals | |
+| Fashion |4 |
+| Sneakers |3 |
+| Fragrance |3 |
+| Watches/jewelry |2 |
+| Cars | 4|
+| Technology | 5|
+| Home products |5 |
+| Beauty/grooming |3 |
+| Collectibles |2 |
+| Luxury travel | 2|
+| Affordable alternatives |5 |
+| Sold-out/restock signals |5 |
 
 ### OBJ-02. Preferred sources.
 
-- [ ] GQ
-- [ ] Esquire
-- [ ] Maxim
-- [ ] Stuff
-- [ ] Hypebeast
-- [ ] Highsnobiety
-- [ ] Vogue Business
-- [ ] WWD
-- [ ] Reddit product communities
-- [ ] Fragrantica/Basenotes
-- [ ] Styleforum
-- [ ] Watch forums
-- [ ] Car forums
-- [ ] Slickdeals
-- [ ] Product Hunt
+- X GQ
+- X Esquire
+- X Maxim
+- X Stuff
+- X Hypebeast
+- X Highsnobiety
+- X Vogue Business
+- X WWD
+- X Reddit product communities
+- X Fragrantica/Basenotes
+- X Styleforum
+- X Watch forums
+- X Car forums
+- X Slickdeals
+- X Product Hunt
 - [ ] Other:
 
 ### OBJ-03. Commerce data desired.
 
 - [ ] Price movement
-- [ ] Sellouts
+- X Sellouts
 - [ ] Restocks
-- [ ] Search growth
+- X Search growth
 - [ ] Resale prices
 - [ ] Review velocity
-- [ ] Influencer adoption
-- [ ] Retail availability
+- X Influencer adoption
+- X Retail availability
 - [ ] No commerce metrics
 
 ### OBJ-04. Should affiliate or sponsored sources be penalized?
 
-- [ ] Strongly
+- X Strongly
 - [ ] Moderately
 - [ ] Label but do not penalize
 - [ ] Exclude
@@ -774,42 +774,42 @@ Answer:
 
 | Topic | Priority |
 |---|---:|
-| Sexual health | |
-| Relationship psychology | |
-| Desire/libido | |
-| Dating culture | |
-| Kink/BDSM culture | |
-| Pleasure products | |
-| Gender and sexuality research | |
-| Adult-industry business | |
-| Sexual technology | |
-| Erotic art/literature | |
-| Nightlife | |
-| Censorship/law | |
+| Sexual health | 5|
+| Relationship psychology |4 |
+| Desire/libido | 5|
+| Dating culture |3 |
+| Kink/BDSM culture | 5|
+| Pleasure products | 5|
+| Gender and sexuality research |4 |
+| Adult-industry business |5 |
+| Sexual technology |5 |
+| Erotic art/literature |5 |
+| Nightlife | 3|
+| Censorship/law | 3|
 
 ### ERO-02. Preferred sources.
 
-- [ ] PubMed
-- [ ] Kinsey Institute
-- [ ] ISSM
-- [ ] Archives of Sexual Behavior
-- [ ] Journal of Sex Research
-- [ ] Reddit r/sex, text-only
-- [ ] Reddit r/BDSMcommunity, text-only
-- [ ] Relationship forums
-- [ ] XBIZ trade coverage, text-only
-- [ ] AVN business coverage, text-only
-- [ ] Mike South commentary, text-only
-- [ ] GQ/Esquire/Glamour/Men’s Health
-- [ ] Erotic literature criticism
+- X PubMed
+- X Kinsey Institute
+- X ISSM
+- X Archives of Sexual Behavior
+- X Journal of Sex Research
+- X Reddit r/sex, text-only
+- X Reddit r/BDSMcommunity, text-only
+- X Relationship forums
+- X XBIZ trade coverage, text-only
+- X AVN business coverage, text-only
+- X Mike South commentary, text-only
+- X GQ/Esquire/Glamour/Men’s Health
+- X Erotic literature criticism
 - [ ] Other:
 
 ### ERO-03. Content boundary.
 
 - [ ] No explicit images or direct porn links
 - [ ] Text-only adult-industry reporting
-- [ ] Clinical diagrams allowed
-- [ ] Suggestive editorial imagery allowed
+- X Clinical diagrams allowed
+- X Suggestive editorial imagery allowed
 - [ ] Relationship/sexuality topics only
 - [ ] Other:
 
@@ -817,15 +817,15 @@ Answer:
 
 - [ ] Yes, off by default
 - [ ] Yes, remember user choice
-- [ ] Automatically activate in NOCTURNE
-- [ ] Include selected EROS subjects in normal categories
+- X Automatically activate in NOCTURNE
+- X Include selected EROS subjects in normal categories
 - [ ] Other:
 
 ### ERO-05. Evidence rule.
 
 - [ ] Separate research, community experience and commercial claims
 - [ ] Require medical evidence for health claims
-- [ ] Permit community clusters without conclusions
+- X Permit community clusters without conclusions
 - [ ] Other:
 
 ### ERO-06. Exclusions:
@@ -838,17 +838,17 @@ Answer:
 
 ### FOR-01. Which forum types should SAPIO prioritize?
 
-- [ ] Large general-interest communities
-- [ ] Specialized expert forums
-- [ ] Black cultural forums
-- [ ] Men’s lifestyle forums
+- X Large general-interest communities
+- X Specialized expert forums
+- X Black cultural forums
+- X Men’s lifestyle forums
 - [ ] Women’s lifestyle forums
-- [ ] Technical forums
-- [ ] Fashion/style forums
-- [ ] Music/entertainment forums
-- [ ] Relationship forums
-- [ ] Spiritual forums
-- [ ] Product enthusiast forums
+- X Technical forums
+- X Fashion/style forums
+- X Music/entertainment forums
+- X Relationship forums
+- X Spiritual forums
+- X Product enthusiast forums
 - [ ] Local city forums
 
 ### FOR-02. Named public forums to add:
@@ -861,7 +861,7 @@ Answer:
 
 ### FOR-04. Should SAPIO display usernames?
 
-- [ ] Never
+- X Never
 - [ ] Only public creator/expert accounts
 - [ ] Yes, with the linked post
 - [ ] Only in expanded sources
@@ -872,11 +872,11 @@ Answer:
 - [ ] Yes, when quoted across communities
 - [ ] Only top-level posts
 - [ ] Only manually approved comments
-- [ ] Never
+- X Never
 
 ### FOR-06. Minimum engagement for community posts:
 
-- [ ] No minimum for niche communities
+- X No minimum for niche communities
 - [ ] Dynamic percentile within each community
 - [ ] Fixed score/comment threshold
 - [ ] Require rapid engagement growth
@@ -884,22 +884,22 @@ Answer:
 
 ### FOR-07. Should deleted community content disappear from SAPIO storage?
 
-- [ ] Immediately when detected
+- X Immediately when detected
 - [ ] Remove text but retain aggregate cluster history
 - [ ] Retain only a deletion tombstone
 - [ ] Other:
 
 ### FOR-08. If direct Reddit access fails, choose fallbacks.
 
-- [ ] Public Reddit RSS
-- [ ] Search-index discovery
-- [ ] Pause Reddit and show source-health warning
+- X Public Reddit RSS
+- X Search-index discovery
+- X Pause Reddit and show source-health warning
 - [ ] Replace with Lemmy/forums
 - [ ] Other:
 
 ### FOR-09. Should controversial communities be included?
 
-- [ ] Yes, with safety/context labels
+- X Yes, with safety/context labels
 - [ ] Only when confirmed elsewhere
 - [ ] Only for cultural analysis
 - [ ] No
@@ -908,7 +908,7 @@ Answer:
 ### FOR-10. Forum quotation rule.
 
 - [ ] Paraphrase by default
-- [ ] Short excerpts with link
+- X Short excerpts with link
 - [ ] Show titles only
 - [ ] User-selectable
 
@@ -918,30 +918,30 @@ Answer:
 
 ### CLU-01. What should a cluster represent?
 
-- [ ] The same event reported by multiple sources
-- [ ] A shared cultural idea
-- [ ] A recurring aesthetic
-- [ ] A product or person gaining momentum
-- [ ] A debate with opposing positions
-- [ ] All of these, using different cluster types
+- X The same event reported by multiple sources
+- X A shared cultural idea
+- X A recurring aesthetic
+- X A product or person gaining momentum
+- X A debate with opposing positions
+- X All of these, using different cluster types
 
 ### CLU-02. Cluster types to expose.
 
-- [ ] EVENT
-- [ ] TREND
-- [ ] ENTITY
-- [ ] AESTHETIC
-- [ ] DEBATE
-- [ ] RESEARCH
-- [ ] PRODUCT
-- [ ] MEME
-- [ ] PLACE
-- [ ] CREATOR
+- X EVENT
+- X TREND
+- X ENTITY
+- X AESTHETIC
+- X DEBATE
+- X RESEARCH
+- X PRODUCT
+- X MEME
+- X PLACE
+- X CREATOR
 - [ ] Other:
 
 ### CLU-03. Should clusters cross categories?
 
-- [ ] Yes, aggressively
+- X Yes, aggressively
 - [ ] Yes, after strong evidence
 - [ ] Only show cross-category links in expanded view
 - [ ] No
@@ -949,7 +949,7 @@ Answer:
 ### CLU-04. Cluster naming.
 
 - [ ] Use the strongest source headline
-- [ ] Generate a neutral summary title
+- X Generate a neutral summary title
 - [ ] Generate an evocative editorial title
 - [ ] Show both factual and editorial titles
 - [ ] User-selectable
@@ -957,7 +957,7 @@ Answer:
 ### CLU-05. When two clusters become related but are not duplicates:
 
 - [ ] Connect them as a storyline
-- [ ] Merge them
+- X Merge them
 - [ ] Show “related signals”
 - [ ] Keep them independent
 - [ ] Decide by cluster type
@@ -966,7 +966,7 @@ Answer:
 
 - [ ] Different named entities
 - [ ] Different events/dates
-- [ ] Conflicting categories
+- X Conflicting categories
 - [ ] Distinct communities use the same phrase differently
 - [ ] Manual/editorial review
 - [ ] Automatic confidence threshold
@@ -974,7 +974,7 @@ Answer:
 ### CLU-07. Should clusters preserve minority/dissenting interpretations?
 
 - [ ] Always
-- [ ] When supported by credible sources
+- X When supported by credible sources
 - [ ] Only in debate clusters
 - [ ] No
 
@@ -982,12 +982,12 @@ Answer:
 
 - [ ] Full source map
 - [ ] Counts by source role
-- [ ] Top sources only
+- X Top sources only
 - [ ] Hidden until expanded
 
 ### CLU-09. Should an old cluster reactivate when the topic returns?
 
-- [ ] Yes, continue the original storyline
+- X Yes, continue the original storyline
 - [ ] Create a new cycle linked to the old one
 - [ ] New cluster after a set time
 - [ ] Never reactivate
@@ -995,22 +995,22 @@ Answer:
 
 ### CLU-10. How should recurring annual/seasonal trends behave?
 
-- [ ] One permanent cluster with yearly chapters
+- X One permanent cluster with yearly chapters
 - [ ] Separate yearly clusters with a shared parent
 - [ ] Treat each recurrence independently
 - [ ] Other:
 
 ### CLU-11. Cluster confidence display.
 
-- [ ] Numeric score
+- X Numeric score
 - [ ] Low/medium/high
-- [ ] Explain the matching reasons
+- X Explain the matching reasons
 - [ ] Keep internal only
 
 ### CLU-12. Should users be able to correct merges/splits?
 
 - [ ] Yes
-- [ ] Suggest corrections only
+- X Suggest corrections only
 - [ ] Admin/editor only
 - [ ] No
 
@@ -1020,18 +1020,18 @@ Answer:
 
 ### DAT-01. What should SAPIO persist?
 
-- [ ] Raw source observations
-- [ ] Normalized observations
-- [ ] Canonical URLs
-- [ ] Cluster membership
-- [ ] Score history
+- X Raw source observations
+- X Normalized observations
+- X Canonical URLs
+- X Cluster membership
+- X Score history
 - [ ] Stage history
 - [ ] Source health/performance
-- [ ] Images and attribution
-- [ ] Named entities
-- [ ] Topic embeddings/fingerprints
+- X Images and attribution
+- X Named entities
+- X Topic embeddings/fingerprints
 - [ ] User likes
-- [ ] User Memory saves
+- X User Memory saves
 - [ ] Hidden items
 - [ ] Viewing history
 - [ ] Search history
@@ -1042,12 +1042,12 @@ Answer:
 - [ ] 30 days
 - [ ] 90 days
 - [ ] One year
-- [ ] Indefinite for important clusters
+- X Indefinite for important clusters
 - [ ] Varies by source
 
 ### DAT-03. Cluster retention.
 
-- [ ] 90 days
+- X 90 days
 - [ ] One year
 - [ ] Indefinitely
 - [ ] Indefinitely only if saved/important
@@ -1055,22 +1055,22 @@ Answer:
 
 ### DAT-04. Should SAPIO preserve a compact record after source deletion?
 
-- [ ] Cluster-level aggregate only
+- X Cluster-level aggregate only
 - [ ] Title and canonical URL
 - [ ] Deletion tombstone only
 - [ ] Remove everything
-- [ ] Follow source-specific rules
+- X Follow source-specific rules
 
 ### DAT-05. Should saved clusters continue updating after their cards leave the main timeline?
 
-- [ ] Yes, automatically
+- X Yes, automatically
 - [ ] Only major updates
 - [ ] Only when reopened
 - [ ] No
 
 ### DAT-06. Should likes affect ranking?
 
-- [ ] Strongly
+- X Strongly
 - [ ] Moderately
 - [ ] Lightly
 - [ ] Only within categories
@@ -1078,7 +1078,7 @@ Answer:
 
 ### DAT-07. Should hides teach SAPIO what to avoid?
 
-- [ ] Yes, topic and source
+- X Yes, topic and source
 - [ ] Topic only
 - [ ] Source only
 - [ ] Hide only that card
@@ -1088,14 +1088,14 @@ Answer:
 
 - [ ] Yes, clicks alone should be weak
 - [ ] Yes, dwell time matters
-- [ ] Saves/likes only
+- X Saves/likes only
 - [ ] No
 
 ### DAT-09. Privacy model.
 
 - [ ] Device-local only
 - [ ] Account-based private profile
-- [ ] Anonymous server-side profile
+- X Anonymous server-side profile
 - [ ] User choice
 - [ ] Other:
 
@@ -1105,7 +1105,7 @@ Answer:
 - [ ] CSV
 - [ ] Visual report
 - [ ] Shareable collection
-- [ ] No
+- X No
 
 ---
 
@@ -1113,54 +1113,54 @@ Answer:
 
 ### IMM-01. Which immersive views should exist?
 
-- [ ] Main timeline
+- X Main timeline
 - [ ] Cluster story page
 - [ ] Cultural map
-- [ ] Topic constellation
+- X Topic constellation
 - [ ] Source relationship graph
 - [ ] Before/after trend timeline
-- [ ] Visual moodboard
-- [ ] NOCTURNE discovery mode
-- [ ] Saved Memory room/library
+- X Visual moodboard
+- X NOCTURNE discovery mode
+- X Saved Memory room/library
 - [ ] Daily cultural briefing
 - [ ] Weekly cultural forecast
 
 ### IMM-02. Expanded cluster structure.
 
-- [ ] What happened
-- [ ] Why it matters
-- [ ] Where it started
-- [ ] Who is amplifying it
-- [ ] Evidence
-- [ ] Counterpoints
-- [ ] Related products/media
-- [ ] Historical echoes
-- [ ] What may happen next
+- X What happened
+- X Why it matters
+- X Where it started
+- X Who is amplifying it
+- X Evidence
+- X Counterpoints
+- X Related products/media
+- X Historical echoes
+- X What may happen next
 - [ ] Source map
 
 ### IMM-03. Should clusters have chapters?
 
-- [ ] Origin
-- [ ] Emergence
-- [ ] Confirmation
-- [ ] Mainstream adoption
-- [ ] Saturation
-- [ ] Decline
-- [ ] Revival
+- X Origin
+- X Emergence
+- X Confirmation
+- X Mainstream adoption
+- X Saturation
+- X Decline
+- X Revival
 - [ ] No chapters
 
 ### IMM-04. Timeline motion.
 
 - [ ] New signals enter visibly
-- [ ] Clusters grow as sources arrive
-- [ ] Cards visually shrink as they decay
+- X Clusters grow as sources arrive
+- X Cards visually shrink as they decay
 - [ ] Reactivated stories return with a visual marker
 - [ ] Quiet/static interface
 - [ ] User-selectable motion
 
 ### IMM-05. Sound.
 
-- [ ] No sound
+- X No sound
 - [ ] Optional ambient NOCTURNE sound
 - [ ] Subtle signal notification sounds
 - [ ] Category-specific sound design
@@ -1170,29 +1170,29 @@ Answer:
 
 - [ ] Neutral analyst
 - [ ] Sophisticated magazine editor
-- [ ] Provocative cultural critic
+- X Provocative cultural critic
 - [ ] Scientific explainer
-- [ ] Voice changes by category
+- X Voice changes by category
 - [ ] User-selectable
 
 ### IMM-07. Should SAPIO generate “connections you may have missed”?
 
 - [ ] On every cluster
 - [ ] Daily
-- [ ] Only high-confidence connections
-- [ ] In NOCTURNE
+- X Only high-confidence connections
+- X In NOCTURNE
 - [ ] No
 
 ### IMM-08. Should clusters contain visual evidence galleries?
 
 - [ ] Yes
 - [ ] Only licensed/source-approved images
-- [ ] Generated visual summaries instead
+- X Generated visual summaries instead
 - [ ] No
 
 ### IMM-09. Should users follow entities, clusters, categories and sources separately?
 
-- [ ] All four
+- X All four
 - [ ] Clusters and categories only
 - [ ] Entities only
 - [ ] Sources only
@@ -1200,21 +1200,21 @@ Answer:
 
 ### IMM-10. Preferred density.
 
-- [ ] Image-heavy
-- [ ] Balanced image and text
-- [ ] Information-dense
-- [ ] Adaptive by category
-- [ ] Adaptive by time of day
+- X Image-heavy
+- X Balanced image and text
+- X Information-dense
+- X Adaptive by category
+- X Adaptive by time of day
 
 ### IMM-11. What should NOCTURNE change besides color?
 
-- [ ] More experimental sources
-- [ ] More EROS-adjacent content
+- X More experimental sources
+- X More EROS-adjacent content
 - [ ] Longer-form stories
-- [ ] Stranger cross-category connections
-- [ ] Music/nightlife emphasis
-- [ ] More visual cards
-- [ ] Different narrative voice
+- X Stranger cross-category connections
+- X Music/nightlife emphasis
+- X More visual cards
+- X Different narrative voice
 - [ ] Nothing besides appearance
 - [ ] Other:
 
@@ -1224,7 +1224,7 @@ Answer:
 - [ ] Yes, evening/NOCTURNE
 - [ ] Both
 - [ ] Weekly only
-- [ ] No
+- X No
 
 ---
 
@@ -1234,41 +1234,41 @@ Answer:
 
 | Factor | Weight |
 |---|---:|
-| Velocity | |
-| Novelty | |
-| Independent source breadth | |
+| Velocity |4 |
+| Novelty | 4|
+| Independent source breadth |5 |
 | Evidence quality | |
-| Community engagement | |
-| Cultural reach | |
-| Personal affinity | |
-| Geographic relevance | |
-| Visual strength | |
-| Commercial movement | |
-| Source credibility | |
-| Surprise/discovery value | |
+| Community engagement |2 |
+| Cultural reach |3 |
+| Personal affinity | 5|
+| Geographic relevance |1 |
+| Visual strength |3 |
+| Commercial movement |1 |
+| Source credibility |2 |
+| Surprise/discovery value |5 |
 
 ### RUL-02. Default card lifetime.
 
 - [ ] 6 hours
 - [ ] 12 hours
 - [ ] 24 hours
-- [ ] 48 hours
+- X 48 hours
 - [ ] Category-dependent
 - [ ] Score-dependent
 
 ### RUL-03. What prevents a card from disappearing?
 
 - [ ] Saved to Memory
-- [ ] Liked
+- X Liked
 - [ ] Cluster receives new evidence
-- [ ] High cultural score
+- X High cultural score
 - [ ] Part of an active storyline
 - [ ] Nothing
 
 ### RUL-04. How should old cards decay?
 
-- [ ] Shrink progressively
-- [ ] Move into a history rail
+- X Shrink progressively
+- X Move into a history rail
 - [ ] Fade visually
 - [ ] Disappear abruptly at expiry
 - [ ] Become compact links
@@ -1280,23 +1280,23 @@ Enter desired fresh cards per category:
 
 | Category | Minimum fresh cards |
 |---|---:|
-| SOMA | |
-| ARCANA | |
-| APPETITE | |
-| SIGNAL LAB | |
-| VISUAL CORTEX | |
-| THE PULSE | |
-| TERRA | |
-| VERDANT | |
-| IGNITION | |
-| OBJECTS OF DESIRE | |
-| EROS INDEX | |
+| SOMA | 7|
+| ARCANA |7 |
+| APPETITE | 6|
+| SIGNAL LAB |6 |
+| VISUAL CORTEX |7 |
+| THE PULSE |10 |
+| TERRA |7 |
+| VERDANT |6 |
+| IGNITION | 10|
+| OBJECTS OF DESIRE |10 |
+| EROS INDEX |10 |
 
 ### RUL-06. If a category lacks fresh signals:
 
-- [ ] Show the best older cluster
-- [ ] Broaden source search
-- [ ] Show a learning/explainer card
+- X Show the best older cluster
+- X Broaden source search
+- X Show a learning/explainer card
 - [ ] Leave it empty honestly
 - [ ] Surface a neighboring category
 - [ ] Other:
@@ -1306,21 +1306,21 @@ Enter desired fresh cards per category:
 - [ ] Limit one cluster per entity in top 10
 - [ ] Limit one source per top 10
 - [ ] Limit one category streak
-- [ ] Allow dominance when culturally justified
+- X Allow dominance when culturally justified
 - [ ] User-selectable
 
 ### RUL-08. Should controversial engagement be discounted?
 
 - [ ] Yes, detect outrage without genuine adoption
 - [ ] Only in politics/celebrity
-- [ ] No
+- X No
 - [ ] Other:
 
 ### RUL-09. Score transparency.
 
 - [ ] Show every metric
 - [ ] Show headline score with expandable metrics
-- [ ] Show stage only
+- X Show stage only
 - [ ] Hide scoring
 
 ### RUL-10. Should the system reserve space for serendipity?
@@ -1329,7 +1329,7 @@ Enter desired fresh cards per category:
 - [ ] 10%
 - [ ] 20%
 - [ ] 30%
-- [ ] Adaptive
+- X Adaptive
 - [ ] No
 
 ---
@@ -1339,10 +1339,10 @@ Enter desired fresh cards per category:
 ### FUN-01. Current collection frequency is every 15 minutes. Keep it?
 
 - [ ] Yes
-- [ ] Faster for selected sources
+- X Faster for selected sources
 - [ ] Slower
-- [ ] Dynamic by source
-- [ ] Day/night schedules differ
+- X Dynamic by source
+- X Day/night schedules differ
 
 ### FUN-02. High-priority sources that should run every cycle:
 
@@ -1355,27 +1355,27 @@ Answer:
 ### FUN-04. Should sources be automatically paused after repeated failures?
 
 - [ ] Yes, after 3 failures
-- [ ] Yes, after 5 failures
+- X Yes, after 5 failures
 - [ ] Never; keep retrying
 - [ ] Notify and ask
 - [ ] Other:
 
 ### FUN-05. Should low-yield/duplicate-heavy sources lose priority automatically?
 
-- [ ] Yes
-- [ ] Recommend changes but require approval
+- X Yes
+- X Recommend changes but require approval
 - [ ] No
 
 ### FUN-06. Should SAPIO discover new sources automatically?
 
-- [ ] Yes, but shadow-test before activation
+- X Yes, but shadow-test before activation
 - [ ] Recommend sources for approval
 - [ ] Only manually added sources
 - [ ] Category-dependent
 
 ### FUN-07. Shadow-test duration for a new source.
 
-- [ ] 24 hours
+- X 24 hours
 - [ ] 3 days
 - [ ] 7 days
 - [ ] 14 days
@@ -1384,11 +1384,11 @@ Answer:
 ### FUN-08. Conditions for activating a source.
 
 - [ ] Minimum usable-item yield
-- [ ] Unique cluster contribution
-- [ ] Low duplicate rate
-- [ ] Reliable uptime
-- [ ] Image quality
-- [ ] Category coverage
+- X Unique cluster contribution
+- X Low duplicate rate
+- X Reliable uptime
+- X Image quality
+- X Category coverage
 - [ ] Editorial approval
 - [ ] Other:
 
@@ -1397,7 +1397,7 @@ Answer:
 - [ ] Admin view only
 - [ ] Public status indicator
 - [ ] Only when a category is affected
-- [ ] No
+- X No
 
 ### FUN-10. Notifications desired.
 
@@ -1407,7 +1407,7 @@ Answer:
 - [ ] Category emptiness
 - [ ] Daily briefing
 - [ ] Weekly forecast
-- [ ] No notifications
+- X No notifications
 - [ ] Other:
 
 ---
@@ -1416,9 +1416,9 @@ Answer:
 
 ### EDT-01. Three sources SAPIO absolutely must include:
 
-1.
-2.
-3.
+1.REDDIT
+2. TUMBLR	
+3.TWITTER
 
 ### EDT-02. Three sources SAPIO should never include:
 
@@ -1428,42 +1428,42 @@ Answer:
 
 ### EDT-03. Three subjects SAPIO should understand unusually well:
 
-1.
-2.
-3.
+1. SEX KINK DRUGS AND MUSIC
+2. HIGHLY INTERESTING AND MENTALLY STIMULATING FACTS AND SOURCES
+3. POPCULTURE AND GLOBAL NEWS 
 
 ### EDT-04. Three experiences that would make SAPIO feel addictive or indispensable:
 
-1.
-2.
-3.
+1.CONTROVERSAL TOPICS AND INFORMATION
+2.FEELING LIKE THE TOPICS ARE BEING PICKED JUST FOR YOU
+3.ADAPTATION OF THE SOURCES AND CLUSTER TO MAKE THE EXPERIENCE ADVANCE 
 
 ### EDT-05. What would make SAPIO feel cheap, repetitive or generic?
 
-Answer:
+Answer: NOT HAVING SOURCE PICTURES 
 
 ### EDT-06. What should SAPIO know about your taste that ordinary news and social feeds miss?
 
-Answer:
+Answer:I LOVE FETISHES KINKS AND SEX JUST AS MUCH AS I LOVE TO TINKER WITH THINGS AND READ GRADUATE PAPERS, BUT I ALSO LIKE TO LAUGH AT RATCHET AND GOOFY THINGS
 
 ### EDT-07. When relevance and discovery conflict, which should win?
 
 - [ ] Relevance
-- [ ] Discovery
+- X Discovery
 - [ ] Balanced
 - [ ] Depends on time of day
 - [ ] Depends on category
 
 ### EDT-08. Should SAPIO challenge your existing interests?
 
-- [ ] Frequently
+- X Frequently
 - [ ] Occasionally
 - [ ] Only with strong evidence
 - [ ] No
 
 ### EDT-09. Should editorial rules be global or profile-specific?
 
-- [ ] Global
+- X Global
 - [ ] Profile-specific
 - [ ] Global safety rules plus personal taste rules
 - [ ] Other:
