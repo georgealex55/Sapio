@@ -125,6 +125,7 @@ async function loadFeed(){
   if(state.loading)return;state.loading=true;
   let data=null;
   try{const r=await fetch('/api/feed',{cache:'no-store'});if(r.ok)data=await r.json()}catch{}
+  if(!data){try{const r=await fetch('data/live.json',{cache:'no-store'});if(r.ok)data=await r.json()}catch{}}
   if(!data){try{data=await (await fetch('data/sample.json')).json()}catch{data={demo:true,items:[]}}}
   state.demo=Boolean(data.demo);state.items=data.items||[];
   let upgraded=false;
