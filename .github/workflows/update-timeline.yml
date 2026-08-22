@@ -1,0 +1,45 @@
+name: Update SAPIO timeline
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sapio-timeline-update
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Check out SAPIO
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Collect public sources
+        env:
+          COLLECTOR_MAX_CONCURRENCY: '8'
+        run: npm run collect:static
+
+      - name: Publish changed timeline snapshot
+        run: |
+          git config user.name "sapio-timeline-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/live.json
+          if git diff --cached --quiet; then
+            echo "No timeline changes"
+          else
+            git commit -m "data: refresh SAPIO timeline"
+            git push
+          fi
