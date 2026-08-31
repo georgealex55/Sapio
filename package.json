@@ -1,11 +1,14 @@
 {
   "name": "sapio-cultural-intelligence",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "vercel dev",
     "start": "npx serve .",
     "collect:static": "node scripts/collect-static.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2"
   },
   "engines": {
     "node": ">=20"
