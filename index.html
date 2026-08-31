@@ -7,12 +7,12 @@
   <title>SAPIO — Cultural Intelligence</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body class="map-mode">
   <div id="ageGate" class="gate" hidden>
     <div class="gate-card">
       <div class="eyebrow">SAPIO / 21+</div>
       <h1>Curiosity, curated.</h1>
-      <p>SAPIO is an adult cultural-intelligence feed. It can include mature discussions of sexuality, relationships, kink culture, lingerie and adult products, but does not host explicit sexual media.</p>
+      <p>SAPIO is an adult cultural-intelligence platform. It can include mature discussions of sexuality, relationships, kink culture, lingerie and adult products, but does not host explicit sexual media.</p>
       <button id="enterBtn" class="primary">I am 21 or older</button>
     </div>
   </div>
@@ -23,6 +23,8 @@
       <div class="tagline">KNOW WHAT'S NEXT.</div>
     </div>
     <div class="top-actions">
+      <button id="mapBtn" class="pill view-pill active" aria-pressed="true">EXPLORE</button>
+      <button id="timelineBtn" class="pill view-pill" aria-pressed="false">TIMELINE</button>
       <button id="erosToggle" class="pill" aria-pressed="false">EROS OFF</button>
       <button id="modeToggle" class="pill mode" aria-pressed="false">NOCTURNE AUTO</button>
       <button id="memoryBtn" class="pill">MEMORY <span id="memoryCount">0</span></button>
@@ -33,24 +35,82 @@
     <section class="hero-line">
       <div>
         <div class="eyebrow" id="modeLabel">DAY / CULTURAL INTELLIGENCE</div>
-        <h1 id="heroTitle">Your signal, before consensus.</h1>
+        <h1 id="heroTitle">Move through culture.</h1>
+        <p id="heroCopy" class="hero-copy">Drag, swipe, scroll or use the compass. The farther you move, the more SAPIO leans into that direction.</p>
       </div>
       <div class="run-state">
         <span id="liveDot" class="dot"></span>
-        <span id="runText">Loading feed…</span>
+        <span id="runText">Loading signals…</span>
       </div>
     </section>
 
     <nav id="categoryRail" class="category-rail" aria-label="SAPIO channels"></nav>
 
-    <section class="feed-tools">
-      <div class="feed-title">TIMELINE</div>
-      <div class="sort-note">75% cultural importance · 25% affinity</div>
+    <section id="mapView" class="map-view" aria-label="Spatial cultural discovery map">
+      <div class="map-status">
+        <div>
+          <span class="eyebrow">CURRENT VECTOR</span>
+          <strong id="vectorLabel">CENTER / BALANCED</strong>
+        </div>
+        <div id="vectorDepth" class="vector-depth">0% DIRECTIONAL</div>
+      </div>
+
+      <div id="spatialViewport" class="spatial-viewport" tabindex="0" aria-label="Drag or scroll in any direction to explore SAPIO">
+        <div class="origin-marker"><span>SAPIO</span><small>CENTER</small></div>
+        <div id="laneLabels" class="lane-labels" aria-hidden="true"></div>
+        <div id="spatialWorld" class="spatial-world"></div>
+        <div class="map-vignette" aria-hidden="true"></div>
+      </div>
+
+      <div class="map-footer">
+        <div class="map-help">DRAG / TRACKPAD / ARROWS · Q E Z C FOR DIAGONALS</div>
+        <button id="recenterBtn" class="pill">RECENTER</button>
+      </div>
+
+      <div id="compass" class="compass" aria-label="Eight-direction cultural compass">
+        <button data-dir="NW" class="compass-btn nw"><b>↖</b><span>Earth<br>Nature</span></button>
+        <button data-dir="N" class="compass-btn n"><b>↑</b><span>Future<br>Signal</span></button>
+        <button data-dir="NE" class="compass-btn ne"><b>↗</b><span>Design<br>Style</span></button>
+        <button data-dir="W" class="compass-btn w"><b>←</b><span>World<br>Pulse</span></button>
+        <button id="compassCenter" class="compass-center" aria-label="Recenter">◎</button>
+        <button data-dir="E" class="compass-btn e"><b>→</b><span>Desire<br>Products</span></button>
+        <button data-dir="SW" class="compass-btn sw"><b>↙</b><span>Arcana<br>Inner</span></button>
+        <button data-dir="S" class="compass-btn s"><b>↓</b><span>Body<br>Soma</span></button>
+        <button data-dir="SE" class="compass-btn se"><b>↘</b><span>Eros<br>Nightlife</span></button>
+      </div>
     </section>
 
-    <section id="feed" class="feed" aria-live="polite"></section>
-    <div id="feedEnd" class="feed-end">END OF CURRENT SIGNAL</div>
+    <section id="timelineView" class="timeline-view" hidden>
+      <div class="timeline-head">
+        <div>
+          <div class="eyebrow">FOCUSED TIMELINE</div>
+          <h2 id="timelineTitle">All signals</h2>
+          <p id="timelineCopy">Standard chronological reading mode.</p>
+        </div>
+        <button id="backToMap" class="pill">← EXPLORE MAP</button>
+      </div>
+      <section id="feed" class="feed" aria-live="polite"></section>
+      <div id="feedEnd" class="feed-end">END OF CURRENT SIGNAL</div>
+    </section>
   </main>
+
+  <div id="previewScrim" class="preview-scrim" hidden></div>
+  <section id="previewPanel" class="preview-panel" aria-hidden="true" aria-label="Signal preview">
+    <button id="closePreview" class="preview-close" aria-label="Close preview">×</button>
+    <div id="previewMedia" class="preview-media"></div>
+    <div class="preview-content">
+      <div id="previewMeta" class="meta"></div>
+      <h2 id="previewTitle"></h2>
+      <p id="previewSummary"></p>
+      <div id="previewMetrics" class="metrics"></div>
+      <div class="preview-actions">
+        <button id="previewTimeline" class="primary compact-primary">ENTER FOCUSED TIMELINE</button>
+        <button id="previewSave" class="pill">♡ MEMORY</button>
+        <button id="previewLike" class="pill">♡ LIKE</button>
+        <a id="previewSource" class="pill source-button" target="_blank" rel="noopener noreferrer">SOURCE ↗</a>
+      </div>
+    </div>
+  </section>
 
   <aside id="memoryDrawer" class="drawer" aria-hidden="true">
     <div class="drawer-head">
@@ -60,7 +120,7 @@
       </div>
       <button id="closeMemory" class="icon-btn" aria-label="Close">×</button>
     </div>
-    <p class="drawer-copy">Saved items stay lightweight: title, source link, category and timestamp. No duplicated article body.</p>
+    <p class="drawer-copy">Saved signals remain available after the 24-hour active window.</p>
     <div id="memoryList" class="memory-list"></div>
   </aside>
   <div id="drawerScrim" class="scrim" hidden></div>
