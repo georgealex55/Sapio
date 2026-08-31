@@ -2,7 +2,7 @@ const fs=require('fs');
 const path=require('path');
 const {loadLatest,collectAll,saveLatest}=require('../lib/collector');
 const {enrichFeedImages}=require('../lib/image-enrichment');
-const {enabled:neonEnabled,loadLatestSnapshot,saveSnapshot,recordRenewalRequest}=require('../lib/neon-store');
+const {enabled:neonEnabled,loadLatestSnapshot,saveSnapshot}=require('../lib/neon-store');
 
 const MAX_SNAPSHOT_AGE_MS=15*60*1000;
 let memoryLatest=null;
@@ -16,7 +16,6 @@ async function renew(trigger){
   if(renewing)return renewing;
   renewing=(async()=>{
     try{
-      if(neonEnabled())await recordRenewalRequest(trigger,{reason:'snapshot-stale'});
       const live=await collectAll();
       await enrichFeedImages(live,{limit:16,concurrency:4,timeoutMs:1800});
       live.persistence={...(live.persistence||{}),neon:false,kv:false};
