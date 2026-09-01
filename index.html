@@ -6,6 +6,7 @@
   <meta name="theme-color" content="#0b0b0d" />
   <title>SAPIO — Cultural Intelligence</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="snap.css" />
 </head>
 <body class="map-mode">
   <div id="ageGate" class="gate" hidden>
@@ -35,8 +36,8 @@
     <section class="hero-line">
       <div>
         <div class="eyebrow" id="modeLabel">DAY / CULTURAL INTELLIGENCE</div>
-        <h1 id="heroTitle">Move through culture.</h1>
-        <p id="heroCopy" class="hero-copy">Drag, swipe, scroll or use the compass. The farther you move, the more SAPIO leans into that direction.</p>
+        <h1 id="heroTitle">One signal at a time.</h1>
+        <p id="heroCopy" class="hero-copy">Scroll, swipe, use the compass, or tap arrow keys. Each move snaps the next card from that direction.</p>
       </div>
       <div class="run-state">
         <span id="liveDot" class="dot"></span>
@@ -55,16 +56,21 @@
         <div id="vectorDepth" class="vector-depth">0% DIRECTIONAL</div>
       </div>
 
-      <div id="spatialViewport" class="spatial-viewport" tabindex="0" aria-label="Drag or scroll in any direction to explore SAPIO">
-        <div class="origin-marker"><span>SAPIO</span><small>CENTER</small></div>
+      <div id="spatialViewport" class="spatial-viewport" tabindex="0" aria-label="Scroll or swipe in any direction to explore SAPIO">
         <div id="laneLabels" class="lane-labels" aria-hidden="true"></div>
         <div id="spatialWorld" class="spatial-world"></div>
+        <div id="directionPeeks" class="direction-peeks" aria-label="Next likely signal in each compass direction"></div>
         <div class="map-vignette" aria-hidden="true"></div>
       </div>
 
       <div class="map-footer">
-        <div class="map-help">DRAG / TRACKPAD / ARROWS · Q E Z C FOR DIAGONALS</div>
+        <div class="map-help">SCROLL / SWIPE / ARROWS · Q E Z C FOR DIAGONALS</div>
         <button id="recenterBtn" class="pill">RECENTER</button>
+      </div>
+
+      <div class="snap-nav" aria-label="Recently explored cards">
+        <button id="snapBackBtn" class="pill">← BACK</button>
+        <div id="snapTrail" class="snap-trail"></div>
       </div>
 
       <div id="compass" class="compass" aria-label="Eight-direction cultural compass">
@@ -125,6 +131,6 @@
   </aside>
   <div id="drawerScrim" class="scrim" hidden></div>
 
-  <script src="app.js" defer></script>
+  <script src="snap-app.js" defer></script>
 </body>
 </html>
