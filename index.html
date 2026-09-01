@@ -26,6 +26,7 @@
     <div class="top-actions">
       <button id="mapBtn" class="pill view-pill active" aria-pressed="true">EXPLORE</button>
       <button id="timelineBtn" class="pill view-pill" aria-pressed="false">TIMELINE</button>
+      <button id="compassToggle" class="pill" aria-pressed="true">COMPASS ON</button>
       <button id="erosToggle" class="pill" aria-pressed="false">EROS OFF</button>
       <button id="modeToggle" class="pill mode" aria-pressed="false">NOCTURNE AUTO</button>
       <button id="memoryBtn" class="pill">MEMORY <span id="memoryCount">0</span></button>
@@ -59,7 +60,7 @@
       <div id="spatialViewport" class="spatial-viewport" tabindex="0" aria-label="Scroll or swipe in any direction to explore SAPIO">
         <div id="laneLabels" class="lane-labels" aria-hidden="true"></div>
         <div id="spatialWorld" class="spatial-world"></div>
-        <div id="directionPeeks" class="direction-peeks" aria-label="Next likely signal in each compass direction"></div>
+        <div id="directionPeeks" class="direction-peeks" hidden aria-hidden="true"></div>
         <div class="map-vignette" aria-hidden="true"></div>
       </div>
 
@@ -131,6 +132,7 @@
   </aside>
   <div id="drawerScrim" class="scrim" hidden></div>
 
+  <script src="compass-toggle.js" defer></script>
   <script src="snap-app.js" defer></script>
 </body>
 </html>
