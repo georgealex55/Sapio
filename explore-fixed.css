@@ -1,0 +1,175 @@
+/* Fixed, non-scrolling Explore canvas. Timeline mode remains normally scrollable. */
+body.map-mode{
+  height:100dvh;
+  min-height:0;
+  overflow:hidden;
+  overscroll-behavior:none;
+  display:grid;
+  grid-template-rows:auto minmax(0,1fr);
+}
+body.map-mode .topbar{
+  position:relative;
+  top:auto;
+  min-width:0;
+  padding:10px clamp(10px,2vw,28px);
+}
+body.map-mode .top-actions{
+  flex-wrap:nowrap;
+  min-width:0;
+  overflow-x:auto;
+  overflow-y:hidden;
+  scrollbar-width:none;
+}
+body.map-mode .top-actions::-webkit-scrollbar{display:none}
+body.map-mode main{
+  width:100%;
+  max-width:none;
+  height:100%;
+  min-height:0;
+  overflow:hidden;
+  padding:0 clamp(8px,1.4vw,18px) clamp(8px,1.2vw,14px);
+  display:grid;
+  grid-template-rows:auto minmax(0,1fr);
+}
+body.map-mode .hero-line{display:none!important}
+body.map-mode .category-rail{
+  min-height:0;
+  margin:0;
+  padding:8px 0 10px;
+  overflow-x:auto;
+  overflow-y:hidden;
+  flex-wrap:nowrap;
+}
+body.map-mode .map-view{
+  position:relative;
+  width:100%;
+  height:100%;
+  min-height:0;
+  overflow:hidden;
+}
+body.map-mode .spatial-viewport{
+  width:100%;
+  height:100%;
+  min-height:0;
+  max-height:none;
+  overflow:hidden;
+  border-radius:26px;
+  padding:clamp(8px,1vw,14px);
+}
+body.map-mode .spatial-world{
+  width:min(88vw,1120px)!important;
+  height:min(88%,840px);
+  max-height:calc(100% - 30px);
+  display:grid;
+  place-items:stretch;
+}
+body.map-mode .spatial-card,
+body.map-mode .spatial-card.near,
+body.map-mode .spatial-card.far,
+body.map-mode .spatial-card.solo{
+  width:100%!important;
+  max-width:none!important;
+  height:100%;
+  max-height:100%;
+  margin:0;
+  display:grid;
+  grid-template-rows:minmax(0,1.65fr) auto;
+  overflow:hidden;
+  border-radius:28px;
+}
+body.map-mode .spatial-image{
+  height:auto!important;
+  min-height:0;
+  aspect-ratio:auto!important;
+}
+body.map-mode .spatial-image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+body.map-mode .spatial-body{
+  min-height:0;
+  padding:clamp(13px,1.7vw,22px) clamp(15px,2vw,26px) clamp(14px,1.8vw,22px);
+}
+body.map-mode .spatial-card h3{
+  font-size:clamp(25px,3.2vw,50px);
+  line-height:1;
+  margin:7px 0 9px;
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+body.map-mode .solo-summary{
+  margin:0 0 10px;
+  font-size:clamp(12px,1.15vw,16px);
+  line-height:1.45;
+  display:-webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+body.map-mode .solo-direction{padding:7px 10px;font-size:9px}
+body.map-mode .spatial-foot{margin-top:10px;padding-top:10px}
+body.map-mode .map-status{
+  position:absolute;
+  top:12px;
+  left:16px;
+  right:16px;
+  z-index:25;
+  padding:0;
+  pointer-events:none;
+}
+body.map-mode .map-footer{
+  position:absolute;
+  left:16px;
+  right:16px;
+  bottom:12px;
+  z-index:25;
+  padding:0;
+}
+body.map-mode .snap-nav{
+  position:absolute;
+  left:16px;
+  bottom:54px;
+  z-index:25;
+  max-width:calc(100% - 32px);
+  margin:0;
+}
+body.map-mode .snap-trail{
+  flex-wrap:nowrap;
+  overflow:hidden;
+}
+body.map-mode .compass{bottom:54px;right:16px}
+body.map-mode .map-vignette{border-radius:26px}
+
+@media(max-height:760px){
+  body.map-mode .spatial-world{height:92%;max-height:calc(100% - 18px)}
+  body.map-mode .spatial-body{padding:11px 16px 12px}
+  body.map-mode .spatial-card h3{font-size:clamp(22px,2.8vw,38px);margin:5px 0 7px}
+  body.map-mode .solo-summary{-webkit-line-clamp:2;font-size:12px;margin-bottom:7px}
+  body.map-mode .solo-direction{padding:5px 8px;font-size:8px}
+  body.map-mode .spatial-foot{margin-top:7px;padding-top:7px;font-size:9px}
+}
+
+@media(max-width:760px){
+  body.map-mode .topbar{padding:8px 9px;gap:8px}
+  body.map-mode .brand{font-size:21px}
+  body.map-mode .tagline{display:none}
+  body.map-mode main{padding:0 6px 6px}
+  body.map-mode .category-rail{padding:6px 0 8px}
+  body.map-mode .spatial-viewport{border-radius:20px;padding:6px}
+  body.map-mode .spatial-world{width:min(96vw,560px)!important;height:92%;max-height:calc(100% - 14px)}
+  body.map-mode .spatial-card,body.map-mode .spatial-card.solo{border-radius:22px}
+  body.map-mode .spatial-body{padding:11px 13px 12px}
+  body.map-mode .spatial-card h3{font-size:clamp(22px,6.2vw,32px);-webkit-line-clamp:2}
+  body.map-mode .solo-summary{font-size:12px;line-height:1.4;-webkit-line-clamp:2}
+  body.map-mode .map-status{top:8px;left:10px;right:10px}
+  body.map-mode .map-status .eyebrow{display:none}
+  body.map-mode .map-status strong{font-size:10px}
+  body.map-mode .vector-depth{font-size:8px}
+  body.map-mode .map-footer{left:10px;right:10px;bottom:8px}
+  body.map-mode .snap-nav{left:10px;bottom:44px;max-width:calc(100% - 20px)}
+  body.map-mode .crumb{max-width:108px;padding:6px 9px;font-size:8px}
+  body.map-mode .compass{right:8px;bottom:44px}
+}
