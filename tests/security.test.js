@@ -157,3 +157,53 @@ test('redirects to forbidden addresses are destroyed and never followed',async()
     assert.equal(calls,1);assert.equal(destroyed,true);
   }finally{http.get=original}
 });
+
+test('safe redirects remain functional even if closing the old response emits an error',async()=>{
+  const original=http.get;
+  let calls=0,destroyed=0;
+  http.get=(url,options,cb)=>{
+    calls++;
+    const req=new EventEmitter();
+    req.destroy=()=>req.emit('error',new Error('closed'));
+    queueMicrotask(()=>{
+      const res=new EventEmitter();
+      const first=calls===1;
+      res.statusCode=first?302:200;
+      res.headers=first?{location:'/next'}:{'content-type':'text/html'};
+      res.destroy=()=>{destroyed++;res.emit('error',new Error('old response closed'))};
+      cb(res);
+      if(!first)queueMicrotask(()=>{
+        res.emit('data',Buffer.from('<meta property="og:image" content="https://images.example.org/p.png">'));
+        res.emit('end');
+      });
+    });
+    return req;
+  };
+  try{
+    const page=await fetchHtml('http://example.com/start',1000);
+    assert.equal(calls,2);
+    assert.equal(destroyed,1);
+    assert.equal(page.finalUrl,'http://example.com/next');
+    assert.match(page.html,/og:image/);
+  }finally{http.get=original}
+});
+test('HTML enrichment rejects oversized declared content before reading it',async()=>{
+  const original=http.get;
+  let destroyed=false;
+  http.get=(url,options,cb)=>{
+    const req=new EventEmitter();
+    req.destroy=()=>req.emit('error',new Error('closed'));
+    queueMicrotask(()=>{
+      const res=new EventEmitter();
+      res.statusCode=200;
+      res.headers={'content-type':'text/html','content-length':'10000000'};
+      res.destroy=()=>{destroyed=true;res.emit('close')};
+      cb(res);
+    });
+    return req;
+  };
+  try{
+    assert.equal(await fetchHtml('http://example.com/large',1000),null);
+    assert.equal(destroyed,true);
+  }finally{http.get=original}
+});
