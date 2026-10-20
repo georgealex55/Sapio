@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vercel dev",
     "start": "npx serve .",
-    "collect:static": "node scripts/collect-static.js"
+    "collect:static": "node scripts/collect-static.js",
+    "test": "node --test"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.0.2"

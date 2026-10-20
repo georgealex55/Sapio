@@ -4,12 +4,26 @@
     {
       "source": "/(.*)",
       "headers": [
-        {"key":"X-Content-Type-Options","value":"nosniff"},
-        {"key":"Referrer-Policy","value":"strict-origin-when-cross-origin"}
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
       ]
     }
   ],
   "crons": [
-    {"path":"/api/collect","schedule":"0 6 * * *"}
-  ]
+    {
+      "path": "/api/collect",
+      "schedule": "0 6 * * *"
+    }
+  ],
+  "git": {
+    "deploymentEnabled": {
+      "security/phase1-sapio-20261020": false
+    }
+  }
 }
