@@ -1,7 +1,8 @@
 const {createHmac,randomUUID,timingSafeEqual}=require('node:crypto');
 const {enabled,saveNavigationHistory,loadNavigationHistory}=require('../lib/neon-store');
+const {checkRateLimit,clientKey}=require('../lib/rate-limit');
 
-const COOKIE='sapio_history';
+const COOKIE='__Host-sapio_history';
 const BODY_LIMIT=4096;
 const MAX_AGE_SECONDS=30*24*60*60;
 const UUID=/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
@@ -37,23 +38,29 @@ function validateEntry(input){
   }
   return {id:input.id,title:input.title||'',dir:input.dir||'CENTER',nav,viewedAt};
 }
-function sign(id,key){return createHmac('sha256',key).update(id).digest('base64url')}
-function sessionId(req,res,key){
-  const cookie=String(req.headers?.cookie||'').split(';').map(s=>s.trim())
+function sign(payload,key){return createHmac('sha256',key).update(payload).digest('base64url')}
+function sessionId(req,res,key,now=Date.now()){
+  const raw=String(req.headers?.cookie||'').split(';').map(s=>s.trim())
     .find(s=>s.startsWith(COOKIE+'='));
-  const token=cookie?.slice(COOKIE.length+1)||'';
-  const dot=token.indexOf('.');
-  if(dot>0){
-    const id=token.slice(0,dot),provided=token.slice(dot+1);
-    if(UUID.test(id)&&provided.length===43){
-      const a=Buffer.from(provided),b=Buffer.from(sign(id,key));
-      if(a.length===b.length&&timingSafeEqual(a,b))return id;
+  const token=raw?.slice(COOKIE.length+1)||'';
+  const parts=token.split('.');
+  const seconds=Math.floor(now/1000);
+  if(parts.length===4){
+    const [id,issuedText,expiresText,mac]=parts;
+    const issued=Number(issuedText),expires=Number(expiresText);
+    if(UUID.test(id)&&/^\d{10}$/.test(issuedText)&&/^\d{10}$/.test(expiresText)
+      &&Number.isSafeInteger(issued)&&Number.isSafeInteger(expires)
+      &&issued<=seconds+60&&expires>seconds
+      &&expires-issued===MAX_AGE_SECONDS&&/^[A-Za-z0-9_-]{43}$/.test(mac)){
+      const provided=Buffer.from(mac);
+      const expected=Buffer.from(sign(id+'.'+issuedText+'.'+expiresText,key));
+      if(provided.length===expected.length&&timingSafeEqual(provided,expected))return id;
     }
   }
-  const id=randomUUID();
-  const secure=String(req.headers?.['x-forwarded-proto']||'').toLowerCase()==='https';
-  res.setHeader('Set-Cookie',COOKIE+'='+id+'.'+sign(id,key)+
-    '; HttpOnly; SameSite=Lax; Path=/; Max-Age='+MAX_AGE_SECONDS+(secure?'; Secure':''));
+  const id=randomUUID(),issued=seconds,expires=issued+MAX_AGE_SECONDS;
+  const payload=id+'.'+issued+'.'+expires;
+  res.setHeader('Set-Cookie',COOKIE+'='+payload+'.'+sign(payload,key)+
+    '; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age='+MAX_AGE_SECONDS);
   return id;
 }
 function sameOrigin(req){
@@ -65,11 +72,18 @@ function sameOrigin(req){
     return (from.protocol==='https:'||from.protocol==='http:')&&from.host.toLowerCase()===host;
   }catch{return false}
 }
-module.exports=async function handler(req,res){
+async function handler(req,res){
   res.setHeader('Cache-Control','no-store');
   if(req.method!=='GET'&&req.method!=='POST'){
     res.setHeader('Allow','GET, POST');
     return res.status(405).json({ok:false,error:'method not allowed'});
+  }
+  // Per-instance throttle only; use distributed rate limiting at the edge for scale.
+  const limited=checkRateLimit(req.method==='POST'?'history-write':'history-read',
+    clientKey(req),req.method==='POST'?60:180,60_000);
+  if(!limited.allowed){
+    res.setHeader('Retry-After',String(limited.retryAfter));
+    return res.status(429).json({ok:false,error:'rate limit exceeded'});
   }
   let entry=null;
   if(req.method==='POST'){
@@ -105,3 +119,5 @@ module.exports=async function handler(req,res){
     return res.status(200).json({ok:true,persisted:'local'});
   }
 };
+module.exports=handler;
+module.exports._internals={sessionId,validateEntry};

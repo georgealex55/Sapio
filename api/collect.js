@@ -1,4 +1,5 @@
 const {timingSafeEqual}=require('node:crypto');
+const {checkRateLimit}=require('../lib/rate-limit');
 const {collectAll,saveLatest}=require('../lib/collector');
 const {enrichFeedImages}=require('../lib/image-enrichment');
 const {enabled:neonEnabled,saveSnapshot}=require('../lib/neon-store');
@@ -21,6 +22,12 @@ module.exports=async function handler(req,res){
   if(!secret)return res.status(503).json({ok:false,error:'collection not configured'});
   if(!authorized(req.headers?.authorization,secret)){
     return res.status(401).json({ok:false,error:'unauthorized'});
+  }
+  // Warm-instance quota only. Pair with distributed / edge throttling in production.
+  const limited=checkRateLimit('collector','authenticated',4,15*60_000);
+  if(!limited.allowed){
+    res.setHeader('Retry-After',String(limited.retryAfter));
+    return res.status(429).json({ok:false,error:'rate limit exceeded'});
   }
   try{
     const payload=await collectAll();
