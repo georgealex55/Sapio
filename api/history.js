@@ -1,6 +1,7 @@
 const {createHmac,randomUUID,timingSafeEqual}=require('node:crypto');
 const {enabled,saveNavigationHistory,loadNavigationHistory}=require('../lib/neon-store');
 const {checkRateLimit,clientKey}=require('../lib/rate-limit');
+const {allowsHistoryWrite,csrfForSession,validCsrf}=require('../lib/history-security');
 
 const COOKIE='__Host-sapio_history';
 const BODY_LIMIT=4096;
@@ -63,15 +64,6 @@ function sessionId(req,res,key,now=Date.now()){
     '; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age='+MAX_AGE_SECONDS);
   return id;
 }
-function sameOrigin(req){
-  const origin=req.headers?.origin;
-  if(!origin)return true;
-  try{
-    const from=new URL(origin);
-    const host=String(req.headers?.host||'').toLowerCase();
-    return (from.protocol==='https:'||from.protocol==='http:')&&from.host.toLowerCase()===host;
-  }catch{return false}
-}
 async function handler(req,res){
   res.setHeader('Cache-Control','no-store');
   if(req.method!=='GET'&&req.method!=='POST'){
@@ -87,7 +79,7 @@ async function handler(req,res){
   }
   let entry=null;
   if(req.method==='POST'){
-    if(!sameOrigin(req))return res.status(403).json({ok:false,error:'cross-origin write denied'});
+    if(!allowsHistoryWrite(req))return res.status(403).json({ok:false,error:'invalid HTTPS origin'});
     if(!/^application\/json(?:\s*;|$)/i.test(String(req.headers?.['content-type']||''))){
       return res.status(415).json({ok:false,error:'JSON required'});
     }
@@ -105,12 +97,15 @@ async function handler(req,res){
   }
   const id=sessionId(req,res,key);
   if(req.method==='GET'){
-    try{return res.status(200).json({ok:true,persisted:'neon',entries:await loadNavigationHistory(id,30)})}
+    const csrfToken=csrfForSession(id,key);
+    try{return res.status(200).json({ok:true,persisted:'neon',csrfToken,entries:await loadNavigationHistory(id,30)})}
     catch(error){
       console.error('SAPIO history read failed',error);
-      return res.status(200).json({ok:true,persisted:'local',entries:[]});
+      // A transient read error should not prevent a later authenticated write.
+      return res.status(200).json({ok:true,persisted:'local',csrfToken,entries:[]});
     }
   }
+  if(!validCsrf(req,id,key))return res.status(403).json({ok:false,error:'invalid CSRF token'});
   try{
     await saveNavigationHistory(id,entry);
     return res.status(200).json({ok:true,persisted:'neon'});

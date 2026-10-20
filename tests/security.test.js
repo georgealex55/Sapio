@@ -55,15 +55,22 @@ test('outbound enrichment blocks private addresses and unsafe URLs',()=>{
   assert.equal(extractImage('<meta property="og:image" content="http://127.0.0.1/img">','https://example.com/'),null);
 });
 test('history rejects cross-site writes and invalid entry payloads',async()=>{
-  let res=response();
-  await history({method:'POST',headers:{origin:'https://evil.example',host:'app.xanderit.com','content-type':'application/json'},body:{entry:{id:'c_valid'}}},res);
-  assert.equal(res.statusCode,403);
-  res=response();
-  await history({method:'POST',headers:{host:'app.xanderit.com','content-type':'application/json'},body:{entry:{id:'c_valid',nav:{x:999,y:0}}}},res);
-  assert.equal(res.statusCode,400);
-  res=response();
-  await history({method:'POST',headers:{host:'app.xanderit.com','content-type':'text/plain'},body:{entry:{id:'c_valid'}}},res);
-  assert.equal(res.statusCode,415);
+  const saved=process.env.SAPIO_ALLOWED_ORIGINS;
+  process.env.SAPIO_ALLOWED_ORIGINS='https://app.xanderit.com';
+  try{
+    let res=response();
+    await history({method:'POST',headers:{origin:'https://evil.example',host:'app.xanderit.com','content-type':'application/json'},body:{entry:{id:'c_valid'}}},res);
+    assert.equal(res.statusCode,403);
+    res=response();
+    await history({method:'POST',headers:{origin:'https://app.xanderit.com',host:'app.xanderit.com','content-type':'application/json'},body:{entry:{id:'c_valid',nav:{x:999,y:0}}}},res);
+    assert.equal(res.statusCode,400);
+    res=response();
+    await history({method:'POST',headers:{origin:'https://app.xanderit.com',host:'app.xanderit.com','content-type':'text/plain'},body:{entry:{id:'c_valid'}}},res);
+    assert.equal(res.statusCode,415);
+  }finally{
+    if(saved===undefined)delete process.env.SAPIO_ALLOWED_ORIGINS;
+    else process.env.SAPIO_ALLOWED_ORIGINS=saved;
+  }
 });
 
 test('DNS resolver returns the correct Node all:true or single-address signature',async()=>{

@@ -17,7 +17,11 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           persist-credentials: false
-      - name: Security regression tests
+      - name: Use Node.js 24 (matches Vercel runtime)
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '24'
+      - name: Phase 1 and Phase 1.1 security tests
         run: |
           node --version
-          node --test tests/security.test.js
+          node --test tests/security.test.js tests/phase11.security.test.cjs tests/phase11.frontend.test.cjs
