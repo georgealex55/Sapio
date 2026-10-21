@@ -16,7 +16,31 @@ function saved(id){return S.mem.some(x=>x.id===id)}function liked(id){return S.l
 function device(){if(S.device)return S.device;let id=localStorage.getItem('sapio:device-id');if(!id){id=crypto.randomUUID?.()||`sapio-${Date.now()}-${Math.random().toString(36).slice(2)}`;localStorage.setItem('sapio:device-id',id)}return S.device=id}
 function localKey(){return`sapio:history:${device()}`}
 function persistLocal(e){try{const a=JSON.parse(localStorage.getItem(localKey())||'[]').filter(x=>x?.id!==e.id);localStorage.setItem(localKey(),JSON.stringify([...a,e].slice(-30)))}catch{}}
-async function persist(e){persistLocal(e);try{await fetch('/api/history',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({deviceId:device(),entry:e})})}catch{}}
+let csrfPromise=null,historyCsrf=null;
+async function getHistoryCsrf(){
+  if(historyCsrf)return historyCsrf;
+  if(!csrfPromise)csrfPromise=fetch('/api/history',{cache:'no-store',credentials:'same-origin'})
+    .then(async r=>{if(!r.ok)return null;const data=await r.json();historyCsrf=data.csrfToken||null;return historyCsrf})
+    .catch(()=>null).finally(()=>{csrfPromise=null});
+  return csrfPromise;
+}
+async function persist(e){
+  persistLocal(e);
+  try{
+    let token=await getHistoryCsrf();
+    if(!token)return; // No server-side history configured; local history is saved.
+    for(let attempt=0;attempt<2;attempt++){
+      const response=await fetch('/api/history',{
+        method:'POST',credentials:'same-origin',
+        headers:{'content-type':'application/json','X-SAPIO-CSRF':token},
+        body:JSON.stringify({entry:e})
+      });
+      if(response.status!==403)return;
+      historyCsrf=null;token=await getHistoryCsrf();
+      if(!token)return;
+    }
+  }catch{} // History always remains available in localStorage.
+}
 function snapshot(i){return{id:i.id,title:i.title,summary:i.summary||'',url:i.url||'',categories:i.categories||[],primaryCategory:i.primaryCategory||'IGNITION',score:i.score||50,stage:i.stage||'WHISPER',velocity:i.velocity,sourceEdge:i.sourceEdge,evidenceQuality:i.evidenceQuality,sources:i.sources||1,sourceNames:i.sourceNames||[],publisher:i.publisher||'',publishedAt:i.publishedAt,sourceImage:i.sourceImage||null,image:i.image||null,eros:i.eros||i.primaryCategory==='EROS INDEX'}}
 function retained(){return[...S.mem,...S.likes].map(x=>x.item).filter(Boolean)}
 function all(){const live=S.items.filter(i=>S.demo||age(i.publishedAt)<MAX_AGE||saved(i.id)||liked(i.id)),m=new Map();[...live,...retained()].forEach(i=>i?.id&&!m.has(i.id)&&m.set(i.id,i));return[...m.values()]}
@@ -56,7 +80,7 @@ function like(i){const n=S.likes.findIndex(x=>x.id===i.id);n>=0?S.likes.splice(n
 function renderMemory(){$('#memoryCount').textContent=S.mem.length;$('#memoryList').innerHTML=S.mem.length?S.mem.map(m=>`<div class="memory-item"><button data-id="${esc(m.id)}">${esc(m.title)}</button><small>${esc(m.category)} · ${new Date(m.savedAt).toLocaleDateString()}</small></div>`).join(''):'<div class="feed-end">NOTHING SAVED YET</div>';document.querySelectorAll('.memory-item button').forEach(b=>b.onclick=()=>{const i=all().find(x=>x.id===b.dataset.id);if(i){drawer(false);preview(i)}})}
 function drawer(on){$('#memoryDrawer').classList.toggle('open',on);$('#memoryDrawer').setAttribute('aria-hidden',on?'false':'true');$('#drawerScrim').hidden=!on}
 function renderAll(){renderMode();renderChannels();renderVector();card();renderHistory();timeline()}
-async function hydrate(){if(S.historyHydrated)return;S.historyHydrated=true;let a=[];try{const r=await fetch(`/api/history?device=${encodeURIComponent(device())}`,{cache:'no-store'});if(r.ok)a=(await r.json()).entries||[]}catch{}if(!a.length)try{a=JSON.parse(localStorage.getItem(localKey())||'[]')}catch{}const ok=a.filter(e=>all().some(i=>i.id===e.id));if(!ok.length)return;const c=ok.at(-1);S.history=ok.slice(0,-1).map(e=>({id:e.id,title:e.title,nav:e.nav||{x:0,y:0},dir:e.dir||'CENTER'})).slice(-12);S.current=c.id;S.nav=c.nav||{x:0,y:0};S.dir=c.dir||'CENTER'}
+async function hydrate(){if(S.historyHydrated)return;S.historyHydrated=true;let a=[];try{const r=await fetch('/api/history',{cache:'no-store',credentials:'same-origin'});if(r.ok){const data=await r.json();historyCsrf=data.csrfToken||null;a=data.entries||[]}}catch{}if(!a.length)try{a=JSON.parse(localStorage.getItem(localKey())||'[]')}catch{}const ok=a.filter(e=>all().some(i=>i.id===e.id));if(!ok.length)return;const c=ok.at(-1);S.history=ok.slice(0,-1).map(e=>({id:e.id,title:e.title,nav:e.nav||{x:0,y:0},dir:e.dir||'CENTER'})).slice(-12);S.current=c.id;S.nav=c.nav||{x:0,y:0};S.dir=c.dir||'CENTER'}
 async function load(){let d=null;try{const r=await fetch('/api/feed',{cache:'no-store'});if(r.ok)d=await r.json()}catch{}if(!d)try{d=await(await fetch('data/sample.json')).json()}catch{d={demo:true,items:[]}}S.demo=!!d.demo;S.items=d.items||[];$('#liveDot').classList.toggle('live',!!d.live);$('#runText').textContent=d.live?`LIVE · ${S.items.filter(i=>age(i.publishedAt)<MAX_AGE).length} FRESH · SNAP EXPLORER`:`DEMO · ${S.items.length} CARDS`;await hydrate();renderAll()}
 function setup(){const ok=localStorage.getItem('sapio:21plus')==='yes';$('#ageGate').hidden=ok;$('#enterBtn').onclick=()=>{localStorage.setItem('sapio:21plus','yes');$('#ageGate').hidden=true};$('#erosToggle').onclick=()=>{S.eros=!S.eros;if(!erosOn()&&S.active==='EROS INDEX')S.active='ALL';renderAll()};$('#modeToggle').onclick=()=>{const n=noct();S.mode=S.mode===null?!n:S.mode?false:null;renderAll()};$('#mapBtn').onclick=enterMap;$('#timelineBtn').onclick=()=>enterTimeline();$('#backToMap').onclick=enterMap;$('#memoryBtn').onclick=()=>drawer(true);$('#closeMemory').onclick=()=>drawer(false);$('#drawerScrim').onclick=()=>drawer(false);$('#closePreview').onclick=closePreview;$('#previewScrim').onclick=closePreview;$('#previewTimeline').onclick=()=>enterTimeline(S.preview||current());$('#previewSave').onclick=()=>S.preview&&save(S.preview);$('#previewLike').onclick=()=>S.preview&&like(S.preview);$('#recenterBtn').onclick=recenter;$('#compassCenter').onclick=recenter;$('#snapBackBtn').onclick=()=>S.history.length&&restore(S.history.length-1);document.querySelectorAll('.compass-btn').forEach(b=>b.onclick=()=>move(b.dataset.dir));let swipe=null,v=$('#spatialViewport');v.onwheel=e=>{e.preventDefault();if(Date.now()-S.last<SNAP_MS)return;S.last=Date.now();const dx=e.deltaX,dy=e.deltaY;if(Math.abs(dx)<6&&Math.abs(dy)<6)return;move(nearest(norm({x:dx,y:dy}))) };v.onpointerdown=e=>swipe={x:e.clientX,y:e.clientY};v.onpointerup=e=>{if(!swipe)return;const dx=e.clientX-swipe.x,dy=e.clientY-swipe.y;swipe=null;if(Math.hypot(dx,dy)>34)move(nearest(norm({x:-dx,y:-dy})))};v.onkeydown=e=>{const k={ArrowUp:'N',ArrowDown:'S',ArrowLeft:'W',ArrowRight:'E',q:'NW',e:'NE',z:'SW',c:'SE'}[String(e.key).toLowerCase()==='arrowup'?'ArrowUp':String(e.key).toLowerCase()==='arrowdown'?'ArrowDown':String(e.key).toLowerCase()==='arrowleft'?'ArrowLeft':String(e.key).toLowerCase()==='arrowright'?'ArrowRight':String(e.key).toLowerCase()];if(k){e.preventDefault();move(k)}};document.addEventListener('keydown',e=>e.key==='Escape'&&(closePreview(),drawer(false)));renderMemory();load();setInterval(load,5*60*1000)}
 setup();
